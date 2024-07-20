@@ -59,8 +59,8 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/05-1.jpg" loading="lazy">
-    <img src="/images/05-2.jpg" loading="lazy">
+    <img src="/images/103.jpg" loading="lazy">
+    <img src="/images/109.jpg" loading="lazy">
   </div>
   <em>Photo by <a href="https://www.pexels.com/@mwabonje/">Mwabonje</a> on <a href="https://www.pexels.com/" target="_blank">Pexels</a></em>
 </div>
