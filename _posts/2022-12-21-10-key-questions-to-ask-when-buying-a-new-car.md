@@ -21,7 +21,7 @@ featured: true
 
 * 1991年8月17日，張純如與大學時期男友Bretton Lee Douglas在伊利諾州的伊利諾伊大學厄巴納-香檳分校校園內的教堂結婚。
 
-![IRIS]({{site.baseurl}}/images/102.jpg)
+<center><img src="https://thatirischang.github.io/images/102.jpg" title="test"></center>
 
 > 1995年，張純如出版了她的第一本著作《Thread of the Silkworm》，由Basic Books出版。
 
@@ -66,11 +66,8 @@ Basic Books. p. 290. ISBN 978-0-465-06835-7
 
 * 2002年8月，她的兒子Christopher出生於加利福尼亞州聖荷西市（San Jose, CA）。
 
-![IRIS]({{site.baseurl}}/images/114.jpg)
 
-!!!
 <center><img src="https://thatirischang.github.io/images/114.jpg" title="test"></center>
-!!!
 
 
 ### 2003年3月，她出版了第三本書。雖然談論者相對較少，但其歷史視角更為廣闊：
