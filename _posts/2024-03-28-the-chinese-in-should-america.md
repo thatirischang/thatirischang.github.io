@@ -6,7 +6,7 @@ date: 2024-03-28 15:01:35 +0300
 author: admin
 image: '/images/14.jpg'
 video_embed: https://www.youtube.com/embed/SRl82B7EB2A
-tags: [history]
+tags: [speech]
 featured: true
 ---
 
