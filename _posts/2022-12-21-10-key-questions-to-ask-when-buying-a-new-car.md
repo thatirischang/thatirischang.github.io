@@ -29,10 +29,8 @@ featured: true
   <div class="iris">
     <img src="/images/103.jpg" loading="lazy">
     <img src="/images/109.jpg" loading="lazy">
-    <img src="/images/110.jpg" loading="lazy">
   </div>
-  <em>Photo by <a href="https://irischanglabs.com">Thread of the Silkworm</a> on <a href="https://irischanglabs.com/" target="_blank">Basic Books</a></em>
-</div>
+ 
 
 書名意涵豐富：
 1）錢學森在中國發展的導彈被命名為“Silkworm missile”（天蠶飛彈）。
@@ -41,6 +39,8 @@ featured: true
 
 台灣版中譯本（張定綺、許耀雲譯，台北天下出版公司）於1996年出版。兩位譯者的翻譯深得人心。這版書尚未在大陸出版，據說原因是其揭露了一個事實：錢學森在美國已經申請入籍，但因麥卡錫主義的迫害不得不返回中國，這與國內宣傳的錢學森因愛國而海歸的說法不同。
 
+<img src="/images/110.jpg" loading="lazy">
+</div>
 大陸版中譯本（魯伊譯，中信出版社）於2011年出版。遺憾的是，書中張純如對錢學森的批評部分被刪除，導致某些段落顯得不太連貫。
 
 這裡有一些相關書評：
