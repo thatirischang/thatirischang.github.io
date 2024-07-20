@@ -51,7 +51,7 @@ featured: true
 https://www.foreignaffairs.com/reviews/capsule-review/1996-05-01/thread-silkworm
 
 
-### 1997年12月，她出版了第二本著作，這是她的影響最大的成名作：
+### 1997年12月，她出版了第二本著作，這是她影響最深遠的成名作：
 > The Rape of Nanking: The Forgotten Holocaust of World War II
 Basic Books. p. 290. ISBN 978-0-465-06835-7
 
