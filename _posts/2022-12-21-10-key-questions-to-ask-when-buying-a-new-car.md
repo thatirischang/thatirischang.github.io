@@ -63,3 +63,13 @@ Basic Books. p. 290. ISBN 978-0-465-06835-7
   <em>Photo by <a href="https://www.pexels.com/@mwabonje/">Brian</a> on <a href="https://www.pexels.com/" target="_blank">Web</a></em>
 </div>
 中譯版有多個版本。2007年前的版本不推薦，推薦2007年東方出版社出版的楊夏鳴譯、張盈盈校對的版本，以及2012年中信出版社再版的版本。
+
+* 2002年8月，她的兒子Christopher出生於加利福尼亞州聖荷西市（San Jose, CA）。
+
+![IRIS]({{site.baseurl}}/images/114.jpg)
+
+
+
+
+
+
