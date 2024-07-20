@@ -6,7 +6,7 @@ date: 2024-04-06 15:01:35 +0300
 author: admin
 image: '/images/18.jpg'
 video_embed: https://www.youtube.com/embed/Z9lpicQgiYs
-tags: [history]
+tags: [interview]
 ---
 
 ### 日本戰爭暴行：731部隊與殘酷實驗
