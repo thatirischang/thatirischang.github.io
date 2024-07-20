@@ -68,6 +68,10 @@ Basic Books. p. 290. ISBN 978-0-465-06835-7
 
 ![IRIS]({{site.baseurl}}/images/114.jpg)
 
+!!!
+<center><img src="https://thatirischang.github.io/images/114.jpg" title="test"></center>
+!!!
+
 
 ### 2003年3月，她出版了第三本書。雖然談論者相對較少，但其歷史視角更為廣闊：
 > "The Chinese in America, A Narrative History", Penguin
