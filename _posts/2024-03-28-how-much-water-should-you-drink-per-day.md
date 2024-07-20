@@ -6,7 +6,7 @@ date: 2024-03-28 15:01:35 +0300
 author: livia
 image: '/images/14.jpg'
 video_embed: https://youtu.be/SRl82B7EB2A?si=C0L5V2yIB5qVh9k4
-tags: [science]
+tags: [history]
 featured: true
 ---
 
