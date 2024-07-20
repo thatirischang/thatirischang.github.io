@@ -48,9 +48,8 @@ featured: true
 
 這裡有一些相關書評：
 
-https://www.foreignaffairs.com/reviews/capsule-review/1996-05-01/thread-silkworm
+[Find a Grave - Iris Chang](https://www.findagrave.com/memorial/9791739/iris-chang/flower)
 
-<em><a href="https://www.foreignaffairs.com/reviews/capsule-review/1996-05-01/thread-silkworm"></a></em>
 
 ### 1997年12月，她出版了第二本著作，這是她影響最深遠的成名作：
 > The Rape of Nanking: The Forgotten Holocaust of World War II
