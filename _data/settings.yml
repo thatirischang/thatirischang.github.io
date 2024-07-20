@@ -41,7 +41,7 @@ cta_button:
 # Hero Settings
 hero:
   enable: true
-  hero_title: 相信一個人的力量
+  hero_title:相信一個人的力量
   hero_description:文字是保存靈魂精華的唯一方式。演講最令我激動之處在於，即使演講者已然作古，長眠地下，他們的精神依然永存。對我來說，這是真正的宗教——永生的最佳方式。
 
 
