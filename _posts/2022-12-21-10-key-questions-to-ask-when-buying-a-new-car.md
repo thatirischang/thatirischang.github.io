@@ -50,6 +50,7 @@ featured: true
 
 https://www.foreignaffairs.com/reviews/capsule-review/1996-05-01/thread-silkworm
 
+<em><a href="https://www.foreignaffairs.com/reviews/capsule-review/1996-05-01/thread-silkworm"></a></em>
 
 ### 1997年12月，她出版了第二本著作，這是她影響最深遠的成名作：
 > The Rape of Nanking: The Forgotten Holocaust of World War II
@@ -98,4 +99,6 @@ Basic Books. p. 290. ISBN 978-0-465-06835-7
 
 線上紀念：https://www.findagrave.com/memorial/9791739/iris-chang/flower
 
+<center><img src="https://thatirischang.github.io/images/117.jpg" title="test"></center>
+<br>
 本文由劉羽整理，源自張純如灣區紀念群的微信筆記。原文由么麗（Lily Yao）收集，信息來源廣泛，包括網絡、書籍以及張盈盈女士（張媽媽）在群中的珍貴分享。在此，特別感謝張媽媽的穿針引線、資料提供和嚴謹核實；並向積極參與討論和貢獻的群友們致以謝意，特別是Ann 李安、Cathy、Eva Pang、Jim Hao（郝繼剛）、李蓓（隨緣）、李木蘭、林世東、米寧、馮達旋、簡淑慧、Shelly、馬璟燕、嚴麗麗、楊惠和張康等。
