@@ -38,7 +38,7 @@ featured: true
     <img src="/images/103.jpg" loading="lazy">
     <img src="/images/109.jpg" loading="lazy">
   </div>
-  <em>Photo by <a href="https://www.pexels.com/@mwabonje/">Brian</a> on <a href="https://www.pexels.com/" target="_blank">Web</a></em>
+  <em>Photo by <a href="https://x.com/irischangstudio">Brian</a> on <a href="https://x.com/irischangstudio/" target="_blank">Web</a></em>
 </div>
 
 
@@ -60,7 +60,7 @@ Basic Books. p. 290. ISBN 978-0-465-06835-7
     <img src="/images/112.jpg" loading="lazy">
     <img src="/images/113.jpg" loading="lazy">
   </div>
-  <em>Photo by <a href="https://www.pexels.com/@mwabonje/">Brian</a> on <a href="https://www.pexels.com/" target="_blank">Web</a></em>
+  <em>Photo by <a href="https://x.com/irischangstudio/">Brian</a> on <a href="https://x.com/irischangstudio/" target="_blank">Web</a></em>
 </div>
 中譯版有多個版本。2007年前的版本不推薦，推薦2007年東方出版社出版的楊夏鳴譯、張盈盈校對的版本，以及2012年中信出版社再版的版本。
 
@@ -69,7 +69,24 @@ Basic Books. p. 290. ISBN 978-0-465-06835-7
 ![IRIS]({{site.baseurl}}/images/114.jpg)
 
 
+### 2003年3月，她出版了第三本書。雖然談論者相對較少，但其歷史視角更為廣闊：
+> "The Chinese in America, A Narrative History", Penguin
 
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/115.jpg" loading="lazy">
+    <img src="/images/116.jpg" loading="lazy">
+  </div>
+  <em>Photo by <a href="https://x.com/irischangstudio/">Brian</a> on <a href="https://x.com/irischangstudio/" target="_blank">Web</a></em>
+</div>
+
+繁體中文版由臺灣的遠足文化出版社於2018年10月3日出版，書名為《美國華人史》。
+
+《美國華人史》揭示了華人移民在美國150年的奮鬥歷程，從鐵路工人到諾貝爾獎得主，他們在各個領域中貢獻卓著，改變了自身命運並深刻影響了美國社會。
+
+張純如以大量史料為基礎，勾勒出華人在美國面對的種種挑戰與不公，並展示他們在政治、社會、經濟與文化等方面的卓越成就，打破了對美國華人的種種迷思。
+
+此書不僅是華人移民史詩的寫照，更是對美國多元文化的深刻探索，重新定義了「美國人」的內涵，展現了華人在美國歷史中不可或缺的重要地位。
 
 
 
