@@ -88,5 +88,13 @@ Basic Books. p. 290. ISBN 978-0-465-06835-7
 
 此書不僅是華人移民史詩的寫照，更是對美國多元文化的深刻探索，重新定義了「美國人」的內涵，展現了華人在美國歷史中不可或缺的重要地位。
 
+張純如在撰寫第四部關於巴丹死亡行軍的書時，因崩潰和抑鬱而陷入困境。在接受抗精神病藥物Risperdal（維思通）和Abilify以及抗抑鬱藥Celexa的治療過程中，她因藥物副作用而自殺。
 
+* 2004年11月9日，她在加州Los Gatos自殺身亡。她被安葬在加州Los Altos的Gate of Heaven Cemetery。
+
+墓址位於Holy Family 22-85／86。（大門進入後，再開車二分鐘，她的墓碑在Holy Family較靠右上方的地方。）
+
+地址為22555 Cristo Rey Dr, Los Altos, CA 94024，緊鄰Rancho San Antonio。
+
+線上紀念：https://www.findagrave.com/memorial/9791739/iris-chang/flower
 
