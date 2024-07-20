@@ -38,7 +38,7 @@ featured: true
     <img src="/images/103.jpg" loading="lazy">
     <img src="/images/109.jpg" loading="lazy">
   </div>
-  <em>Photo by <a href="https://www.pexels.com/@mwabonje/">Mwabonje</a> on <a href="https://www.pexels.com/" target="_blank">Pexels</a></em>
+  <em>Photo by <a href="https://www.pexels.com/@mwabonje/">Brian</a> on <a href="https://www.pexels.com/" target="_blank">Web</a></em>
 </div>
 
 
@@ -49,3 +49,17 @@ featured: true
 這裡有一些相關書評：
 
 https://www.foreignaffairs.com/reviews/capsule-review/1996-05-01/thread-silkworm
+
+
+### 1997年12月，她出版了第二本著作，這是她的影響最大的成名作：
+> The Rape of Nanking: The Forgotten Holocaust of World War II
+Basic Books. p. 290. ISBN 978-0-465-06835-7
+
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/112.jpg" loading="lazy">
+    <img src="/images/113.jpg" loading="lazy">
+  </div>
+  <em>Photo by <a href="https://www.pexels.com/@mwabonje/">Brian</a> on <a href="https://www.pexels.com/" target="_blank">Web</a></em>
+</div>
+中譯版有多個版本。2007年前的版本不推薦，推薦2007年東方出版社出版的楊夏鳴譯、張盈盈校對的版本，以及2012年中信出版社再版的版本。
