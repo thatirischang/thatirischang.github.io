@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 關於「張純如工作室」之轉載規範
-description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis convallis tristique.
+description: 張純如工作室為非盈利性質，任何盈利行為均與我們無關，請查證來源並拒絕分享或轉載未經授權的內容。
 date: 2022-08-12 15:01:35 +0300
 author: admin
 image: '/images/29.jpg'
@@ -14,14 +14,14 @@ tags: [admin]
 我們也發現，部分用戶利用個人主頁進行書籍銷售。我們特此聲明，張純如工作室為永久非盈利性質，每年都會有贈書活動。任何銷售行為均與張純如工作室無關。
 
 國際：
-Twitter：張純如工作室
-Facebook：張純如工作室
+* Twitter：張純如工作室
+* Facebook：張純如工作室
 
 國內：
-微信公眾號：張純如紀念工作室
-微信視頻號：張純如工作室
-抖音號：至純至勇的鳶尾花
-新浪微博：至純至勇的鳶尾花
+* 微信公眾號：張純如紀念工作室
+* 微信視頻號：張純如工作室
+* 抖音號：至純至勇的鳶尾花
+* 新浪微博：至純至勇的鳶尾花
 
 除上列平台之外，任何以張純如工作室自稱之主頁或資訊單位，都與工作室無涉，傳布之文字及影音內容也並未獲得官方授權，為避免正確性堪慮，請大家於擷取資訊時，善為分辨，避免受不明來源之訊息所混淆或誤導。
 
