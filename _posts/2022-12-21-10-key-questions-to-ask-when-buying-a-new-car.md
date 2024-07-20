@@ -23,14 +23,15 @@ featured: true
 
 ![IRIS]({{site.baseurl}}/images/102.jpg)
 
-### 1995年，張純如出版了她的第一本著作《Thread of the Silkworm》，由Basic Books出版。
+> 1995年，張純如出版了她的第一本著作《Thread of the Silkworm》，由Basic Books出版。
 
 <div class="iris">
   <div class="iris">
     <img src="/images/103.jpg" loading="lazy">
     <img src="/images/109.jpg" loading="lazy">
   </div>
-  </div>
+
+  
 書名意涵豐富：
 
 * 錢學森在中國發展的導彈被命名為“Silkworm missile”（天蠶飛彈）。
@@ -44,9 +45,11 @@ featured: true
 大陸版中譯本（魯伊譯，中信出版社）於2011年出版。遺憾的是，書中張純如對錢學森的批評部分被刪除，導致某些段落顯得不太連貫。
 
 這裡有一些相關書評：
+
 https://www.foreignaffairs.com/reviews/capsule-review/1996-05-01/thread-silkworm
   </div>
-  </div>
+
+ 
 
 ### 1995年，張純如出版了她的第一本著作《Thread of the Silkworm》，由Basic Books出版。
 > The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
