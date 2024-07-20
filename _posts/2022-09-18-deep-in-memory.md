@@ -5,7 +5,7 @@ description: 舞劇《記憶深處》通過張純如及歷史見證者的視角�
 date: 2022-09-18 15:01:35 +0300
 author: kaiya
 image: '/images/104.jpg'
-video_embed: https://youtu.be/7kTX0xfT9nQ?si=UvpRkFgeNBGjMENM
+video_embed: https://www.youtube.com/embed/7kTX0xfT9nQ
 tags: [choreodrama]
 ---
 舞劇《記憶深處》以作家張純如探索1937年“南京大屠殺”慘案為主線，通過親歷者的回憶為主題，選取屠殺、見證、懺悔、否認等關鍵詞，構成獨立又相互印證的篇章。不同角度共同指向一個真相，真實再現歷史。編舞用直接有力的舞蹈語言捕捉人物情感的強烈爆發點和心理矛盾的敏感處，多層次表達情感和心理變化，直指記憶深處不可忘卻的部分，具有震撼心靈的力量。
