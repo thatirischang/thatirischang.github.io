@@ -5,7 +5,7 @@ description: 張純如在UCTV節目中探討了華人移民對美國歷史的深
 date: 2024-03-28 15:01:35 +0300
 author: livia
 image: '/images/14.jpg'
-video_embed: https://www.youtube.com/embed/SRl82B7EB2A?si=C0L5V2yIB5qVh9k4
+video_embed: https://www.youtube.com/embed/SRl82B7EB2A
 tags: [history]
 featured: true
 ---
