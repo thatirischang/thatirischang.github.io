@@ -4,7 +4,7 @@ title: 張純如：生平簡介和著作版本推薦
 description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis convallis tristique.
 date: 2022-12-21 15:01:35 +0300
 author: admin
-image: '/images/102.jpg'
+image: '/images/111.jpg'
 video_embed:
 tags: [張純如]
 featured: true
