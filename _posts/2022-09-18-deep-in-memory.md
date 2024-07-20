@@ -3,7 +3,7 @@ layout: post
 title: 舞劇《記憶深處》(学習強国超清版）
 description: 舞劇《記憶深處》通過張純如及歷史見證者的視角，用震撼的舞蹈語言和國際化視覺呈現，深刻揭示南京大屠殺的歷史真相與人性力量。
 date: 2022-09-18 15:01:35 +0300
-author: kaiya
+author: admin
 image: '/images/104.jpg'
 video_embed: https://www.youtube.com/embed/7kTX0xfT9nQ
 tags: [choreodrama]
