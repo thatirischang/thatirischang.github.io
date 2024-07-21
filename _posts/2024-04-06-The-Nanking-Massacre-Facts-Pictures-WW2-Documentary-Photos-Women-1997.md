@@ -7,6 +7,7 @@ author: admin
 image: '/images/18.jpg'
 video_embed: https://www.youtube.com/embed/Z9lpicQgiYs
 tags: [interview]
+featured: true
 ---
 
 ### 日本戰爭暴行：731部隊與殘酷實驗
