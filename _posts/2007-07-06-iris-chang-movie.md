@@ -6,7 +6,7 @@ date: 2022-09-18 15:01:35 +0300
 author: admin
 image: '/images/122.jpg'
 video_embed: https://www.youtube.com/embed/7kTX0xfT9nQ
-tags: [choreodrama]
+tags: [movie]
 featured: true
 ---
 
