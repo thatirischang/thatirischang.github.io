@@ -5,7 +5,7 @@ description: 《張純如：南京大屠殺》電影不僅是對張純如個人�
 date: 2022-09-18 15:01:35 +0300
 author: admin
 image: '/images/122.png'
-video_embed: https://www.youtube.com/embed/7kTX0xfT9nQ
+video_embed:player.bilibili.com/player.html?isOutside=true&aid=505296904&bvid=BV1qg411V7Rx&cid=404675409&p=1
 tags: [movie]
 featured: true
 ---
