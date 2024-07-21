@@ -38,7 +38,7 @@ featured: true
     <img src="/images/124.png" loading="lazy">
     <img src="/images/125.png" loading="lazy">
   </div>
-  <em>鄭啟蕙 / <a href="https://www.pexels.com" target="_blank">張純如</a></em>
+  <em>鄭啟蕙 / <a href="https://x.com/irischangstudio" target="_blank">張純如</a></em>
 </div>
 
 ### 觸摸歷史：從舊金山到南京
