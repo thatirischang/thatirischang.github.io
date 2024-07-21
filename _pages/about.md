@@ -15,7 +15,8 @@ image: '/images/31.jpg'
 
 <center><img src="https://thatirischang.github.io/images/117.jpg" title="test"></center>
 
-*Photo by [工作室創始人劉羽與張純如父母]
+<em>Photo by <a href="https://x.com/irischangstudio/">Brian</a> on <a href="https://x.com/irischangstudio/" target="_blank">Web</a></em>
+</div>
 <br>
 <br>
 謹請諸君關注工作室之資訊，共同見證並弘揚張純如之精神光輝，謹懷謙恭之心，竭力而行。
