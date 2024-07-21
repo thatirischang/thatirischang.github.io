@@ -7,7 +7,6 @@ author: admin
 image: '/images/14.jpg'
 video_embed: https://www.youtube.com/embed/SRl82B7EB2A
 tags: [speech]
-featured: true
 ---
 
 > 作者張純如深入探討了在過去150年間，華人移民對美國歷史的深遠影響。這部紀錄片回顧了美國民主實踐的成功與失敗，以及華人移民從中汲取的、至今仍具現實意義的教訓。[2004年2月] [節目ID: 8475]
