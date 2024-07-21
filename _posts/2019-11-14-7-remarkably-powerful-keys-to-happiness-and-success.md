@@ -1,0 +1,15 @@
+---
+layout: post
+title: 鄭家瑜 有話要說 紀念張純如
+description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis convallis tristique.
+date: 2019-11-14 15:01:35 +0300
+author: admin
+image: '/images/20.jpg'
+video_embed: https://www.youtube.com/embed/TZRulEKoZHY
+tags: [張盈盈專欄]
+---
+2003年11月9日，華裔作家張純如因抑鬱症在家中自殺，年僅36歲。她憑藉1997年出版的暢銷書《南京浩劫：被遺忘的大屠殺》獲得國際聲譽，書中揭示了南京大屠殺的慘烈歷史，成為備受關注的歷史文獻。經過多年籌備和社區人士的不懈努力，北聖荷西一座以她名字命名的公園於2019年11月9日正式揭幕，旨在紀念她的卓越貢獻和精神遺產。
+
+在公園揭幕前夕，張純如的父母以及推動該項目的加州眾議員朱感生受邀參加了灣區知名華人電視節目《鄭家瑜：有話要說》，共同緬懷這位以筆為武器、捍衛歷史真相的勇敢女性。節目中，嘉賓們深切回憶了張純如的生平事跡，強調了她在推動歷史記憶、促進國際理解方面所做出的巨大貢獻。
+
+“張純如公園”不僅是一座紀念公園，更是一座文化地標，象徵著對真相、正義與人道精神的永恆追求。公園的揭幕，是對張純如為歷史發聲、不畏強權的精神的崇高致敬，也是對她所遺留的文化遺產的莊嚴守護。
