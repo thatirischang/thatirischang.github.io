@@ -2,7 +2,7 @@
 layout: post
 title: 張純如：南京大屠殺電影
 description: 《張純如：南京大屠殺》電影不僅是對張純如個人經歷的紀念，更是對那段歷史的深刻反思。通過這部電影，我們可以更好地了解歷史，銘記過去，從而共同追求一個和平的未來。
-date: 2022-09-18 15:01:35 +0300
+date: 2007-07-06 15:01:35 +0300
 author: admin
 image: '/images/122.png'
 video_embed: https://www.youtube.com/embed/V9M4OhU3mn4
