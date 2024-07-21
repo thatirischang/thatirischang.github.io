@@ -34,9 +34,5 @@ tags: [紀念]
 聯繫電話：0517-84680328。
 
 
-* Etiam ultrices. Suspendisse in justo massa fusce non.
-* Sed non quam. In vel mi sit amet augue congue elementum.
-* Suspendisse in justo eu magna luctus suscipit sed lectus.
-* Quisque volutpat condimentum velit class aptent taciti sociosqu torquent.
-* Aenean lectus elit fermentum non convallis id sagittis at neque.
+
 
