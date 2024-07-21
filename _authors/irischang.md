@@ -8,4 +8,4 @@ twitter: https://x.com/irischangstudio
 facebook: https://x.com/irischangstudio
 instagram: https://x.com/irischangstudio
 ---
-I offer English editing and language facilitation services to improve the fluency and impact of written English.
+忘卻大屠殺，無異於二次屠殺
