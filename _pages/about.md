@@ -1,23 +1,19 @@
 ---
 layout: page
-title: About
+title: 張純如工作室簡介
 permalink: /about/
 image: '/images/31.jpg'
 ---
 
-Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. 
+張純如工作室，創建於二零一八年十月二十六日，由劉羽先生創辦，蒙張純如之父母及其丈夫首肯。此工作室不持任何立場，惟致力於傳承與弘揚張純如之精神。
 
-Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam.
+劉羽先生，懷敬仰之情，初見鄭啟蕙主演之影片《張純如：南京大屠殺》，遂與張純如之故事結緣。張純如女士，以其震撼人心之歷史和深情之演講，喚醒全球良知，促使世人重新審視那段血淚斑斑之過往。劉羽先生本以為會有專業團隊對此進行梳理與深度解析，然見此工作尚屬空白，遂立志創建此工作室，願張純如之精神得以傳承並弘揚。
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+> 至二零二二年九月二十二日，工作室已在英國註冊。現時，工作室竭力翻譯及整理張純如之演講視頻與文稿，期盼早日與社會大眾共享。正如古人云：“言之無文，行而不遠。”我們深信文字乃保存靈魂精華之至佳方式。願以此舉向張純如女士致敬，使其精神得以永續傳承，照亮更多人之心靈。
 
-Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam.
+<center><img src="https://thatirischang.github.io/images/117.jpg" title="test"></center>
 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa.
+*Photo by [工作室創始人劉羽與張純如父母]
+<br>
+謹請諸君關注工作室之資訊，共同見證並弘揚張純如之精神光輝，謹懷謙恭之心，竭力而行。
 
-![Team]({{site.baseurl}}/images/31-1.jpg)
-*Photo by [Fauxels](https://www.pexels.com/photo/photo-of-men-and-women-holding-blank-signboards-3228812/) on [Pexels](https://www.pexels.com/)*
-
-Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. 
-
-Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. 
