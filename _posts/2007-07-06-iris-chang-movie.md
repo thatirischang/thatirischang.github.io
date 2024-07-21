@@ -50,6 +50,8 @@ featured: true
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=505296904&bvid=BV1qg411V7Rx&cid=404675409&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=847883896&bvid=BV1DL4y1h782&cid=404758235&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+<br>
 ### 歷史的傳承與延續
 
 張純如的《南京大屠殺》在西方獲得成功，源於她詳實的調查、嫻熟的英文寫作功底和報告文學的寫法。南京師範大學南京大屠殺研究中心主任張連紅指出，90年代日本在歷史問題上頻繁做文章，引發了國際社會的關注。
