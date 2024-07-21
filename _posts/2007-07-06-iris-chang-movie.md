@@ -7,7 +7,9 @@ author: admin
 image: '/images/104.jpg'
 video_embed: https://www.youtube.com/embed/7kTX0xfT9nQ
 tags: [choreodrama]
+featured: true
 ---
+
 ### 引言
 
 1937年夏日，盧溝橋事變拉開了中國抗日戰爭的序幕。70年後，《南京》、《張純如：南京大屠殺》、《南京浩劫》、《南京！南京！》等多部影片和紀錄片在全球上映，重現那段慘痛的歷史。
