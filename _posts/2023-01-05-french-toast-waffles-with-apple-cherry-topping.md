@@ -1,10 +1,11 @@
 ---
 layout: post
 title: 張純如紀念公園
-description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis convallis tristique.
+description: 張純如紀念公園於2019年11月9日正式揭幕，以紀念《南京大屠殺》作者張純如逝世15週年，並傳承她“一個人的力量”精神，激勵社會正義與和平。
 date: 2023-01-05 15:01:35 +0300
-author: kaiya
+author: admin
 image: '/images/137.jpg'
+video_embed: https://www.youtube.com/embed/Vwdh-QBPf_4
 tags: [紀念]
 ---
 2019年11月9日，位於聖荷西的張純如紀念公園（Iris Chang Park）正式揭幕，以紀念歷史學家、《南京大屠殺》（The Rape of Nanking）一書的作者張純如逝世15週年。當天，社區居民、僑團代表以及多位民選官員齊聚一堂，向這位卓越的歷史學家致以崇高敬意。
