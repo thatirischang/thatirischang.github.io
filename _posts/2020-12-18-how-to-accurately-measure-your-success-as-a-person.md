@@ -23,7 +23,29 @@ featured: true
 <br>
  <em><center>（張純如約翰·霍普金斯大學寫作碩士畢業證書）</center> <em>
 
-   
+純如的導師巴巴拉·庫裏頓非常欣賞純如的寫作風格，她的朋友，也是哈珀柯林斯出版社的圖書編輯蘇珊·拉賓娜，希望有個懂中文的人來寫錢學森傳，那個時候純如相當年輕，這本書的寫作成爲純如生命的轉折點。1995年，純如寫作生涯中的第一本書《中國導彈之父——錢學森之謎》出版了。
+
+純如一生寫了三本書，第一本書《中國導彈之父——錢學森之謎》1995年出版，第二本書《南京暴行：被遺忘的大屠殺》1997年出版，第三本書《美國華人史》2003年出版。
+
+<center><img src="https://thatirischang.github.io/images/129.jpg" title="test"></center>
+<br>
+ <em><center>（《中國導彈之父——錢學森之謎》）</center> <em>
+<br>
+<center><img src="https://thatirischang.github.io/images/128.jpg" title="test"></center>
+<br>
+ <em><center>（《南京暴行：被遺忘的大屠殺》）</center> <em>
+<br>
+<center><img src="https://thatirischang.github.io/images/130.jpg" title="test"></center>
+<br>
+ <em><center>（《美國華人史》）</center> <em>
+<br>
+
+我剛才非常簡單的介紹純如的生平，如果有讀者想深入瞭解純如，可以閱讀張盈盈女士撰寫的《張純如，無法忘卻歷史的女子》一書。這是一本張媽媽對女兒的回憶錄，也是一本張純如的生平傳記，其中詳細描述了張純如的一生。
+
+<center><img src="https://thatirischang.github.io/images/131.jpg" title="test"></center>
+<br>
+
+
 <div class="gallery-box">
   <div class="gallery">
     <img src="/images/22.jpg" loading="lazy">
