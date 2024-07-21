@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 一個人的力量也能改變世界 —— 張純如工作室做客夏威夷中國日報
-description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis convallis tristique.
+description: 張純如以其卓越的寫作和堅韌不拔的精神，通過《南京暴行：被遺忘的大屠殺》一書，讓全世界銘記南京大屠殺的歷史真相，展現了“一個人的力量也能改變世界”的信念。
 date: 2020-12-18 15:01:35 +0300
 author: admin
 image: '/images/128.jpg'
