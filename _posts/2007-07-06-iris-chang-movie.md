@@ -4,7 +4,7 @@ title: 張純如：南京大屠殺電影
 description: 《張純如：南京大屠殺》電影不僅是對張純如個人經歷的紀念，更是對那段歷史的深刻反思。通過這部電影，我們可以更好地了解歷史，銘記過去，從而共同追求一個和平的未來。
 date: 2022-09-18 15:01:35 +0300
 author: admin
-image: '/images/122.jpg'
+image: '/images/122.png'
 video_embed: https://www.youtube.com/embed/7kTX0xfT9nQ
 tags: [movie]
 featured: true
@@ -16,7 +16,7 @@ featured: true
 
 在某些日本人仍試圖歪曲歷史的背景下，這些影像作品的出現，具有重要的歷史意義。然而，歷史的還原與思考並未結束。
 
-<center><img src="https://thatirischang.github.io/images/123.jpg" title="test"></center>
+<center><img src="https://thatirischang.github.io/images/123.png" title="test"></center>
 <br>
 
 ### 追隨張純如的足跡
@@ -35,8 +35,8 @@ featured: true
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/124.jpg" loading="lazy">
-    <img src="/images/125.jpg" loading="lazy">
+    <img src="/images/124.png" loading="lazy">
+    <img src="/images/125.png" loading="lazy">
   </div>
   <em>鄭啟蕙 / <a href="https://www.pexels.com" target="_blank">張純如</a></em>
 </div>
