@@ -1,11 +1,11 @@
 ---
-username: kaiya
-name: Kaiya George
+username: irischangii
+name: 張純如工作室
 image: '/images/102.jpg'
 location:
 website:
-twitter: https://twitter.com
-facebook: https://www.facebook.com
-instagram: https://www.instagram.com
+twitter: https://x.com/irischangstudio
+facebook: https://x.com/irischangstudio
+instagram: https://x.com/irischangstudio
 ---
-I am an award-winning novelist who has published two books with a major New York City publishing house.
+忘卻大屠殺，無異於二次屠殺
