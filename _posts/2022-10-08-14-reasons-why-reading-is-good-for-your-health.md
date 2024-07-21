@@ -1,14 +1,13 @@
 ---
 layout: post
-title: 纯如语萃
-description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis convallis tristique.
+title: 純如語萃
+description: 《純如語萃》精選了張純如的經典言辭，展現了她深邃的智慧和不朽的精神，為後世提供了寶貴的思想財富。
 date: 2022-10-08 18:05:55 +0300
 author: kaiya
-image: '/images/12.jpg'
+image: '/images/127.jpg'
 tags: [reading]
 featured: true
 ---
-* 
-![Woman]({{site.baseurl}}/images/12-1.jpg)
-*Photo by [Pixabay](https://www.pexels.com/photo/blue-sun-hat-33622/) on [Pexels](https://unsplash.com/)*
-
+* 首先，請你務必、務必、務必相信一個人的力量。一個人可以令世界大為改觀。一個人——事實上，一個想法——可以發動一場戰爭，或是結束一場戰爭，或是顛覆整個權力結構。一個發現可以治癒一種疾病，一種新的技術可以造福或毀滅人類。你是一個人，你可以改變數百萬人的生活。志存高遠。不要限制住你的目光，永遠不要放棄你的夢想或理念。
+* 文字是保存靈魂精華的唯一方式。
+* 人其實是死兩次，一次是肉體的死亡，一次是在他人的記憶中消失。
