@@ -123,27 +123,5 @@ featured: true
 <br>
 <em><center>（張純如在杭州岳王廟）</center> <em>
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/22.jpg" loading="lazy">
-    <img src="/images/24.jpg" loading="lazy">
-  </div>
-  <em>Gallery / <a href="https://www.pexels.com" target="_blank">Pexels</a></em>
-</div>
 
-Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam.
-
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa.
-
-![Kitchen]({{site.baseurl}}/images/11-1.jpg)
-*Photo by [Joanna Bogacz](https://www.pexels.com/ru-ru/photo/4138152/) on [Pexels](https://www.pexels.com/)*
-
-Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien.
-
-* Etiam ultrices. Suspendisse in justo massa fusce non.
-* Sed non quam. In vel mi sit amet augue congue elementum.
-* Suspendisse in justo eu magna luctus suscipit sed lectus.
-* Quisque volutpat condimentum velit class aptent taciti sociosqu torquent.
-* Aenean lectus elit fermentum non convallis id sagittis at neque.
-
-Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus.
+* 夏威夷中國日報編者注：1965年前後，編者在台北任職時，其中一個工作是每週到各政論家去取稿和奉送稿費。每一次去張鐵君先生新店的家中，都蒙張老先生送上清茶一杯，笑談片刻。近日和張盈盈女士談起，才知道張鐵君先生是張盈盈女士的尊翁，張純如的外公。不期和我最敬仰的人物，還有如此淵源。和張氏夫婦有相見恨晚之憾。特以記之。
