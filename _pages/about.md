@@ -2,7 +2,7 @@
 layout: page
 title: 張純如工作室簡介
 permalink: /about/
-image: '/images/120.png'
+image: '/images/121.png'
 ---
 
 張純如工作室，創建於二零一八年十月二十六日，由劉羽先生創辦，蒙張純如之父母及其丈夫首肯。此工作室不持任何立場，惟致力於傳承與弘揚張純如之精神。
