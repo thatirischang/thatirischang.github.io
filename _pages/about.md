@@ -14,9 +14,9 @@ image: '/images/31.jpg'
 現時，工作室竭力翻譯及整理張純如之演講視頻與文稿，期盼早日與社會大眾共享。正如古人云：“言之無文，行而不遠。”我們深信文字乃保存靈魂精華之至佳方式。願以此舉向張純如女士致敬，使其精神得以永續傳承，照亮更多人之心靈。
 
 <center><img src="https://thatirischang.github.io/images/118.jpg" title="test"></center>
-</div>
+
 <em>Photo by <a href="https://x.com/irischangstudio/">工作室創始人劉羽與張純如父母</a> on <a href="https://x.com/irischangstudio/" target="_blank">北京</a></em>
-</div>
+
 <br>
 <br>
 謹請諸君關注工作室之資訊，共同見證並弘揚張純如之精神光輝，謹懷謙恭之心，竭力而行。
