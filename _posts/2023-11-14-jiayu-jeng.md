@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 鄭家瑜 有話要說 紀念張純如
-description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis convallis tristique.
+description: 張純如公園於2019年11月9日揭幕，以紀念她在揭示南京大屠殺歷史真相和捍衛人道精神方面的卓越貢獻。
 date: 2023-11-14 15:01:35 +0300
 author: admin
 image: '/images/126.jpg'
