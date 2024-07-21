@@ -18,6 +18,6 @@ tags: [choreodrama]
     <img src="/images/105.jpg" loading="lazy">
     <img src="/images/106.jpg" loading="lazy">
   </div>
-  <em>李禕然 / <a href="https://www.pexels.com" target="_blank">張純如</a></em>
+  <em>李禕然 / <a href="https://x.com/irischangstudio" target="_blank">張純如</a></em>
 </div>
 
