@@ -19,7 +19,7 @@ featured: true
 
 大學畢業之後，純如曾在《芝加哥美聯社》和《芝加哥論壇報》做實習記者後，又回到了伊利諾大學讀了半年的歷史系，不久約翰·霍普金斯大學的寫作項目給了純如一個助教獎學金，為期一年的寫作碩士課程。純如繼續深造，於1991年5月取得了霍普金斯大學寫作碩士學位。
 
-<center><img src="https://thatirischang.github.io/images/100.png" title="test"></center>
+<center><img src="https://thatirischang.github.io/images/100.jpg" title="test"></center>
 <br>
  <em><center>（張純如約翰·霍普金斯大學寫作碩士畢業證書）</center> <em>
 
