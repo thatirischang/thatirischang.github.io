@@ -1,10 +1,10 @@
 ---
 layout: post
-title: How to Accurately Measure Your Success as a Person
+title: 一個人的力量也能改變世界 —— 張純如工作室做客夏威夷中國日報
 description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis convallis tristique.
-date: 2022-12-18 15:01:35 +0300
+date: 2020-12-18 15:01:35 +0300
 author: justin
-image: '/images/100.jpg'
+image: '/images/128.jpg'
 tags: [專訪]
 featured: true
 ---
