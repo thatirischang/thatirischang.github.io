@@ -2,7 +2,7 @@
 layout: post
 title: 純如語萃
 description: 《純如語萃》精選了張純如的經典言辭，展現了她深邃的智慧和不朽的精神，為後世提供了寶貴的思想財富。
-date: 2022-10-08 18:05:55 +0300
+date: 2019-03-28 18:05:55 +0300
 author: kaiya
 image: '/images/127.jpg'
 tags: [reading]
