@@ -1,0 +1,42 @@
+---
+layout: post
+title: 張純如紀念館
+description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis convallis tristique.
+date: 2023-01-02 15:01:35 +0300
+author: admin
+image: '/images/24.jpg'
+video_embed: https://www.youtube.com/embed/QuB4PYaRNBw
+tags: [紀念]
+---
+> 張純如紀念館是首個全面展示美籍華人、淮安之子、著名歷史學家及人權鬥士張純如生平事跡的專題館。紀念館位於淮安市淮陰區，坐落於古淮河北岸，佔地面積3.6萬平方米，展覽面積約1000平方米。
+
+<center><img src="https://thatirischang.github.io/images/144.jpg" title="test"></center>
+<br>
+
+紀念館背倚淮陰大地，面朝東方，建築風格莊重典雅，內飾樸素沉靜。紀念館以「勿忘國恥、珍愛和平、緬懷英雄、激勵後人」為宗旨，通過「不能忘卻的紀念」這一情感紐帶進行設計佈局和展覽陳列。館內展覽分為六個板塊：
+
+* 大洋彼岸的父母之邦：講述張氏家族與淮陰的歷史淵源。
+* 海外赤子的中國情結：回顧張純如在海外的成長經歷及她對中華文化的深厚情感。
+* 直面真相的《南京大屠殺》：展示侵華日軍南京大屠殺暴行，介紹張純如發現《拉貝日記》等關鍵史料的過程及其撰寫《南京大屠殺》一書的歷史貢獻。
+* 激情燃燒的歷史捍衛者：展示張純如在北美地區售書、演講、辯論，為維護人類正義而進行的努力。
+* 不能停止的求索之旅：展示張純如創作《中國導彈之父——錢學森之謎》、《美國華人史》等作品，體現其對中華文化的赤子之心。
+* 光照人間的正義天使：反映國內外對張純如短暫而光輝一生的高度評價和深切緬懷。
+* 
+紀念館於2017年4月7日正式開館，淮安市委、市政府將舉行隆重的開館典禮，以緬懷張純如女士的偉大貢獻。紀念館佇立於淮河岸邊，將受到海內外中華兒女和國際友人的廣泛敬仰。
+
+<center><img src="https://thatirischang.github.io/images/145.jpg" title="test"></center>
+<br>
+
+營業時間：週二至週日上午8:30至下午5:00，週一休息。
+
+地址：淮安市淮陰區南昌北路與母愛路交叉口（淮安市食品藥品監督局對面）。
+
+聯繫電話：0517-84680328。
+
+
+* Etiam ultrices. Suspendisse in justo massa fusce non.
+* Sed non quam. In vel mi sit amet augue congue elementum.
+* Suspendisse in justo eu magna luctus suscipit sed lectus.
+* Quisque volutpat condimentum velit class aptent taciti sociosqu torquent.
+* Aenean lectus elit fermentum non convallis id sagittis at neque.
+
