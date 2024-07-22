@@ -1,81 +1,27 @@
 ---
 layout: default
-title: Tags
+title: 所有标签
 permalink: /tags/
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
 
-<!-- begin tags -->
 <section class="section tags">
   <div class="container">
     <div class="row">
       <div class="col col-12">
-        <h1 class="page-title">所有标签</h1>
+        <h1 class="page-title">{{ page.title }}</h1>
         <div class="tag-list">
           {% for item in (0..site.tags.size) %}{% unless forloop.last %}
             {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-            <a href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }})</span></a>
+            <a href="{{ site.baseurl }}/tag/{{ this_word | slugify }}/" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }})</span></a>
           {% endunless %}{% endfor %}
         </div>
       </div>
     </div>
   </div>
-
-  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-  {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-  <div class="tags__inner" id="{{ this_word | cgi_escape }}">
-    <div class="container">
-      <div class="row">
-        <div class="col col-12">
-          <div class="tag__info">
-            <h2 class="tag__title">{{ this_word }} <span class="tag__counter">{{ site.tags[this_word].size }}</span></h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container animate">
-      <div class="row">
-        {% for post in site.tags[this_word] %}
-          {% if post.title != null %}
-            <div class="col col-4 col-d-6 col-t-12">
-              {% include article.html %}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-  {% endunless %}
-  {% endfor %}
 </section>
-<!-- end tags -->
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var urlParams = new URLSearchParams(window.location.search);
-  var tag = urlParams.get('tag');
-  if (tag) {
-    var el = document.getElementById(tag);
-    if (el) {
-      el.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-    }
-  }
-
-  var tagLinks = document.querySelectorAll('.tag-list .tag');
-  tagLinks.forEach(function(link) {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      var targetId = this.getAttribute('href').substring(1);
-      var targetElement = document.getElementById(targetId);
-      if (targetElement) {
-        targetElement.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-      }
-    });
-  });
-});
-</script>
 
 <style>
 .tag-list {
@@ -93,15 +39,5 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 .tag-list .tag:hover {
   background-color: #e0e0e0;
-}
-.tags__inner {
-  margin-bottom: 50px;
-}
-.tag__title {
-  margin-bottom: 20px;
-}
-.tag__counter {
-  font-size: 0.8em;
-  color: #888;
 }
 </style>
