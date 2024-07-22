@@ -33,8 +33,7 @@ menu_settings:
 # Call to action button
 cta_button:
   enable: true
-  cta_button_link: '/contact/'
-  cta_button_text: Get in touch
+  
 
 
 #-------------------------------
@@ -92,9 +91,7 @@ mailchimp_settings:
   enable: true
   mailchimp_title: 
   mailchimp_description: 從我的作家生涯中我領悟到，聽從自己的心聲和內在激情，努力創造擁有永久價值的東西，這才是通向成功的不二法門。很多時候，這意味著獨闢蹊徑。
-  mailchimp_identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
-  mailchimp_input_text: Your email address
-  mailchimp_button_text: Subscribe
+ 
 
 
 #-------------------------------
