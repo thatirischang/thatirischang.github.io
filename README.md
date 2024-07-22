@@ -1,4 +1,4 @@
-# Danto is a news and magazine Jekyll theme
+# 文字是保存靈魂精華的唯一方式。
 
 Danto is a fast, modern, optimized, and mobile-friendly Jekyll theme. It is fully compatible with GitHub Pages, supports videos from YouTube and Vimeo, and also has a light and dark mode. This theme has been designed with a focus on readability to provide your visitors with a quality user experience and is perfect for a personal blog, news, magazine, and all kinds of publishing websites.
 
