@@ -58,12 +58,10 @@ footer_description: 人其實是死兩次：一次是肉體的死亡，一次是
 
 # Social Links
 social:
-- {icon: "twitter", link: "https://twitter.com"}
-- {icon: "facebook", link: "https://facebook.com"}
-- {icon: "codepen", link: "https://codepen.io"}
+- {icon: "twitter", link: "https://x.com/irischangstudio"}
+- {icon: "facebook", link: "https://www.facebook.com/irischangstudio/"}
 - {icon: "pinterest", link: "https://pinterest.com"}
-- {icon: "github", link: "https://github.com"}
-- {icon: "youtube", link: "https://youtube.com"}
+- {icon: "youtube", link: "https://www.youtube.com/@irischangstudio"}
 
 # Example of adding a new link to the footer - {icon: "instagram", link: "https://instagram.com"}
 # Other icons can be found at https://ionicons.com/v4/
