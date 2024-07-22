@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h1 class="page-title">標籤: {{ page.tag }}</h1>
+  <div class="row">
+    {% for post in site.tags[page.tag] %}
+      <div class="col col-4 col-d-6 col-t-12">
+        {% include article.html %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
