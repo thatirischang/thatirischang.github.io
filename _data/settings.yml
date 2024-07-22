@@ -20,6 +20,8 @@ menu_settings:
     - title: "視音"
       url: "/videos/"
     - title: "Pages"
+    - title: "張純如工作室"
+      url: "/about/"
       submenu:
       - url: "/about/"
         title: "張純如工作室"
