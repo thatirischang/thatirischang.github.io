@@ -4,7 +4,7 @@ name: 張純如工作室
 image: '/images/101.jpg'
 location:
 website:
-facebook: https://x.com/irischangstudio
+facebook: https://www.facebook.com/irischangstudio/
 twitter: https://x.com/irischangstudio
 instagram: https://x.com/irischangstudio
 ---
