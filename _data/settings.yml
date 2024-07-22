@@ -13,10 +13,6 @@ menu_settings:
   menu_items:
     - title: "首頁"
       url: "/"
-    - title: "動態"
-      url: "/latest/"
-    - title: "Authors"
-      url: "/authors/"
     - title: "視音"
       url: "/videos/"
     - title: "張純如工作室"
