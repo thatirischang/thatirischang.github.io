@@ -23,10 +23,6 @@ menu_settings:
       submenu:
       - url: "/about/"
         title: "張純如工作室"
-      - url: "/elements/"
-        title: "Elements"
-      - url: "/contact/"
-        title: "Contact"
       - url: "/featured/"
         title: "Featured"
 
