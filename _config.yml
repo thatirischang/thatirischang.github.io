@@ -55,3 +55,7 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed
+
+# 标签设置
+tag_page_layout: tag_page
+tag_page_dir: tag
