@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
-title: Danto
-description: Danto is a news and magazine Jekyll theme
+title: 張純如工作室
+description: 文字是保存靈魂精華的唯一方式。
 logo: "/images/logo.svg" # You can add own logo. For example "/images/logo.svg".
 logo_dark: "/images/logo-dark.svg"
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
