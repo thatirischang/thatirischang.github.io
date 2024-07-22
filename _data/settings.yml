@@ -23,11 +23,7 @@ menu_settings:
     - title: "張純如工作室"
       url: "/about/"
       submenu:
-      - url: "/about/"
-        title: "張純如工作室"
-      - url: "/featured/"
-        title: "Featured"
-
+  
 
   
 
