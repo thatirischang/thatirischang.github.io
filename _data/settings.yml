@@ -19,10 +19,9 @@ menu_settings:
       url: "/authors/"
     - title: "視音"
       url: "/videos/"
-    - title: "Pages"
     - title: "張純如工作室"
       url: "/about/"
-      submenu:
+  
   
 
   
