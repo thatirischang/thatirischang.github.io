@@ -2,7 +2,7 @@
 layout: post
 title: 封面獨家｜課堂發表錯誤言論教師被開除 張純如工作室：勿忘曆史，因為遺忘就是第二次“屠殺” 
 description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.
-date: 20213-12-16 15:01:35 +0300
+date: 2021-12-16 15:01:35 +0300
 author: admin
 image: '/images/26.jpg'
 tags: [熱點]
