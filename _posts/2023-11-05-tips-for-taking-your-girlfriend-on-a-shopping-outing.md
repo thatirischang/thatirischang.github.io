@@ -9,20 +9,32 @@ tags: [張盈盈專欄]
 ---
 張盈盈
 
-Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam.
+張盈盈
 
-### How You Should Really Be Measuring Success
+想起 紀錄片「南京」拍攝的經過,令我不得不說人活在這個世界上有很多事情發生得非常奇妙!
 
-Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+2004年11月9日,女兒張純如自殺身亡後,我和先生跌入痛苦的深淵,我們有一年閉門沉思,腳不出門,無法自拔。女兒的去逝不僅帶给我們無限的悲痛,也帶給許多人們對她的懷念。但是我萬萬沒有想到有一位人居然也跟我們一樣對她的去逝和她留下的遺著「南京大屠殺」中的故事揮之不去,圍繞著他的腦海裡好幾周而最後決定把南京大屠殺這段歷史拍成電影。
 
-Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante.
+2005年10 月初我收到一封由名叫比爾.古頓塔格的來信,信中說,他是在好萊塢的一個紀錄片導演,预備拍一部南京大屠殺的紀錄片,他説他很敬佩張純如和她的著作,希望我們恊助他。我馬上到網上查尋他是何許人也。原來他是曾經得過奧斯卡金像獎的最佳紀錄片的導演,因此我立刻對他肅然起敬。心想純如生前就希望南京大屠殺這段歷史搬上銀幕,現在有人自動要拍,真是没有预料到的大好事,那麼我們當然一定要恊助他完成的。比爾約我和我先生在史坦福大學校園附近的咖啡館見面。那天我們如約赴會。原來比爾不但在好萊塢工作,他的家在史坦福大學附近,因為他也是史坦福大學的教授,教影視方面的課程。坐在我們對面飲著咖啡的比爾給我的第一印象是有著君子風度的學者型,嘴唇周圍是修得一圈整齊的白鬍子,他一點也沒有大導演的氣勢,這令我和我先生感到非常舒適。比爾緩緩的向我們述說他被聘為南京大屠殺這片導演的緣由。原來東岸有一位富豪叫泰德.里昂塞斯的人受到純如著作的感召要出資拍一部南京大屠殺的影片,泰德想聘請比爾當導演,但是比爾覺這個片子太難拍了,謝絕了他的邀請。沒想到泰德用他的私人專機把他從加州飛到華盛頓特區,並請比爾看他擁有的球隊比賽。因為泰德的誠意,他沒辦法推辭,就接受了。比爾說他已經成立了一個拍片團隊,並且仔細研讀了純如的《南京大屠殺》這本書。比爾和團體馬上要去中國採訪幸存者,他向我們請求,希望我們對他的團隊給予恊助。我們當然一口答應。回家後,我馬上上網查尋泰德的資料。
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+原來泰德.里昂塞斯是一個希臘裔美國人,一個白手起家而致富、帶有傳奇色彩的人物。他的父母都是工人階級,從小他父親希望他在餐館裏做事就不錯了。然而泰德小時候就懂得自己努力工作賺錢。夏天他替一個在股票市場做事的人割草,此人看他勤奮聰明就幫助他讀大學,他因此畢業于華俯Georgetown 大學,而他是他家里第一個上大學的人。由於他的勤奮努力加上他的聰明才智,一路順風做到了「美國在線」(AOL)的副總裁並擁有多種體育團隊,後來身價上億。原來在他26 歲時,一次坐飛機失事而幸存,這件事故成為他生命中的一個重要轉折點,他決定要在他幸存的餘生做一番事業,這也是他後來致富的原動力。他為自己的未來寫下要完成101件事情,其中之一就是他這一生要拍攝一部電影。他致富後,他的願望也一一實現!
 
-Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+我們和比爾在2005年10月見面後,我就把家中所有有關南京大屠殺的資料包括許多視頻錄影帶,有純如的訪談影像的全部都給予了比爾的助手馮都(Violet Feng),她也是此片的副導演。我還聯係了「世界抗日戰爭史實維護聯合會」的理事們,如丁元,賀英明,邵正印等人,大家都盡力把南京大屠殺的資料供給比爾的團隊。我幫他們聯繫南京的大屠殺紀念館舘長朱成山,使比爾他們很快采訪到南京大屠殺的幸存者。因此他們在中國拍攝進展的很順利。比爾一直和我保持聯繫而且感謝我們和史維會的大力支持。
 
-Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam.
+2006年的10月史維會召開每兩年一次的理事會,那年的會議是東岸華盛頓特區的史維會成員主辦。自從純如去逝後,因為純如和史維會有著密切的關係,我們就加入了史維會,並參加那年將在華府舉行的會議。由於比爾的介紹,我和住在華府的泰德書信聯繫上了,約好在華府史維會會議中見面,因此我們在會議上第一次見到泰德本人。當我第一眼見到他時,他馬上前來跟我們握手。泰德體形高大碩實,眉髪烏黑,眼睛明亮,有著典型東歐人的風貌。會議上他介紹了片段比爾在南京拍攝未經剪接的紀錄片「南京」影像,他希望「南京」拍成後,史維會各地成員能幫助他宣傳此影片。中飯時他特別要求和我們坐在一起吃午餐。因為史維會的經費有限,我們開會的地點是一個最基本的酒店,飯桌很小,他就坐在我們正對面,我們只離他不到三尺遠。他和靄可親特意的對著我和先生講述他拍這個影片的原因。
 
-Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien.
+泰德説,2004年末的聖誕節,他在Caribbean 他的私人游艇上渡假,在游艇上沒有可看的書刊,當游艇靠岸上了一個小島後,他買了一大堆過了時的紐約時報帶上船上慢慢看。他在纽約時報上看到了純如在2004年11月的逝世新聞。訃聞上還有純如的照片。他説他自認為他算是讀過一些書的、受過教育的人,但是他從來沒有聽說過南京大屠殺這件事。在訃聞裏提到純如的著作《南京大屠殺》,南京大屠殺時的安全區,提到約翰拉貝和安全區內許多國際人士救援了25萬南京難民的事,這些對他來說是一無所知。因此他對南京大屠殺這段歷史發生了強烈的興趣。在他回
 
-Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus.
+家上岸前,他説僕人把舊報紙扔在拉圾桶裏,恰好那篇純如死訊的文章在最上面,當他經過拉圾桶時,他發現照片上純如的眼睛在注視著他,他在那裡來回徘徊時,居然發現純如的眼睛也一直在跟隨著他來回徘徊。泰德說到這裡,我不由得汗毛竪了起來。我睜著大眼望著他,看不出他有一釘點誇張的跡象。泰德認真的說,他覺得這批安全區裡的國際人道主義者,在那種戰爭危險的情況下,是可以馬上回國過上安逸的日子,但是他們決定選擇留下來救助難民,他們的人道精神太値得我們敬佩了! 他説：在最黑喑的時刻總會有一線曙光(這也是紀錄片「南京」的宣傳口號)。他指著自己的胸膛問到:「在這種情況下,我會不會留下?」這個問題,他説,一直在煎熬著、考問著他自己! 這時,我真的非常的被他的故事感動...
+ 
+泰德又説: 我回家後就去書店把二次世界大戰的歷史書籍都買回來看。就這樣泰德把純如的書《南京大屠殺》看個透徹。他又說他那一陣子,南京大屠殺這段歷史一直圍繞著他,揮之不去! 他好幾天無法入睡。他太太對他說：我還沒有看過你如此的痴迷! 他是如此的坦白、真誠的對著我們描述他內心的感受。他熱情、有正義感,平易近人。他沒有一點大富豪的架子,其實我完全忘了他是美國的大富豪,在華府擁有三個球隊,有私人飛機和游艇。就這樣他把拍紀錄片「南京」作為他此生要拍一部電影的願望和主題來實現了。他投資了一百萬美元,並且聘請了大導演比爾來拍。他説要拍就要拍好,所以他要請最好的、第一流的導演來拍。
+
+比爾在2007年初就已經把影片剪接完成,他不愧是奧斯卡獎得主的大導演,他用斬新的手法：他請了當時好萊塢多位有名的大明星們,要求他們義務幫忙。我猜比爾是用南京大屠殺安全區那些人道主義者的精神來說服那些大明星的。每一個大明星扮演一位南京大屠殺安全區內的國際人士,唸他們的家書日記,這些文件描述南京大屠殺時期發生的慘狀。例如扮演約翰拉貝的是德國大明星Jurgen Prochnow,扮演威爾遜醫生的是Woody Harrelson。扮演魏特琳女士是Mariel Hemingway等。
+
+記錄片「南京」2007年完成後,它在猶他州舉行的Sundance電影節中,獲得極佳好評。那年的電影奥斯卡金像獎中,「南京」雖然沒有像泰德希望那樣得到最佳紀錄片獎,但是它是最後五名最佳紀錄片提名之一。另外,此片榮獲在藝術創作中最祟高的Peabody Award!  我們和史維會成員努力為「南京」這部記錄片宣傳推廣,在北美和亞洲各地包括在中國大陸上映,對社會大眾瞭解這段歷史有極大的影響。這部記錄片片尾特別提到紀念張純如並感謝她對南京大屠殺這段歷史的貢獻!  我想純如在天一定感到欣慰的!
+
+想起一件趣事：2007年11月波士頓僑領馬滌凡女士想在波士頓公映「南京」紀錄片,並想邀請泰德先生到埸為此片作介紹。我欣然同意幫助她去邀請泰德先生。當時馬女士去信泰徳先生時表示她會承擔他的旅費和機場接送,泰德回應叫她不要擔心。後來我們才想起他有私人專機,我和馬女士在電話裡大笑了足足二分鐘之久!
+
+雖然我和泰德和比爾在我们的人生道路上只有短暫的相遇,但是我永遠不能忘記這個片子背後的故事。世界上有多少人會像泰徳一樣,真切的感受到南京大屠殺時國際安全區內的人道主義者的犧牲?又有多少人會願意拿出資金拍電影來宣傳這段歷史?回想起泰德說純如的眼睛一直望著他,並牢牢的扣住了他的心靈。這是宗教信仰中的所謂"奇蹟"? 還是科學裡説的心電感應?是偶然呢?是緣份嗎?還是只有有心人才可能抓住那神秘的瞬間?這是一個在這個世界上永遠無法解釋的現象!
+
+* 張盈盈是張纯如的母親。哈佛大學生物化學博士,伊利諾伊州大學微生物系研究副教授(退休)。2011年出版對愛女張純如的英語回憶錄"The Woman Who Could Not Forget",其中文翻譯本《張纯如: 無法忘卻歷史的女子》(簡體與繁體)于2012年出版
