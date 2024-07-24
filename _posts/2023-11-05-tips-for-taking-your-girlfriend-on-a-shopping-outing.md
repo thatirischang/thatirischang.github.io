@@ -4,7 +4,7 @@ title: 紀錄片"南京"背後的故事
 description: -- 與美國億萬富豪泰德.里昂塞斯(Ted Leonsis) 和大導演比爾.古頓塔格(Bill Guttentag)相遇
 date: 2023-11-05 15:01:35 +0300
 author: admin
-image: '/images/25.jpg'
+image: '/images/162.png'
 tags: [張盈盈專欄]
 ---
 張盈盈
