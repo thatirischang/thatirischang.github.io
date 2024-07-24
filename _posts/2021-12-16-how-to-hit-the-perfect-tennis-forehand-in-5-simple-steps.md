@@ -7,37 +7,26 @@ author: admin
 image: '/images/26.jpg'
 tags: [熱點]
 ---
-Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor.
+封面新聞記者 荀超 吳德玉
 
-Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam.
+近日，上海震旦職業學院東方電影學院教師宋某某，在課堂上就南京大屠殺公開發表錯誤言論，誤導學生，引發全網關注。12月16日晚，上海震旦職業學院發佈“情況通報”，給予宋某某開除處分。
 
-## Quality Sport Programs
+<center><img src="https://thatirischang.github.io/images/19.jpg" title="test"></center>
+<br>
 
-Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+該“情況通報”稱：“經我校調查核實，東方電影學院教師宋某某於2021年12月14日下午《新聞採訪》課程中發表錯誤言論，造成重大教學事故和嚴重不良社會影響，根據《上海震旦職業學院關於教學事故認定及處理的辦法》和《上海震旦職業學院教職工處分暫行規定》，給予其開除處分。”
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/34.jpg" loading="lazy">
-    <img src="/images/35.jpg" loading="lazy">
-    <img src="/images/36.jpg" loading="lazy">
-  </div>
-  <em>Gallery / <a href="https://www.pexels.com" target="_blank">Pexels</a></em>
-</div>
+並表示，“我校高度重視師德師風建設，舉一反三抓好抓實教育教學管理，嚴肅課堂政治紀律和行為準則，對違規違紀的行為始終堅持‘零容忍’態度，一經查實，絕不姑息。”
 
-Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+該“情況通報”稱：“經我校調查核實，東方電影學院教師16日晚，封面新聞記者採訪到“張純如紀念工作室”，針對宋某某的錯誤言論，工作室表示錯愕與遺憾：“在國家公祭日舉國上下同悼南京大屠殺死難者之時，宋某某竟然公開在課堂上質疑南京大屠殺死亡人數，甚至說出‘無名無姓，沒有身份犧牲的民眾不作數’這樣的言辭，無疑是為日本軍國主義侵略罪行進行無理辯護。”
 
-Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam.
+據瞭解，張純如女士在1995年1月為攥寫《南京暴行：被遺忘的大屠殺》一書，前往美國國會圖書館及耶魯大學神學院圖書館收集資料，後來又於1995年7月，獨自一人來南京實地採訪大屠殺的倖存者。“純如在寫作過程中最感到痛苦的，就是閱讀一件又一件日軍殘殺中國民眾的悲慘案例。”
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+1937年至1938年間，日軍在南京用難以言喻的暴虐手段，殺害、凌虐、姦淫大量無辜民眾，張純如讀到的事例不下數百則。“她常常看到深夜，似乎回到了當年屠殺現場，這種令人窒息的壓抑感讓她難以自拔。有時她不得不從書案前抽身而起，深深呼吸，即使如此，她依然覺得那些殘酷的場面縈繞腦海，揮之不去。記得有一次張媽媽問她，‘還繼續嗎？’她說，‘我現在所受的痛苦，無法與那些受難者比擬，我要拯救那些在黑暗中被遺忘的人，為那些暗啞無聲的人發言’。”
 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa.
+張純如女士
 
-* Etiam ultrices. Suspendisse in justo massa fusce non.
-* Sed non quam. In vel mi sit amet augue congue elementum.
-* Suspendisse in justo eu magna luctus suscipit sed lectus.
-* Quisque volutpat condimentum velit class aptent taciti sociosqu torquent.
-* Aenean lectus elit fermentum non convallis id sagittis at neque.
+張純如母親張盈盈表示:“《南京暴行：被遺忘的大屠殺》這一本書是想告示整個世界，我們要努力地發掘歷史真相，主持正義，維護真理。”張純如紀念工作室還告訴記者，“我們近期在網絡上也看到，有中國臺灣的博主在做有關國家公祭日的調研，詢問中國臺灣年輕人是否知道1937年12月13日這天發生過什麼事情，他們認為日本人需要道歉嗎？然而調研結果令人十分的遺憾。”
 
-Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien.
+張純如紀念工作室認為：“從這兩件事情來看，對後代年輕人進行正確的歷史觀教育，顯得十分重要。如何使中國年輕人樹立正確的歷史觀，如何讓日本政府真誠地道歉，這是目前及今後相當長的時期內，全社會共同要做的事情。一定要記住，勿忘歷史，因為遺忘就是第二次屠殺。對於宋某某的行為，學校不僅要嚴肅處理，也要對她進行歷史觀的教育。張純如紀念工作室每個月都會贈送張純如的書籍給社會大眾，我們也可以贈送一本純如的《南京暴行：被遺忘的大屠殺》給這位教師。”
 
-Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus.
