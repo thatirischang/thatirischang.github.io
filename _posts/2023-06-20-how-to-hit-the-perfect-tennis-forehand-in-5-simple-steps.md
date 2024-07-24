@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Hit The Perfect Tennis Forehand in 5 Simple Steps
+title: 封面獨家｜課堂發表錯誤言論教師被開除 張純如工作室：勿忘曆史，因為遺忘就是第二次“屠殺”
 description: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.
 date: 2023-06-20 15:01:35 +0300
 author: livia
