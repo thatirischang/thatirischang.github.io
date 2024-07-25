@@ -5,6 +5,7 @@ description: 张纯如工作室近日接受南京艺术学院学生的专题采�
 date: 2024-07-24 15:01:35 +0300
 author: admin
 image: '/images/WechatIMG96.jpg'
+video_embed: https://www.youtube.com/embed/GM-e2qiustk
 tags: [專訪]
 ---
 
