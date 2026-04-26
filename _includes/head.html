@@ -10,6 +10,20 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <link rel="icon" href="{{site.baseurl}}/images/favicon.ico" />
 
+  {%- comment -%}
+    hreflang for the 5 language homepages. Tells Google these are equivalent
+    pages in different languages. Phase 3 will extend hreflang to per-post
+    counterparts (/en/posts/<slug>/ etc.).
+  {%- endcomment -%}
+  {% if page.url == '/' or page.url == '/en/' or page.url == '/ja/' or page.url == '/de/' or page.url == '/fr/' %}
+  <link rel="alternate" hreflang="zh-Hant" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
+  <link rel="alternate" hreflang="ja" href="{{ '/ja/' | absolute_url }}">
+  <link rel="alternate" hreflang="de" href="{{ '/de/' | absolute_url }}">
+  <link rel="alternate" hreflang="fr" href="{{ '/fr/' | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+  {% endif %}
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.title }}{% else %}{{ page.title }} – {{ site.data.settings.title }}{% endif %}">

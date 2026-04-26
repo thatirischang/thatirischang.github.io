@@ -1,3 +1,15 @@
+{%- comment -%}
+  i18n bootstrap:
+    lang     = page.lang(由 _config.yml defaults 注入)| 'zh' fallback
+    t        = 当前语言的 chrome 字符串
+    t_zh     = 繁中字典(用作 fallback,Phase 2 之前 en/ja/de/fr 多数字段为空)
+    prefix   = 路径前缀('' 给 zh,'/en' 给 en,等)
+{%- endcomment -%}
+{%- assign lang = page.lang | default: 'zh' -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign t_zh = site.data.i18n.zh -%}
+{%- if lang == 'zh' -%}{%- assign prefix = '' -%}{%- else -%}{%- assign prefix = '/' | append: lang -%}{%- endif -%}
+
 <!-- begin header -->
 <header class="header">
   <div class="container-big">
@@ -5,7 +17,7 @@
       <div class="header__inner col col-12">
 
         <div class="logo">
-          <a class="logo__link" href="{{ site.baseurl }}/">
+          <a class="logo__link" href="{{ site.baseurl }}{% if lang == 'zh' %}/{% else %}{{ prefix }}/{% endif %}">
           {% if site.data.settings.logo or site.data.settings.logo_dark %}
             <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
             <img class="logo__image__dark" src="{{ site.baseurl }}{{ site.data.settings.logo_dark }}" alt="{{ site.data.settings.title }}">
@@ -24,9 +36,23 @@
             <ul class="nav__list list-reset">
 
               {% for item in site.data.settings.menu_settings.menu_items %}
+              {%- comment -%} lang-prefix the URL: '/' -> '/en/', '/about/' -> '/en/about/' (zh stays as-is) {%- endcomment -%}
+              {%- if lang == 'zh' -%}
+                {%- assign nav_url = item.url -%}
+              {%- elsif item.url == '/' -%}
+                {%- assign nav_url = prefix | append: '/' -%}
+              {%- else -%}
+                {%- assign nav_url = prefix | append: item.url -%}
+              {%- endif -%}
+              {%- comment -%} look up label in i18n by item.key, fall back to zh, then to YAML title {%- endcomment -%}
+              {%- if item.key -%}
+                {%- assign nav_label = t.nav[item.key] | default: t_zh.nav[item.key] | default: item.title -%}
+              {%- else -%}
+                {%- assign nav_label = item.title -%}
+              {%- endif -%}
               {% if item.submenu %}
               <li class="nav__item dropdown">
-                <span class="nav__link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
+                <span class="nav__link dropdown-toggle">{{ nav_label }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
                 <div class="dropdown-menu">
                 {% for submenu-item in item.submenu %}
                   <a href="{{ submenu-item.url }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
@@ -35,7 +61,7 @@
               </li>
               {% else %}
               <li class="nav__item">
-                <a href="{{ item.url | relative_url }}" class="nav__link{% if page.url == item.url %} active-link{% endif %}">{{ item.title }}</a>
+                <a href="{{ nav_url | relative_url }}" class="nav__link{% if page.url == nav_url %} active-link{% endif %}">{{ nav_label }}</a>
               </li>
               {% endif %}
               {% endfor %}
@@ -44,12 +70,22 @@
           </div>
 
           <div class="nav-button">
+            {%- comment -%} Language switcher — sits LEFT of Search per design spec.
+                            Native-name labels(no flag emojis,题材太严肃). {%- endcomment -%}
+            <div class="lang-switcher" role="navigation" aria-label="Language">
+              <a href="{{ '/' | relative_url }}" class="lang-link{% if lang == 'zh' %} lang-link--active{% endif %}" hreflang="zh-Hant" lang="zh-Hant">繁體</a>
+              <a href="{{ '/en/' | relative_url }}" class="lang-link{% if lang == 'en' %} lang-link--active{% endif %}" hreflang="en" lang="en">EN</a>
+              <a href="{{ '/ja/' | relative_url }}" class="lang-link{% if lang == 'ja' %} lang-link--active{% endif %}" hreflang="ja" lang="ja">日本語</a>
+              <a href="{{ '/de/' | relative_url }}" class="lang-link{% if lang == 'de' %} lang-link--active{% endif %}" hreflang="de" lang="de">Deutsch</a>
+              <a href="{{ '/fr/' | relative_url }}" class="lang-link{% if lang == 'fr' %} lang-link--active{% endif %}" hreflang="fr" lang="fr">Français</a>
+            </div>
+
             <div class="search-button">
               <i class="search-button__icon ion ion-md-search"></i>
-              <span class="search-button__text">Search</span>
+              <span class="search-button__text">{{ t.search | default: t_zh.search | default: 'Search' }}</span>
             </div>
             {% if site.data.settings.cta_button.enable == true %}
-            <a href="{% if site.data.settings.cta_button.cta_button_link %}{{ site.data.settings.cta_button.cta_button_link }}{% else %}#{% endif %}" target="_blank" rel="noopener noreferrer" class="button cta-button">{{ site.data.settings.cta_button.cta_button_text }}</a>
+            <a href="{% if site.data.settings.cta_button.cta_button_link %}{{ site.data.settings.cta_button.cta_button_link }}{% else %}#{% endif %}" target="_blank" rel="noopener noreferrer" class="button cta-button">{{ t.cta_ai | default: t_zh.cta_ai | default: site.data.settings.cta_button.cta_button_text }}</a>
             {% endif %}
           </div>
         </nav>

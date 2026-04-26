@@ -14,8 +14,12 @@
       </a>
     </div>
 
-    {% if site.data.settings.footer_description %}
-    <p class="widget-footer__desc">{{site.data.settings.footer_description}}</p>
+    {%- assign lang = page.lang | default: 'zh' -%}
+    {%- assign t = site.data.i18n[lang] -%}
+    {%- assign t_zh = site.data.i18n.zh -%}
+    {%- assign footer_desc = t.footer_description | default: t_zh.footer_description | default: site.data.settings.footer_description -%}
+    {% if footer_desc %}
+    <p class="widget-footer__desc">{{ footer_desc }}</p>
     {% endif %}
 
     {% if site.data.settings.social %}

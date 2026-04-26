@@ -23,32 +23,73 @@ collections:
   authors:
     output: true
     permalink: /:name
+  # 多語言子站(每語對應一位母語文學大師之筆法)
+  en:
+    output: true
+    permalink: /en/:path/
+  ja:
+    output: true
+    permalink: /ja/:path/
+  de:
+    output: true
+    permalink: /de/:path/
+  fr:
+    output: true
+    permalink: /fr/:path/
 # Pages Path
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
+      lang: "zh"
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
+      lang: "zh"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+      lang: "zh"
   - scope:
       path: ""
       type: "authors"
     values:
       layout: "author"
+      lang: "zh"
   - scope:
       path: "tag"
       type: "pages"
     values:
       layout: "tag"
+  - scope:
+      path: ""
+      type: "en"
+    values:
+      layout: "post"
+      lang: "en"
+  - scope:
+      path: ""
+      type: "ja"
+    values:
+      layout: "post"
+      lang: "ja"
+  - scope:
+      path: ""
+      type: "de"
+    values:
+      layout: "post"
+      lang: "de"
+  - scope:
+      path: ""
+      type: "fr"
+    values:
+      layout: "post"
+      lang: "fr"
 sass:
   sass_dir: _sass
   style: compressed

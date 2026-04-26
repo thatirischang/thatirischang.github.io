@@ -13,10 +13,13 @@ menu_settings:
   menu_items:
     - title: "首頁"
       url: "/"
+      key: home
     - title: "視音"
       url: "/videos/"
+      key: videos
     - title: "張純如工作室"
       url: "/about/"
+      key: about
 
 
 

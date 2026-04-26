@@ -286,6 +286,39 @@
   align-items: center;
   margin-left: auto;
 
+  .lang-switcher {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    font-size: 14px;
+    line-height: 1;
+
+    .lang-link {
+      color: var(--link-color);
+      text-decoration: none;
+      padding: 0 8px;
+      border-right: 1px solid var(--border-color, rgba(0, 0, 0, 0.15));
+      opacity: 0.7;
+      transition: opacity 0.15s ease;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      &:hover {
+        opacity: 1;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+    }
+
+    .lang-link--active {
+      opacity: 1;
+      font-weight: 600;
+    }
+  }
+
   .search-button {
     display: flex;
     align-items: center;
@@ -319,6 +352,12 @@
   @media (max-width: $desktop) {
     flex-direction: column;
     align-items: end;
+
+    .lang-switcher {
+      margin-right: 0;
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
 
     .search-button {
       padding-top: 7px;

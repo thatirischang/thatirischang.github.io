@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+{%- assign page_lang = page.lang | default: 'zh' -%}
+{%- if page_lang == 'zh' -%}{%- assign html_lang = 'zh-Hant' -%}{%- else -%}{%- assign html_lang = page_lang -%}{%- endif -%}
+<html lang="{{ html_lang }}">
 
 {% include head.html %}
 

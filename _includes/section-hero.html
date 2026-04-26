@@ -1,3 +1,9 @@
+{%- assign lang = page.lang | default: 'zh' -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign t_zh = site.data.i18n.zh -%}
+{%- assign hero_title = t.hero_title | default: t_zh.hero_title -%}
+{%- assign hero_description = t.hero_description | default: t_zh.hero_description -%}
+
 {% if site.data.settings.hero.enable == true %}
 <!-- begin hero -->
 <section class="hero">
@@ -5,12 +11,12 @@
     <div class="row">
       <div class="col col-12">
         <div class="hero__inner">
-          {{ if site.data.settings.hero.hero_title }}
-          <h1 class="hero__title">{{ site.data.settings.hero.hero_title }}</h1>
-          {{ end }}
-          {{ if site.data.settings.hero.hero_description }}
-          <p class="hero__description">{{ site.data.settings.hero.hero_description }}</p>
-          {{ end }}
+          {% if hero_title %}
+          <h1 class="hero__title">{{ hero_title }}</h1>
+          {% endif %}
+          {% if hero_description %}
+          <p class="hero__description">{{ hero_description }}</p>
+          {% endif %}
         </div>
       </div>
     </div>
