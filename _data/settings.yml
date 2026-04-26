@@ -17,10 +17,18 @@ menu_settings:
       url: "/videos/"
     - title: "張純如工作室"
       url: "/about/"
-  
-  
 
-  
+
+
+
+
+
+#-------------------------------
+# CTA Button (right side of nav)
+cta_button:
+  enable: true
+  cta_button_text: 張純如AI
+  cta_button_link: https://ai.irischanglabs.com/
 
 
 #-------------------------------

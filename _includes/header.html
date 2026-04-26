@@ -49,7 +49,7 @@
               <span class="search-button__text">Search</span>
             </div>
             {% if site.data.settings.cta_button.enable == true %}
-            <a href="{% if site.data.settings.cta_button.cta_button_link %}{{ site.data.settings.cta_button.cta_button_link }}{% else %}#{% endif %}" class="button cta-button">{{ site.data.settings.cta_button.cta_button_text }}</a>
+            <a href="{% if site.data.settings.cta_button.cta_button_link %}{{ site.data.settings.cta_button.cta_button_link }}{% else %}#{% endif %}" target="_blank" rel="noopener noreferrer" class="button cta-button">{{ site.data.settings.cta_button.cta_button_text }}</a>
             {% endif %}
           </div>
         </nav>
