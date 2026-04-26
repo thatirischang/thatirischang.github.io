@@ -68,7 +68,6 @@ footer_description: 人其實是死兩次：一次是肉體的死亡，一次是
 social:
 - {icon: "twitter", link: "https://x.com/irischangstudio"}
 - {icon: "facebook", link: "https://www.facebook.com/irischangstudio/"}
-- {icon: "pinterest", link: "https://pinterest.com"}
 - {icon: "youtube", link: "https://www.youtube.com/@irischangstudio"}
 
 # Example of adding a new link to the footer - {icon: "instagram", link: "https://instagram.com"}
@@ -77,9 +76,10 @@ social:
 
 #-------------------------------
 # Newsletter Settings
+# TODO: 启用前请先在 Mailchimp 注册 list 并把 form action URL 写入 _includes/footer.html
 mailchimp_settings:
-  enable: true
-  mailchimp_title: 
+  enable: false
+  mailchimp_title:
   mailchimp_description: 從我的作家生涯中我領悟到，聽從自己的心聲和內在激情，努力創造擁有永久價值的東西，這才是通向成功的不二法門。很多時候，這意味著獨闢蹊徑。
  
 
@@ -93,9 +93,12 @@ mailchimp_settings:
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus_identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+# TODO: 在 https://disqus.com/admin/create/ 注册自己的 shortname 后填回这里启用评论。
+# 之前的值 anvod-studio-test 是主题示例,会指向他人测试站,故已停用。
+disqus_identifier:
 
 
 #-------------------------------
 # Google Analytics
-google_analytics: # Add your GA Tracking Id
+# TODO: 在 https://analytics.google.com 创建 GA4 property,把 Measurement ID(G-XXXXXXXXXX)填这里。
+google_analytics:
