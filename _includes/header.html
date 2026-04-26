@@ -36,8 +36,10 @@
             <ul class="nav__list list-reset">
 
               {% for item in site.data.settings.menu_settings.menu_items %}
-              {%- comment -%} lang-prefix the URL: '/' -> '/en/', '/about/' -> '/en/about/' (zh stays as-is) {%- endcomment -%}
-              {%- if lang == 'zh' -%}
+              {%- comment -%} lang-prefix the URL: '/' -> '/en/', '/about/' -> '/en/about/'
+                              cross_lang items(如 videos)在所有语言下都用同一 URL,不前缀
+                              zh 页面始终用原 URL {%- endcomment -%}
+              {%- if lang == 'zh' or item.cross_lang -%}
                 {%- assign nav_url = item.url -%}
               {%- elsif item.url == '/' -%}
                 {%- assign nav_url = prefix | append: '/' -%}

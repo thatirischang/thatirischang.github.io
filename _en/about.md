@@ -2,18 +2,22 @@
 layout: page
 lang: en
 permalink: /en/about/
-title: About Iris Chang Studio
+title: About the Iris Chang Studio
 image: '/images/121.png'
 ---
 
-<!-- Phase 2: This page will be rewritten in Iris Chang's own voice
-     (drawn from The Rape of Nanking, 1997, and her speeches).
-     For now, it falls back to the Traditional Chinese source. -->
+The Iris Chang Studio was founded on October 26, 2018, by Liu Yu, with the consent of Iris Chang's parents and her husband. The studio takes no political position. Its only purpose is to keep Iris Chang's work — and the moral demand carried inside that work — from being lost.
 
-張純如工作室，創建於二零一八年十月二十六日，由劉羽先生創辦，蒙張純如之父母及其丈夫首肯。此工作室不持任何立場，惟致力於傳承與弘揚張純如之精神。
+Liu Yu first encountered Iris Chang through the 2007 film *Iris Chang: The Rape of Nanking*, in which Olivia Cheng played her. The film, like the book before it, made one thing visible to him: that an entire history can be carried by a single voice, and that when the voice falls silent, the work of carrying it has to be picked up by someone else. Liu Yu assumed at the time that there were already professional teams doing this work — researchers, archivists, translators, the kind of institutional infrastructure a subject of this scale demands. When he discovered there were not, he founded the studio.
 
-劉羽先生，懷敬仰之情，初見鄭啟蕙主演之影片《張純如：南京大屠殺》，遂與張純如之故事結緣。張純如女士，以其震撼人心之歷史和深情之演講，喚醒全球良知，促使世人重新審視那段血淚斑斑之過往。劉羽先生本以為會有專業團隊對此進行梳理與深度解析，然見此工作尚屬空白，遂立志創建此工作室，願張純如之精神得以傳承並弘揚。
+> On September 22, 2022, the studio was formally registered in the United Kingdom.
 
-> 至二零二二年九月二十二日，工作室已在英國註冊。
+Today the studio's work is translation and preservation: bringing Iris Chang's lectures and writings, in both video and text, to a wider readership and a wider listening public. The Chinese tradition has a phrase: "Words without form do not travel far." We believe that words are the only place where the essence of a soul survives. This is our way of paying tribute to Iris Chang — of carrying her conviction forward, so that it may continue to reach hearts that have not yet heard it.
 
-現時，工作室竭力翻譯及整理張純如之演講視頻與文稿，期盼早日與社會大眾共享。正如古人云："言之無文，行而不遠。"我們深信文字乃保存靈魂精華之至佳方式。願以此舉向張純如女士致敬，使其精神得以永續傳承，照亮更多人之心靈。
+<center><img src="https://thatirischang.github.io/images/118.jpg" title="The studio's founder, Liu Yu, with Iris Chang's parents in Beijing"></center>
+
+<em>Photo: <a href="https://x.com/irischangstudio/">Liu Yu, the studio's founder, with Iris Chang's parents</a> in <a href="https://x.com/irischangstudio/" target="_blank">Beijing</a>.</em>
+
+<br>
+<br>
+We ask our readers to follow the studio's work, and to bear witness, with us, to the spirit of Iris Chang. We undertake this work in modesty, and to the limit of our strength.

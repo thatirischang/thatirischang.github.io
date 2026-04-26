@@ -6,14 +6,18 @@ title: À propos du Studio Iris Chang
 image: '/images/121.png'
 ---
 
-<!-- Phase 2 : Cette page sera réécrite dans la voix de Marguerite Yourcenar
-     (à la manière des Mémoires d'Hadrien). Pour l'instant elle retombe sur
-     le texte chinois traditionnel d'origine. -->
+Le Studio Iris Chang fut fondé le 26 octobre 2018, à l'initiative de M. Liu Yu, avec l'assentiment des parents d'Iris Chang et de son époux. Il ne soutient aucune cause politique. Son unique propos est de préserver l'œuvre d'Iris Chang — et l'exigence morale qui en est le fondement — de cette dissolution lente que le temps réserve aux choses les plus précieuses.
 
-張純如工作室，創建於二零一八年十月二十六日，由劉羽先生創辦，蒙張純如之父母及其丈夫首肯。此工作室不持任何立場，惟致力於傳承與弘揚張純如之精神。
+M. Liu Yu, plein d'une déférence presque religieuse, fit la connaissance d'Iris Chang par l'entremise d'un film — celui qu'Olivia Cheng interpréta, et qui porte pour titre *Iris Chang : Le Viol de Nankin*. Iris Chang, par la véracité poignante de son récit historique et par le feu intérieur dont brûlaient ses paroles, a éveillé la conscience du monde ; elle a contraint ses contemporains à se retourner vers ces heures sanglantes, restées trop longtemps en marge des consciences. M. Liu Yu, croyant d'abord qu'une telle entreprise eût déjà occupé des équipes entières de chercheurs, ne se résolut à fonder ce studio que lorsqu'il s'aperçut qu'aucune main, jusqu'alors, ne s'y était posée. Il l'éleva dans l'espoir que l'esprit d'Iris Chang, transmis et propagé, trouve quelque jour son chemin dans le cœur d'autres êtres encore.
 
-劉羽先生，懷敬仰之情，初見鄭啟蕙主演之影片《張純如：南京大屠殺》，遂與張純如之故事結緣。張純如女士，以其震撼人心之歷史和深情之演講，喚醒全球良知，促使世人重新審視那段血淚斑斑之過往。劉羽先生本以為會有專業團隊對此進行梳理與深度解析，然見此工作尚屬空白，遂立志創建此工作室，願張純如之精神得以傳承並弘揚。
+> Le 22 septembre 2022, le studio fut officiellement enregistré au Royaume-Uni.
 
-> 至二零二二年九月二十二日，工作室已在英國註冊。
+Aujourd'hui, le travail du studio est de patience : il consiste à traduire et à conserver — à porter les conférences, les enregistrements, les écrits d'Iris Chang vers un public plus large d'auditeurs et de lecteurs. Une vieille parole chinoise dit : « Les mots sans forme ne vont pas loin. » Nous croyons, pour notre part, que la parole écrite est la seule chose qui sache préserver, après nous, la part essentielle d'une âme. Tel est notre humble hommage à Iris Chang ; telle est notre manière de prolonger son œuvre — afin qu'elle parvienne encore à ceux qui ne l'ont jamais entendue, et que ceux-ci, l'ayant entendue, ne puissent plus jamais l'oublier.
 
-現時，工作室竭力翻譯及整理張純如之演講視頻與文稿，期盼早日與社會大眾共享。正如古人云："言之無文，行而不遠。"我們深信文字乃保存靈魂精華之至佳方式。願以此舉向張純如女士致敬，使其精神得以永續傳承，照亮更多人之心靈。
+<center><img src="https://thatirischang.github.io/images/118.jpg" title="M. Liu Yu, fondateur du studio, auprès des parents d'Iris Chang, à Pékin"></center>
+
+<em>Photographie : <a href="https://x.com/irischangstudio/">M. Liu Yu, fondateur du studio, en compagnie des parents d'Iris Chang</a>, à <a href="https://x.com/irischangstudio/" target="_blank">Pékin</a>.</em>
+
+<br>
+<br>
+Nous prions le lecteur d'accompagner le travail du studio, et de témoigner avec nous de l'esprit d'Iris Chang. Nous l'entreprenons avec la plus humble réserve, et selon la mesure de nos forces.

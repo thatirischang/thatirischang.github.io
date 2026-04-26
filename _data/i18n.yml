@@ -1,14 +1,12 @@
 # --------------------------------------------------------------------------
 # 多语言 chrome 字符串字典
 #
-# 设计原则:
-#   - zh(繁中)是 source of truth,所有 fallback 走 zh
-#   - en / ja / de / fr 在 Phase 2 voice calibration 通过后才填入文学化译文
-#   - 在此之前留空,Liquid 模板用 `default:` filter 自动回退到 zh
+# 每种语言以一位母语作家的笔法、文笔、逻辑、母语者表达为基础重写,
+# 不是翻译,是请那位作家替工作室开口。
 #
 # Voice 映射:
 #   en  -> Iris Chang 本人(《The Rape of Nanking》之笔)
-#   ja  -> 大江健三郎(晚年随笔之笔)
+#   ja  -> 大江健三郎(晚年随筆之笔)
 #   de  -> Stefan Zweig(《Die Welt von Gestern》之笔)
 #   fr  -> Marguerite Yourcenar(《Mémoires d'Hadrien》之笔)
 # --------------------------------------------------------------------------
@@ -28,66 +26,66 @@ zh:
   about_title: 張純如工作室簡介
   language_label: 繁體
 
-# ===== Phase 2 待填(Iris Chang voice)=====
+# ===== Iris Chang voice =====
 en:
-  hero_title:
-  hero_description:
+  hero_title: One Voice Can Change What History Remembers
+  hero_description: Words are the only place where the essence of a soul survives. What moves me most about a speech is this — that the speaker may have been gone for years, may already lie underground, and yet the voice goes on. To me, that is the only kind of religion I know, and the truest form of life after death.
   nav:
-    home:
-    videos:
-    about:
+    home: Home
+    videos: Voices
+    about: The Studio
   cta_ai: Iris Chang AI
   search: Search
-  footer_description:
+  footer_description: A person dies twice — first in the body, and again when their memory is allowed to vanish from those who remain.
   read_more: Read more
   back_to_top: Back to top
-  about_title:
+  about_title: About the Iris Chang Studio
   language_label: English
 
-# ===== Phase 2 待填(大江健三郎 voice)=====
+# ===== 大江健三郎 voice =====
 ja:
-  hero_title:
-  hero_description:
+  hero_title: ひとりの人間の力を、私は信じる
+  hero_description: 言葉のみが――すなわち書きとめられた言葉のみが――ひとつの魂のもっとも深い部分を、忘却という、われわれの世紀がもっとも残酷に行使するあの力から守りうる。私が講演というものに深く動かされるのは、まさにこの一点においてである。語る者がすでに地下に眠り、長い沈黙のなかにあっても、その精神はなお存続する――それが、私にとっての唯一の宗教であり、不死の最も誠実なかたちであるからだ。
   nav:
-    home:
-    videos:
-    about:
+    home: ホーム
+    videos: 声と映像
+    about: 工作室について
   cta_ai: アイリス・チャンAI
   search: 検索
-  footer_description:
+  footer_description: 人は二度死ぬ。一度は肉体において、もう一度は、生き残った者たちの記憶のなかから、その存在の輪郭が消えていくときに。
   read_more: 続きを読む
   back_to_top: ページの先頭へ
-  about_title:
+  about_title: アイリス・チャン工作室について
   language_label: 日本語
 
-# ===== Phase 2 待填(Stefan Zweig voice)=====
+# ===== Stefan Zweig voice =====
 de:
-  hero_title:
-  hero_description:
+  hero_title: Eine einzige Stimme kann verändern, woran die Geschichte sich erinnert
+  hero_description: Allein das Wort vermag die Essenz einer Seele zu retten. Was mich an einer Rede zutiefst bewegt, ist eben dies — daß der Sprechende, längst hinabgestiegen in das Schweigen des Grabes, dennoch, durch die ihm geliehene Sprache, fortdauert. Darin sehe ich die einzige Religion, zu der ich mich zu bekennen vermag, und die ehrlichste Form jener Unsterblichkeit, die uns Sterblichen zugänglich ist.
   nav:
-    home:
-    videos:
-    about:
+    home: Startseite
+    videos: Stimmen
+    about: Über das Studio
   cta_ai: Iris-Chang-KI
   search: Suche
-  footer_description:
+  footer_description: Der Mensch stirbt zweimal — einmal mit dem Leibe, ein zweites Mal in der Stunde, da sein Andenken aus dem Gedächtnis derer entweicht, die übriggeblieben sind.
   read_more: Weiterlesen
   back_to_top: Nach oben
-  about_title:
+  about_title: Über das Iris-Chang-Studio
   language_label: Deutsch
 
-# ===== Phase 2 待填(Marguerite Yourcenar voice)=====
+# ===== Marguerite Yourcenar voice =====
 fr:
-  hero_title:
-  hero_description:
+  hero_title: Qu'une seule voix puisse infléchir le cours de la mémoire
+  hero_description: Seule la parole écrite garde, après nous, la part essentielle de ce qui fut une âme. Ce qui me touche le plus profondément dans un discours, c'est qu'il puisse continuer à parler longtemps après que celui qui l'a prononcé soit descendu sous la terre — comme si la matière même des mots avait, en se détachant des lèvres, contracté quelque immortalité. Voilà la seule religion à laquelle je consente, et la forme la plus probe de toute survie.
   nav:
-    home:
-    videos:
-    about:
+    home: Accueil
+    videos: Voix
+    about: À propos du Studio
   cta_ai: IA Iris Chang
   search: Rechercher
-  footer_description:
+  footer_description: L'homme meurt deux fois — une première fois dans son corps, une seconde lorsque son souvenir s'efface de la mémoire de ceux qui demeurent.
   read_more: Lire la suite
   back_to_top: Retour en haut
-  about_title:
+  about_title: À propos du Studio Iris Chang
   language_label: Français
