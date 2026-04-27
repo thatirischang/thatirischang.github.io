@@ -155,12 +155,20 @@
 :root[dark] .hero__seal-svg { opacity: 0.24; }
 @media (max-width: 768px) { .hero__seal-svg { width: 72px; height: 72px; top: 18px; right: 18px; } }
 
-.hero__inner { position: relative; }
+.hero__inner {
+  position: relative;
+  text-align: center;
+  padding: 8px 16px 0;
+}
 .hero__title {
   letter-spacing: -0.005em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero__description {
   max-width: 48ch;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 18px;
   line-height: 1.7;
   color: var(--ink-soft);
