@@ -143,8 +143,18 @@
   isolation: isolate;
 }
 .hero {
-  /* Background fill behind contained video — matches paper for seamless letterbox */
   background-color: var(--paper-warm);
+  /* Fixed min-height across 5 langs so video size is consistent regardless of text length */
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .hero { min-height: 480px; }
+}
+@media (max-width: 480px) {
+  .hero { min-height: 420px; }
 }
 .hero__bg {
   position: absolute;
