@@ -29,7 +29,7 @@ permalink: /en/tags/
 
   {% for this_word in tag_words %}
   {%- assign posts_for_tag = lang_posts | where_exp: "p", "p.tags contains this_word" | where_exp: "p", "p.layout == 'post'" -%}
-  <div class="tags__inner is-hidden" tag="{{ this_word | cgi_escape }}">
+  <div class="tags__inner is-hidden" tag="{{ this_word | url_encode }}">
 
       <div class="container">
         <div class="row">

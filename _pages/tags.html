@@ -19,7 +19,7 @@ permalink: /tags/
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
 
-  <div class="tags__inner is-hidden" tag="{{ this_word | cgi_escape }}">
+  <div class="tags__inner is-hidden" tag="{{ this_word | url_encode }}">
 
       <div class="container">
         <div class="row">
