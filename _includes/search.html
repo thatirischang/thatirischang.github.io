@@ -1,3 +1,10 @@
+{%- assign sh_lang = page.lang | default: 'zh' -%}
+{%- assign sh_t = site.data.i18n[sh_lang] -%}
+{%- assign sh_t_zh = site.data.i18n.zh -%}
+{%- if sh_lang == 'zh' -%}{%- assign sh_search_json = '/search.json' -%}{%- else -%}{%- assign sh_search_json = '/' | append: sh_lang | append: '/search.json' -%}{%- endif -%}
+{%- assign sh_search_label = sh_t.search | default: sh_t_zh.search | default: 'Search' -%}
+{%- assign sh_search_placeholder = sh_t.search_placeholder | default: sh_t_zh.search_placeholder | default: 'Type to search...' -%}
+{%- assign sh_no_results = sh_t.no_results | default: sh_t_zh.no_results | default: 'No results found...' -%}
 <!-- begin search -->
 <div class="search">
   <div class="container">
@@ -7,8 +14,11 @@
           <div class="search__group">
             <i class="search-input-icon ion ion-ios-search"></i>
             <i class="icon__search__close ion ion-md-close"></i>
-            <label for="js-search-input" class="screen-reader-text">Search for Blog</label>
-            <input type="text" id="js-search-input" class="search__text" autocomplete="off" placeholder="Type to search...">
+            <label for="js-search-input" class="screen-reader-text">{{ sh_search_label }}</label>
+            <input type="text" id="js-search-input" class="search__text" autocomplete="off"
+                   placeholder="{{ sh_search_placeholder }}"
+                   data-search-json="{{ sh_search_json | relative_url }}"
+                   data-no-results="{{ sh_no_results }}">
           </div>
           <div class="search-results-list" id="js-results-container"></div>
         </div>

@@ -14,6 +14,15 @@
 zh:
   view_all: 查看全部
   recent_posts: 新帖
+  search_placeholder: 輸入文字以搜尋……
+  no_results: 沒有相關結果……
+  date_format: "%Y年%-m月%-d日"
+  page_not_found: 找不到此頁面
+  page_not_found_text: 您所訪問的頁面不存在，可能已被移除或您鍵入的網址有誤。
+  back_to_home: 返回首頁
+  essential_reads_title: 三篇必讀
+  essential_reads_subtitle: 若您剛初識張純如，請從這裡開始
+  timeline_title: 時間軸
   site_title: 張純如工作室
   hero_title: 相信一個人的力量
   hero_description: 文字是保存靈魂精華的唯一方式。演講最令我激動之處在於，即使演講者已然作古，長眠地下，他們的精神依然永存。對我來說，這是真正的宗教——永生的最佳方式。
@@ -40,6 +49,15 @@ en:
       - tag: "Super Iris"
   view_all: View all
   recent_posts: Latest
+  search_placeholder: Type to search…
+  no_results: No results found…
+  date_format: "%B %-d, %Y"
+  page_not_found: Page Not Found
+  page_not_found_text: The page you are looking for does not exist. It may have been moved, or the URL may be misspelled.
+  back_to_home: Back to homepage
+  essential_reads_title: Three to Begin With
+  essential_reads_subtitle: If you have just met Iris Chang, start here.
+  timeline_title: Timeline
   site_title: Iris Chang Studio
   hero_title: History is not what happened — it is what one voice insists on remembering.
   hero_description: Words are the only place where the essence of a soul survives. What moves me most about a speech is this — that the speaker may have been gone for years, may already lie underground, and yet the voice goes on. To me, that is the only kind of religion I know, and the truest form of life after death.
@@ -66,6 +84,15 @@ ja:
       - tag: "スーパー純如"
   view_all: すべて見る
   recent_posts: 最新の記事
+  search_placeholder: 検索ワードを入力してください……
+  no_results: 該当する結果はございません……
+  date_format: "%Y年%-m月%-d日"
+  page_not_found: ページが見つかりません
+  page_not_found_text: お探しのページは存在いたしません。移動されたか、URL の記述に誤りがある可能性がございます。
+  back_to_home: ホームへ戻る
+  essential_reads_title: 三篇、まず読むべきもの
+  essential_reads_subtitle: アイリス・チャンとはじめて出会われる方は、まずこの三篇から。
+  timeline_title: 年表
   site_title: アイリス・チャン・スタジオ
   hero_title: ひとりの人間の力を、私は信じる
   hero_description: 言葉のみが――すなわち書きとめられた言葉のみが――ひとつの魂のもっとも深い部分を、忘却という、われわれの世紀がもっとも残酷に行使するあの力から守りうる。私が講演というものに深く動かされるのは、まさにこの一点においてである。語る者がすでに地下に眠り、長い沈黙のなかにあっても、その精神はなお存続する――それが、私にとっての唯一の宗教であり、不死の最も誠実なかたちであるからだ。
@@ -92,6 +119,15 @@ de:
       - tag: "Super Iris"
   view_all: Alle anzeigen
   recent_posts: Neueste Beiträge
+  search_placeholder: Suchbegriff eingeben…
+  no_results: Keine Ergebnisse gefunden…
+  date_format: "%-d. %B %Y"
+  page_not_found: Seite nicht gefunden
+  page_not_found_text: Die gewünschte Seite konnte nicht gefunden werden. Möglicherweise wurde sie verschoben, oder die URL ist falsch geschrieben.
+  back_to_home: Zur Startseite
+  essential_reads_title: Drei Texte zum Anfang
+  essential_reads_subtitle: Wer Iris Chang noch nicht kennt, beginne mit diesen dreien.
+  timeline_title: Chronik
   site_title: Iris-Chang-Studio
   hero_title: Was ein einziger Mensch zu wirken vermag — und wie selten wir es wagen, daran zu glauben.
   hero_description: Allein das Wort vermag die Essenz einer Seele zu retten. Was mich an einer Rede zutiefst bewegt, ist eben dies — daß der Sprechende, längst hinabgestiegen in das Schweigen des Grabes, dennoch, durch die ihm geliehene Sprache, fortdauert. Darin sehe ich die einzige Religion, zu der ich mich zu bekennen vermag, und die ehrlichste Form jener Unsterblichkeit, die uns Sterblichen zugänglich ist.
@@ -118,6 +154,15 @@ fr:
       - tag: "Super Iris"
   view_all: Tout voir
   recent_posts: Articles récents
+  search_placeholder: Saisir une recherche…
+  no_results: Aucun résultat trouvé…
+  date_format: "%-d %B %Y"
+  page_not_found: Page introuvable
+  page_not_found_text: La page que vous cherchez n'existe pas. Elle a peut-être été déplacée, ou l'URL contient une erreur.
+  back_to_home: Retour à l'accueil
+  essential_reads_title: Trois textes pour commencer
+  essential_reads_subtitle: Si vous découvrez Iris Chang, commencez par ces trois-là.
+  timeline_title: Chronologie
   site_title: Studio Iris Chang
   hero_title: Qu'une seule voix puisse infléchir le cours de la mémoire
   hero_description: Seule la parole écrite garde, après nous, la part essentielle de ce qui fut une âme. Ce qui me touche le plus profondément dans un discours, c'est qu'il puisse continuer à parler longtemps après que celui qui l'a prononcé soit descendu sous la terre — comme si la matière même des mots avait, en se détachant des lèvres, contracté quelque immortalité. Voilà la seule religion à laquelle je consente, et la forme la plus probe de toute survie.

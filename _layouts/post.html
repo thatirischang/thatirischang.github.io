@@ -7,15 +7,20 @@ layout: default
     <div class="col col-10 col-w-12">
       <div class="post__head">
   
+        {%- assign pl_lang = page.lang | default: 'zh' -%}
+        {%- assign pl_t = site.data.i18n[pl_lang] -%}
+        {%- assign pl_t_zh = site.data.i18n.zh -%}
+        {%- if pl_lang == 'zh' -%}{%- assign pl_tag_url_prefix = "" -%}{%- else -%}{%- assign pl_tag_url_prefix = "/" | append: pl_lang -%}{%- endif -%}
+        {%- assign pl_date_format = pl_t.date_format | default: pl_t_zh.date_format | default: "%d %-b, %Y" -%}
         <div class="post__meta">
           {% if page.tags.size >= 1 %}
           <div class="post__tags">
           {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="post__tag">{{ tag }}</a>
+            <a href="{{ site.baseurl }}{{ pl_tag_url_prefix }}/tags/?tag={{ tag | downcase | url_encode }}" class="post__tag">{{ tag }}</a>
           {% endfor %}
           </div>
           {% endif %}
-          <span class="article__date">•<time datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%d %-b, %Y" %}{{ page.date | date: date_format }}</time></span>
+          <span class="article__date">•<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: pl_date_format }}</time></span>
         </div>
   
         {% if page.title %}

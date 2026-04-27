@@ -83,6 +83,10 @@
               <a href="{{ '/fr/' | relative_url }}" class="lang-link{% if lang == 'fr' %} lang-link--active{% endif %}" hreflang="fr" lang="fr">Français</a>
             </div>
 
+            <button type="button" class="theme-toggle" id="js-theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+              <i class="theme-toggle__icon ion ion-md-moon" aria-hidden="true"></i>
+            </button>
+
             <div class="search-button">
               <i class="search-button__icon ion ion-md-search"></i>
               <span class="search-button__text">{{ t.search | default: t_zh.search | default: 'Search' }}</span>

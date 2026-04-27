@@ -112,15 +112,49 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   // =====================
-  // Simple Jekyll Search
+  // Simple Jekyll Search (lang-aware: reads data-search-json + data-no-results from input)
   // =====================
+  var __searchInput = document.getElementById("js-search-input");
+  var __searchJsonUrl = (__searchInput && __searchInput.getAttribute("data-search-json")) || "/search.json";
+  var __searchNoResults = (__searchInput && __searchInput.getAttribute("data-no-results")) || "No results found...";
   SimpleJekyllSearch({
-    searchInput: document.getElementById("js-search-input"),
+    searchInput: __searchInput,
     resultsContainer: document.getElementById("js-results-container"),
-    json: "/search.json",
+    json: __searchJsonUrl,
     searchResultTemplate: '<div class="search-results__item"><a href="{url}" class="search-results__image" style="background-image: url({image})"></a> <a href="{url}" class="search-results__link"><time class="search-results-date" datetime="{date}">{date}</time><div class="search-results-title">{title}</div></a></div>',
-    noResultsText: '<div class="no-results">No results found...</div>'
+    noResultsText: '<div class="no-results">' + __searchNoResults + '</div>'
   });
+
+
+  /* =======================
+  // Dark mode toggle
+  ======================= */
+  (function () {
+    var toggle = document.getElementById("js-theme-toggle");
+    if (!toggle) return;
+    var html = document.documentElement;
+    var icon = toggle.querySelector(".theme-toggle__icon");
+    function setIcon() {
+      if (!icon) return;
+      var isDark = html.classList.contains("dark-mode") || html.hasAttribute("dark");
+      icon.classList.toggle("ion-md-moon", !isDark);
+      icon.classList.toggle("ion-md-sunny", isDark);
+    }
+    setIcon();
+    toggle.addEventListener("click", function () {
+      var isDark = html.classList.contains("dark-mode") || html.hasAttribute("dark");
+      if (isDark) {
+        html.classList.remove("dark-mode");
+        html.removeAttribute("dark");
+        try { localStorage.setItem("theme", "light"); } catch (e) {}
+      } else {
+        html.classList.add("dark-mode");
+        html.setAttribute("dark", "");
+        try { localStorage.setItem("theme", "dark"); } catch (e) {}
+      }
+      setIcon();
+    });
+  })();
 
 
   /* =======================

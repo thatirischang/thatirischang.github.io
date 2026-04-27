@@ -1,0 +1,41 @@
+{%- comment -%}
+  Vertical-axis timeline of Iris Chang and the Studio.
+  Lang-aware via i18n.yml dictionaries; falls back to zh.
+{%- endcomment -%}
+{%- assign tl_lang = page.lang | default: 'zh' -%}
+{%- assign tl_t = site.data.i18n[tl_lang] -%}
+{%- assign tl_t_zh = site.data.i18n.zh -%}
+{%- assign tl_title = tl_t.timeline_title | default: tl_t_zh.timeline_title | default: '時間軸' -%}
+
+{%- case tl_lang -%}
+{%- when 'en' -%}
+  {%- assign tl_events = "1968 · Iris Chang born in Princeton, NJ|1989 · Bachelor in Journalism, University of Illinois|1991 · Master in Writing, Johns Hopkins|1995 · *Thread of the Silkworm* published|1997 · *The Rape of Nanking* — *NYT* bestseller, three months|2003 · *The Chinese in America* published|2004 · Iris Chang dies on November 9, age 36|2011 · Ying-Ying Chang publishes *The Woman Who Could Not Forget*|2018 · Iris Chang Memorial Foundation established|2019 · Iris Chang Park opens, San Jose|2023 · Iris Chang Studio founded" | split: "|" -%}
+{%- when 'ja' -%}
+  {%- assign tl_events = "一九六八年 ―― 純如、ニュージャージー州プリンストンに生まれる|一九八九年 ―― イリノイ大学新聞学科 学士|一九九一年 ―― ジョンズ・ホプキンス大学 ライティング修士|一九九五年 ―― 『中国ミサイルの父 ―― 銭学森の謎』刊行|一九九七年 ―― 『南京大虐殺 ―― 忘れさられた第二次世界大戦のホロコースト』、《ニューヨーク・タイムズ》ベストセラー三か月|二〇〇三年 ―― 『アメリカ華人の歴史』刊行|二〇〇四年 ―― 十一月九日、純如逝去、享年三十六|二〇一一年 ―― 張盈盈、回想録『歴史を忘れえぬ女 ―― 張純如』刊行|二〇一八年 ―― 張純如記念基金 設立|二〇一九年 ―― 張純如記念公園、サンノゼに開園|二〇二三年 ―― 張純如スタジオ 設立" | split: "|" -%}
+{%- when 'de' -%}
+  {%- assign tl_events = "1968 · Iris Chang in Princeton, New Jersey, geboren|1989 · Bachelor in Journalistik, University of Illinois|1991 · Master in Schreiben, Johns Hopkins University|1995 · *Thread of the Silkworm* erscheint|1997 · *Die Vergewaltigung von Nanjing* — *New York Times* Bestseller, drei Monate|2003 · *The Chinese in America* erscheint|2004 · Am 9. November verstirbt Iris Chang, sechsunddreißig Jahre alt|2011 · Ying-Ying Chang veröffentlicht *Die Frau, die die Geschichte nicht vergessen konnte*|2018 · Gründung der Iris Chang Memorial Foundation|2019 · Eröffnung des Iris-Chang-Gedenkparks in San Jose|2023 · Gründung des Iris Chang Studios" | split: "|" -%}
+{%- when 'fr' -%}
+  {%- assign tl_events = "1968 — Iris Chang naît à Princeton, New Jersey|1989 — Diplôme en journalisme, Université de l'Illinois|1991 — Master d'écriture, Université Johns Hopkins|1995 — *Thread of the Silkworm* paraît|1997 — *Le Viol de Nankin* — meilleure vente du *New York Times* trois mois durant|2003 — *The Chinese in America* paraît|2004 — Le 9 novembre, Iris Chang meurt à trente-six ans|2011 — Ying-Ying Chang publie *La femme qui ne pouvait pas oublier l'histoire*|2018 — Fondation de la Iris Chang Memorial Foundation|2019 — Inauguration du Parc Iris Chang à San José|2023 — Création du Studio Iris Chang" | split: "|" -%}
+{%- else -%}
+  {%- assign tl_events = "一九六八 · 純如生於美國新澤西州普林斯頓|一九八九 · 伊利諾大學新聞學士|一九九一 · 約翰·霍普金斯大學寫作碩士|一九九五 · 《中國導彈之父：錢學森之謎》出版|一九九七 · 《南京暴行：被遺忘的大屠殺》登《紐約時報》非小說暢銷榜三個月|二〇〇三 · 《美國華人史》出版|二〇〇四 · 十一月九日，純如離世，享年三十六|二〇一一 · 張盈盈出版《張純如：無法忘卻歷史的女子》|二〇一八 · 張純如紀念基金成立|二〇一九 · 張純如紀念公園於聖荷西揭幕|二〇二三 · 張純如工作室成立" | split: "|" -%}
+{%- endcase -%}
+
+<!-- begin timeline -->
+<section class="section timeline animate">
+  <div class="container">
+    <div class="section__inner">
+      <div class="section__head">
+        <h2 class="section__title">{{ tl_title }}</h2>
+      </div>
+      <ol class="timeline__list">
+        {% for ev in tl_events %}
+        <li class="timeline__item">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <span class="timeline__text">{{ ev | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+</section>
+<!-- end timeline -->

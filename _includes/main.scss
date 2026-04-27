@@ -110,3 +110,89 @@
 @import '4-layouts/authors';
 /* >>>>>>>>>>>>>> :: 4.3-Tags Page <<<<<<<<<<<<<<< */
 @import '4-layouts/tags-page';
+
+/* >>>>>>>>>>>>>> :: 5.1-Iris Studio extras (theme toggle, timeline, essential reads, hero polish) <<<<<<<<<<<<<<< */
+
+/* Theme toggle button */
+.theme-toggle {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 6px 8px;
+  margin-right: 4px;
+  color: var(--text-color);
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1;
+  &:hover { opacity: 0.7; }
+  &__icon { display: inline-block; }
+}
+
+/* Timeline section */
+.timeline {
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-left: 2px solid var(--border-color);
+    padding-left: 24px;
+  }
+  &__item {
+    position: relative;
+    padding: 8px 0;
+    margin-left: 0;
+    font-family: $heading-font-family;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+  }
+  &__dot {
+    position: absolute;
+    left: -32px;
+    top: 16px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--primary-color);
+  }
+  &__text { display: inline-block; }
+}
+
+/* Essential Reads section subtitle */
+.essential-reads {
+  .section__subtitle {
+    color: var(--text-alt-color);
+    font-size: 16px;
+    margin-top: -8px;
+    margin-bottom: 24px;
+    font-style: italic;
+  }
+}
+
+/* Tags page hero — sit it inside the page flow without huge top padding */
+.tags-page__hero {
+  padding-top: 32px;
+  padding-bottom: 24px;
+  .hero__title { margin-bottom: 8px; }
+  .hero__description { font-size: 16px; max-width: 620px; }
+  code {
+    background: var(--background-alt-color);
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+}
+
+/* DE / FR hero polish — long compounds & passé composé titles need tighter leading */
+html[lang="de"] .hero__title,
+html[lang="fr"] .hero__title {
+  line-height: 1.18;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  max-width: 22em;
+}
+
+/* JA hero — Noto Serif JP renders denser; tighten line-height */
+html[lang="ja"] .hero__title { line-height: 1.4; }
+html[lang="ja"] .hero__description { line-height: 1.85; letter-spacing: 0.02em; }

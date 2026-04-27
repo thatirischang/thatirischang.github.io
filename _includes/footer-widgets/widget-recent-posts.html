@@ -2,8 +2,8 @@
 {%- if wrp_lang == 'zh' -%}
   {%- assign wrp_posts = site.posts -%}
 {%- else -%}
-  {%- comment -%} 只取 layout=post 的文档,排除 lang collection 里的 index/about(它们是 default/page layout){%- endcomment -%}
-  {%- assign wrp_posts = site[wrp_lang] | where: 'layout', 'post' -%}
+  {%- comment -%} 只取 layout=post 的文档,然后按日期倒序——newest first {%- endcomment -%}
+  {%- assign wrp_posts = site[wrp_lang] | where: 'layout', 'post' | sort: 'date' | reverse -%}
 {%- endif -%}
 {%- assign wrp_t = site.data.i18n[wrp_lang] -%}
 {%- assign wrp_t_zh = site.data.i18n.zh -%}
@@ -14,7 +14,7 @@
 <div class="col col-4 col-d-12">
   <div class="widget-footer widget-recent-posts">
     <h3 class="widget-title">{{ wrp_recent_label }}</h3>
-    {% for post in wrp_posts limit:2 %}
+    {% for post in wrp_posts limit:6 %}
     <div class="recent-posts">
 
       {% if post.image %}

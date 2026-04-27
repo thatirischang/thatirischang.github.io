@@ -4,6 +4,13 @@ lang: de
 title: Schlagwörter
 permalink: /de/tags/
 ---
+<section class="hero hero--left tags-page__hero">
+  <div class="container">
+    <h1 class="hero__title">Schlagwörter</h1>
+    <p class="hero__description">Beiträge nach Thema gegliedert. Eine Karte auf der Startseite anklicken — oder hierher mit <code>?tag=gedenken</code>, um zu filtern.</p>
+  </div>
+</section>
+
 {%- assign lang_posts = site.de -%}
 {%- assign all_tags = "" | split: "," -%}
 {%- for post in lang_posts -%}

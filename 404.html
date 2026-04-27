@@ -8,9 +8,37 @@ permalink: /404.html
     <div class="col col-12">
       <div class="error">
         <h2 class="error__title">404</h2>
-        <p class="error__text">The requested page could not be found.</p>
-        <a class="button button--big" href="/">Back to homepage</a>
+        <p class="error__text" id="error-text">The requested page could not be found.</p>
+        <a class="button button--big" id="error-home-link" href="/">Back to homepage</a>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  (function () {
+    var path = window.location.pathname || "/";
+    var lang = "zh";
+    if (/^\/en(\/|$)/.test(path)) lang = "en";
+    else if (/^\/ja(\/|$)/.test(path)) lang = "ja";
+    else if (/^\/de(\/|$)/.test(path)) lang = "de";
+    else if (/^\/fr(\/|$)/.test(path)) lang = "fr";
+
+    var dict = {
+      zh: { title: "找不到此頁面", text: "您所訪問的頁面不存在，可能已被移除或您鍵入的網址有誤。", back: "返回首頁", home: "/" },
+      en: { title: "Page Not Found", text: "The page you are looking for does not exist. It may have been moved, or the URL may be misspelled.", back: "Back to homepage", home: "/en/" },
+      ja: { title: "ページが見つかりません", text: "お探しのページは存在いたしません。移動されたか、URL の記述に誤りがある可能性がございます。", back: "ホームへ戻る", home: "/ja/" },
+      de: { title: "Seite nicht gefunden", text: "Die gewünschte Seite konnte nicht gefunden werden. Möglicherweise wurde sie verschoben, oder die URL ist falsch geschrieben.", back: "Zur Startseite", home: "/de/" },
+      fr: { title: "Page introuvable", text: "La page que vous cherchez n'existe pas. Elle a peut-être été déplacée, ou l'URL contient une erreur.", back: "Retour à l'accueil", home: "/fr/" }
+    };
+    var d = dict[lang];
+    document.title = d.title + " — " + ({zh:"張純如工作室",en:"Iris Chang Studio",ja:"アイリス・チャン・スタジオ",de:"Iris-Chang-Studio",fr:"Studio Iris Chang"}[lang]);
+    document.documentElement.setAttribute("lang", lang === "zh" ? "zh-Hant" : lang);
+    var titleEl = document.querySelector(".error__title");
+    var textEl = document.getElementById("error-text");
+    var linkEl = document.getElementById("error-home-link");
+    if (titleEl) { titleEl.insertAdjacentHTML("afterend", "<h3 class=\"error__subtitle\">" + d.title + "</h3>"); }
+    if (textEl) textEl.textContent = d.text;
+    if (linkEl) { linkEl.textContent = d.back; linkEl.setAttribute("href", d.home); }
+  })();
+</script>
