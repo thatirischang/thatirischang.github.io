@@ -8,6 +8,7 @@
 {%- assign lang = page.lang | default: 'zh' -%}
 {%- assign t = site.data.i18n[lang] -%}
 {%- assign t_zh = site.data.i18n.zh -%}
+{%- assign site_title = t.site_title | default: t_zh.site_title | default: site.data.settings.title -%}
 {%- if lang == 'zh' -%}{%- assign prefix = '' -%}{%- else -%}{%- assign prefix = '/' | append: lang -%}{%- endif -%}
 
 <!-- begin header -->
@@ -19,8 +20,8 @@
         <div class="logo">
           <a class="logo__link" href="{{ site.baseurl }}{% if lang == 'zh' %}/{% else %}{{ prefix }}/{% endif %}">
           {% if site.data.settings.logo or site.data.settings.logo_dark %}
-            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
-            <img class="logo__image__dark" src="{{ site.baseurl }}{{ site.data.settings.logo_dark }}" alt="{{ site.data.settings.title }}">
+            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site_title }}">
+            <img class="logo__image__dark" src="{{ site.baseurl }}{{ site.data.settings.logo_dark }}" alt="{{ site_title }}">
           {% else %}
             {{ site.data.settings.title }}
           {% endif %}

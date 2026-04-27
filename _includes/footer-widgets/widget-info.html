@@ -1,23 +1,25 @@
+{%- assign lang = page.lang | default: 'zh' -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign t_zh = site.data.i18n.zh -%}
+{%- assign widget_site_title = t.site_title | default: t_zh.site_title | default: site.data.settings.title -%}
+{%- assign footer_desc = t.footer_description | default: t_zh.footer_description | default: site.data.settings.footer_description -%}
+{%- if lang == 'zh' -%}{%- assign widget_home = '/' -%}{%- else -%}{%- assign widget_home = '/' | append: lang | append: '/' -%}{%- endif -%}
 <div class="col col-4 col-d-12">
   <div class="widget-footer widget-info">
 
     <div class="logo-footer">
-      <a class="logo-footer__link widget-title" href="{{ site.baseurl }}/">
+      <a class="logo-footer__link widget-title" href="{{ widget_home | relative_url }}">
         {% if site.data.settings.logo or site.data.settings.logo_dark %}
         <img class="logo-footer__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}"
-          alt="{{ site.data.settings.title }}">
+          alt="{{ widget_site_title }}">
         <img class="logo-footer__image__dark" src="{{ site.baseurl }}{{ site.data.settings.logo_dark }}"
-          alt="{{ site.data.settings.title }}">
+          alt="{{ widget_site_title }}">
         {% else %}
-          {{ site.data.settings.title }}
+          {{ widget_site_title }}
         {% endif %}
       </a>
     </div>
 
-    {%- assign lang = page.lang | default: 'zh' -%}
-    {%- assign t = site.data.i18n[lang] -%}
-    {%- assign t_zh = site.data.i18n.zh -%}
-    {%- assign footer_desc = t.footer_description | default: t_zh.footer_description | default: site.data.settings.footer_description -%}
     {% if footer_desc %}
     <p class="widget-footer__desc">{{ footer_desc }}</p>
     {% endif %}
