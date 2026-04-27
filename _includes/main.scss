@@ -1231,3 +1231,125 @@ html[lang="ja"] .hero__description { line-height: 1.85; letter-spacing: 0.02em; 
   .featured-post .article__title,
   .section-tags .article__title { font-size: 15px !important; }
 }
+
+
+/* =================================================================
+   Spotlight banner — Deep In Memory · Paris (auto upcoming/archive)
+   ================================================================= */
+.section.spotlight {
+  padding: 56px 0;
+  background: var(--paper-warm);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.spotlight__inner {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  gap: 40px;
+  align-items: center;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.spotlight__media {
+  display: block;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  aspect-ratio: 16/9;
+  background: var(--ink);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+.spotlight__body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.spotlight__eyebrow {
+  font-family: $base-font-family;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--seal);
+  margin: 0;
+}
+.spotlight__title {
+  font-family: $heading-font-family;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+  margin: 0;
+  word-break: keep-all;
+}
+.spotlight__meta {
+  font-family: $heading-font-family;
+  font-size: 15px;
+  color: var(--ink-soft);
+  margin: 0;
+  font-style: italic;
+}
+.spotlight__sep { margin: 0 8px; color: var(--seal); opacity: 0.6; }
+.spotlight__intro {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--ink);
+  margin: 6px 0 0;
+}
+.spotlight__cta-row { margin: 12px 0 0; }
+.spotlight__cta {
+  display: inline-block;
+  background: var(--seal);
+  color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-family: $base-font-family;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border-bottom: 0 !important;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+    background: #952f1d;
+    opacity: 1;
+  }
+}
+.spotlight--archive .spotlight__cta {
+  background: transparent;
+  color: var(--seal) !important;
+  border: 1px solid var(--seal) !important;
+  box-shadow: none;
+  &:hover { background: var(--seal); color: #fff !important; }
+}
+.spotlight--archive .spotlight__media { opacity: 0.92; }
+
+@media (max-width: 768px) {
+  .section.spotlight { padding: 36px 0 !important; }
+  .spotlight__inner {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    padding: 0 20px !important;
+  }
+  .spotlight__title { font-size: 30px !important; }
+  .spotlight__intro { font-size: 14px !important; line-height: 1.65 !important; }
+  .spotlight__meta { font-size: 13px !important; }
+  .spotlight__cta { font-size: 12px !important; padding: 9px 16px !important; }
+}
+@media (max-width: 380px) {
+  .spotlight__title { font-size: 26px !important; }
+}

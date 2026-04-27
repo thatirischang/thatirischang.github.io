@@ -1,0 +1,48 @@
+{%- comment -%}
+  Spotlight banner: Deep In Memory · Opéra-Comique de Paris, 21-23 Nov 2025.
+  Auto-switches between "upcoming" and "archive" copy based on today's date
+  vs event end date (2025-11-23).
+{%- endcomment -%}
+{%- assign sp_lang = page.lang | default: 'zh' -%}
+{%- assign sp_t = site.data.i18n[sp_lang] -%}
+{%- assign sp_t_zh = site.data.i18n.zh -%}
+
+{%- assign sp_title = sp_t.spotlight_title | default: sp_t_zh.spotlight_title | default: '記憶深處' -%}
+{%- assign sp_dates = sp_t.spotlight_dates | default: sp_t_zh.spotlight_dates -%}
+{%- assign sp_venue = sp_t.spotlight_venue | default: sp_t_zh.spotlight_venue -%}
+{%- assign sp_intro = sp_t.spotlight_intro | default: sp_t_zh.spotlight_intro -%}
+
+{%- assign sp_event_end = '2025-11-23' | date: '%s' -%}
+{%- assign sp_now = 'now' | date: '%s' -%}
+{%- if sp_now > sp_event_end -%}
+  {%- assign sp_eyebrow = sp_t.spotlight_eyebrow_archive | default: sp_t_zh.spotlight_eyebrow_archive -%}
+  {%- assign sp_cta = sp_t.spotlight_cta_archive | default: sp_t_zh.spotlight_cta_archive -%}
+  {%- assign sp_mode = 'archive' -%}
+{%- else -%}
+  {%- assign sp_eyebrow = sp_t.spotlight_eyebrow_upcoming | default: sp_t_zh.spotlight_eyebrow_upcoming -%}
+  {%- assign sp_cta = sp_t.spotlight_cta_upcoming | default: sp_t_zh.spotlight_cta_upcoming -%}
+  {%- assign sp_mode = 'upcoming' -%}
+{%- endif -%}
+
+<section class="section spotlight spotlight--{{ sp_mode }}" aria-label="{{ sp_title }}">
+  <div class="container">
+    <div class="spotlight__inner">
+      <a class="spotlight__media" href="https://www.deepinmemory.fr/" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+        <img src="{{ '/images/deep-in-memory-paris.jpg' | relative_url }}" alt="{{ sp_title }} — {{ sp_venue }}" loading="lazy">
+      </a>
+      <div class="spotlight__body">
+        <p class="spotlight__eyebrow">{{ sp_eyebrow }}</p>
+        <h2 class="spotlight__title">{{ sp_title }}</h2>
+        <p class="spotlight__meta">
+          <span class="spotlight__dates">{{ sp_dates }}</span>
+          <span class="spotlight__sep" aria-hidden="true">·</span>
+          <span class="spotlight__venue">{{ sp_venue }}</span>
+        </p>
+        {% if sp_intro %}<p class="spotlight__intro">{{ sp_intro }}</p>{% endif %}
+        <p class="spotlight__cta-row">
+          <a class="spotlight__cta" href="https://www.deepinmemory.fr/" target="_blank" rel="noopener">{{ sp_cta }}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

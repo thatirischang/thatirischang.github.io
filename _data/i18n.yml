@@ -22,6 +22,14 @@ zh:
   era_life: 純如生平
   era_after: 純如逝後
   era_studio: 工作室
+  spotlight_eyebrow_upcoming: 正在巴黎演出
+  spotlight_eyebrow_archive: 巴黎特別公演 · 2025
+  spotlight_title: 記憶深處
+  spotlight_dates: 二〇二五年十一月二十一—二十三日
+  spotlight_venue: 巴黎喜歌劇院（Opéra-Comique）
+  spotlight_intro: 佟睿睿執導之舞劇《記憶深處》——以張純如記述南京大屠殺之路為線——首度於巴黎喜歌劇院搬演。本工作室與此次合作，向法國觀眾呈現這段以舞蹈承負記憶的作品。
+  spotlight_cta_upcoming: 查看活動官網 →
+  spotlight_cta_archive: 回顧此次特別公演 →
   view_all: 查看全部
   recent_posts: 新帖
   related: 相關閱讀
@@ -63,6 +71,14 @@ en:
   era_life: Iris Chang's Life
   era_after: After Iris
   era_studio: The Studio
+  spotlight_eyebrow_upcoming: Now in Paris
+  spotlight_eyebrow_archive: Special staging · Paris 2025
+  spotlight_title: 記憶深處
+  spotlight_dates: 21 — 23 November 2025
+  spotlight_venue: Opéra-Comique, Paris
+  spotlight_intro: The choreodrama Deep in Memory, directed by Tong Ruirui — built on Iris Chang’s account of the Nanjing Massacre — was staged for the first time in Paris, at the Opéra-Comique. The Studio worked with the production team to bring this dance-borne act of remembrance to French audiences.
+  spotlight_cta_upcoming: Visit the official site →
+  spotlight_cta_archive: Look back at the Paris run →
   month_names: ["January","February","March","April","May","June","July","August","September","October","November","December"]
   tags_section:
     tags:
@@ -112,6 +128,14 @@ ja:
   era_life: 純如の生涯
   era_after: 純如逝去の後
   era_studio: スタジオ
+  spotlight_eyebrow_upcoming: パリ公演中
+  spotlight_eyebrow_archive: 巴里特別公演 · 二〇二五
+  spotlight_title: 記憶深處
+  spotlight_dates: 二〇二五年十一月二十一日—二十三日
+  spotlight_venue: パリ・オペラ＝コミック座（Opéra-Comique）
+  spotlight_intro: 佟睿睿（トン・ルイルイ）演出の舞踊劇『記憶深處』――張純如が南京大虐殺をたずねていった足跡を主軸とする一作――が、巴里オペラ＝コミック座にて初めて上演された。本スタジオは制作と協働し、この、舞踊が記憶を担う作品を、仏蘭西の観衆へと届けた。
+  spotlight_cta_upcoming: 活動公式サイトへ →
+  spotlight_cta_archive: 巴里公演を振り返る →
   month_names: ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"]
   tags_section:
     tags:
@@ -161,6 +185,14 @@ de:
   era_life: Das Leben Iris Changs
   era_after: Nach Iris
   era_studio: Das Studio
+  spotlight_eyebrow_upcoming: Jetzt in Paris
+  spotlight_eyebrow_archive: Sonderaufführung · Paris 2025
+  spotlight_title: 記憶深處
+  spotlight_dates: 21. — 23. November 2025
+  spotlight_venue: Opéra-Comique, Paris
+  spotlight_intro: Das von Tong Ruirui inszenierte Tanztheater »Deep in Memory« — entlang der Spur, der Iris Chang zum Massaker von Nanking nachgegangen ist — wurde erstmals in Paris, an der Opéra-Comique, aufgeführt. Das Studio hat mit dem Produktionsteam zusammengewirkt, um dieses tanzgetragene Akt der Erinnerung dem französischen Publikum darzubringen.
+  spotlight_cta_upcoming: Zur offiziellen Seite →
+  spotlight_cta_archive: Pariser Aufführung im Rückblick →
   month_names: ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"]
   tags_section:
     tags:
@@ -210,6 +242,14 @@ fr:
   era_life: La vie d'Iris Chang
   era_after: Après Iris
   era_studio: Le Studio
+  spotlight_eyebrow_upcoming: À Paris en ce moment
+  spotlight_eyebrow_archive: Représentation à Paris · 2025
+  spotlight_title: 記憶深處
+  spotlight_dates: 21 — 23 novembre 2025
+  spotlight_venue: Opéra-Comique, Paris
+  spotlight_intro: Le théâtre dansé Deep in Memory, signé Tong Ruirui — bâti sur la trace que suivit Iris Chang vers le massacre de Nankin — a été donné pour la première fois à Paris, à l'Opéra-Comique. Le Studio a accompagné l'équipe de création pour faire connaître au public français cet acte de mémoire porté par la danse.
+  spotlight_cta_upcoming: Voir le site officiel →
+  spotlight_cta_archive: Revoir la création parisienne →
   month_names: ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
   tags_section:
     tags:
