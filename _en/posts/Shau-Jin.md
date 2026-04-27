@@ -3,7 +3,7 @@ layout: post
 lang: en
 permalink: /en/posts/Shau-Jin/
 title: A Life of Shau-Jin Chang
-description: He was the kind of high-minded scholar Einstein once described — one who learns for the same reason a child does: for love, for curiosity, for the quiet thrill of discovery.
+description: "He was the kind of high-minded scholar Einstein once described — one who learns for the same reason a child does: for love, for curiosity, for the quiet thrill of discovery."
 author: admin
 image: '/images/Shau-Jin.jpg'
 date: 2025-01-26 15:01:35 +0300

@@ -3,7 +3,7 @@ layout: post
 lang: fr
 permalink: /fr/posts/Shau-Jin/
 title: La vie de Shau-Jin Chang
-description: Il fut de ces esprits supérieurs dont parlait Einstein — de ceux qui apprennent pour la même raison qu'un enfant : par amour, par curiosité, et pour ce frémissement secret que donne une découverte.
+description: "Il fut de ces esprits supérieurs dont parlait Einstein — de ceux qui apprennent pour la même raison qu'un enfant : par amour, par curiosité, et pour ce frémissement secret que donne une découverte."
 author: admin
 image: '/images/Shau-Jin.jpg'
 date: 2025-01-26 15:01:35 +0300
