@@ -8,6 +8,7 @@
 {%- assign wrp_t = site.data.i18n[wrp_lang] -%}
 {%- assign wrp_t_zh = site.data.i18n.zh -%}
 {%- assign wrp_recent_label = wrp_t.recent_posts | default: wrp_t_zh.recent_posts | default: '新帖' -%}
+{%- if wrp_lang == 'zh' -%}{%- assign wrp_tag_url_prefix = "" -%}{%- else -%}{%- assign wrp_tag_url_prefix = "/" | append: wrp_lang -%}{%- endif -%}
 {%- comment -%} 该 lang 没有文章时,整个 widget 不渲染(避免英文页里冒出中文 post){%- endcomment -%}
 {% if wrp_posts.size > 0 %}
 <div class="col col-4 col-d-12">
@@ -37,7 +38,7 @@
           {% if post.tags.size >= 1 %}
           <div class="article__tags">
           {% for tag in post.tags %}
-            <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="article__tag">{{ tag }}</a>
+            <a href="{{ site.baseurl }}{{ wrp_tag_url_prefix }}/tags/?tag={{ tag | downcase | url_encode }}" class="article__tag">{{ tag }}</a>
           {% endfor %}
           </div>
           {% endif %}
