@@ -13,7 +13,6 @@
   {%- assign fld_month_idx = fld_d | date: '%-m' | minus: 1 -%}
   {%- assign fld_month_name = fld_t.month_names[fld_month_idx] -%}
   {%- assign fld_default_month_full = fld_d | date: '%B' -%}
-  {%- assign fld_default_month_short = fld_d | date: '%b' -%}
+  {%- comment -%} Only replace %B (full). %b is a substring of %B; replacing it would corrupt the result. {%- endcomment -%}
   {%- assign fld_out = fld_out | replace: fld_default_month_full, fld_month_name -%}
-  {%- assign fld_out = fld_out | replace: fld_default_month_short, fld_month_name -%}
 {%- endif -%}{{ fld_out }}
