@@ -6,7 +6,7 @@ title: Aus dem Leben von Shau-Jin Chang
 description: Er war jener edle Geist, von dem Einstein einmal gesprochen hat — einer, der lernt aus demselben Grund, aus dem ein Kind lernt: aus Liebe, aus Neugier, aus dem stillen Schauer, den eine Entdeckung bringt.
 author: admin
 image: '/images/Shau-Jin.jpg'
-date: 2025-01-26 00:00:00 +0300
+date: 2025-01-26 15:01:35 +0300
 tags: [Gedenken]
 ---
 ## Von Ying-Ying Chang

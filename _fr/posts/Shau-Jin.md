@@ -6,7 +6,7 @@ title: La vie de Shau-Jin Chang
 description: Il fut de ces esprits supérieurs dont parlait Einstein — de ceux qui apprennent pour la même raison qu'un enfant : par amour, par curiosité, et pour ce frémissement secret que donne une découverte.
 author: admin
 image: '/images/Shau-Jin.jpg'
-date: 2025-01-26 00:00:00 +0300
+date: 2025-01-26 15:01:35 +0300
 tags: [Mémoire]
 ---
 ## Par Ying-Ying Chang
