@@ -58,15 +58,10 @@
             </div>
           </div>
 
-          {%- comment -%} adaptive col widths: 1 article = full width, 2 = half each, 3+ = thirds {%- endcomment -%}
-          {%- assign st_render_count = posts_for_tag.size | at_most: number_posts -%}
-          {%- if st_render_count == 1 -%}{%- assign st_col_class = "col-12 col-d-12 col-t-12" -%}
-          {%- elsif st_render_count == 2 -%}{%- assign st_col_class = "col-6 col-d-12 col-t-12" -%}
-          {%- else -%}{%- assign st_col_class = "col-4 col-d-6 col-t-12" -%}
-          {%- endif -%}
+          {%- comment -%} 等大网格: 不论文章数都用 col-4 (3 列布局) — 视觉一致性 {%- endcomment -%}
           <div class="row">
             {% for post in posts_for_tag limit:number_posts %}
-            <div class="col {{ st_col_class }}">
+            <div class="col col-4 col-d-6 col-t-12">
               {% include article.html %}
             </div>
             {% endfor %}

@@ -529,20 +529,23 @@ html[lang="zh-Hant"] .post__content > p:first-of-type::first-letter { /* drop ca
 .timeline { background: var(--paper-warm); }
 .featured-post { background: var(--paper); }
 
-/* ---------- Featured editorial layout enhancement ---------- */
-.featured-post .article--big .article__inner { box-shadow: var(--shadow-md); }
-.featured-post .article--big .article__title { font-size: 28px; line-height: 1.2; }
-.featured-post .article--big .article__excerpt {
-  font-size: 17px;
-  font-family: $heading-font-family;
-  line-height: 1.65;
-  color: var(--ink-soft);
-  font-style: italic;
+/* ---------- Uniform card grid (Featured + section-tags) ---------- */
+.featured-post .article__title,
+.featured-post .article__title a,
+.section-tags .article__title,
+.section-tags .article__title a { font-size: 17px; line-height: 1.35; }
+.featured-post .article__image,
+.section-tags .article__image {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  display: block;
 }
-.featured-post .col-3 .article__title,
-.featured-post .col-3 .article__title a { font-size: 17px; line-height: 1.35; }
-.featured-post .col-3 .article__image { aspect-ratio: 4 / 3; overflow: hidden; }
-.featured-post .col-6 .article__image { aspect-ratio: 16 / 10; overflow: hidden; }
+.featured-post .article__image img,
+.section-tags .article__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /* ---------- Reading time pill ---------- */
 .article__readtime {
