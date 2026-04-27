@@ -158,6 +158,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   /* =======================
+  // Reading progress bar (post pages)
+  ======================= */
+  (function () {
+    var bar = document.querySelector("#js-post-progress .post-progress__bar");
+    var article = document.querySelector("article.post .post__content");
+    if (!bar || !article) return;
+    function update() {
+      var rect = article.getBoundingClientRect();
+      var total = rect.height - window.innerHeight;
+      var scrolled = -rect.top;
+      var pct = Math.max(0, Math.min(1, scrolled / Math.max(1, total)));
+      bar.style.transform = "scaleX(" + pct + ")";
+    }
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    update();
+  })();
+
+
+  /* =======================
   // Responsive Videos
   ======================= */
   reframe(".post__content iframe:not(.reframe-off), .page__content iframe:not(.reframe-off)");

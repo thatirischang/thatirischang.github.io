@@ -9,6 +9,10 @@ layout: default
 {%- assign pg_home_label = pg_t.nav.home | default: pg_t_zh.nav.home | default: 'Home' -%}
 
 <section class="page-hero">
+  <svg class="page-hero__seal-svg" aria-hidden="true" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <rect x="10" y="10" width="180" height="180" fill="none" stroke="currentColor" stroke-width="6"/>
+    <text x="100" y="142" text-anchor="middle" font-family="'Noto Serif JP', 'Noto Serif', serif" font-weight="700" font-size="150" fill="currentColor">純</text>
+  </svg>
   <div class="container">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="{{ pg_home | relative_url }}" class="breadcrumbs__link">{{ pg_home_label }}</a>

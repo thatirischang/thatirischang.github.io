@@ -1,0 +1,15 @@
+{%- assign pq_lang = page.lang | default: 'zh' -%}
+{%- assign pq_t = site.data.i18n[pq_lang] -%}
+{%- assign pq_t_zh = site.data.i18n.zh -%}
+{%- assign pq_quote = pq_t.pull_quote | default: pq_t_zh.pull_quote -%}
+{%- assign pq_attr = pq_t.pull_quote_attr | default: pq_t_zh.pull_quote_attr -%}
+{% if pq_quote %}
+<section class="section pull-quote">
+  <div class="container">
+    <blockquote class="pull-quote__text">
+      <span class="pull-quote__open" aria-hidden="true">“</span>{{ pq_quote }}<span class="pull-quote__close" aria-hidden="true">”</span>
+    </blockquote>
+    {% if pq_attr %}<p class="pull-quote__attr">{{ pq_attr }}</p>{% endif %}
+  </div>
+</section>
+{% endif %}

@@ -45,6 +45,13 @@ zh:
 
 # ===== Iris Chang voice =====
 en:
+  pull_quote: Where there is no record, there is no history.
+  pull_quote_attr: — in the spirit of Iris Chang
+  featured_label: Featured
+  read_article: Read article →
+  era_life: Iris Chang's Life
+  era_after: After Iris
+  era_studio: The Studio
   month_names: ["January","February","March","April","May","June","July","August","September","October","November","December"]
   tags_section:
     tags:
@@ -85,6 +92,13 @@ en:
 
 # ===== 大江健三郎 voice =====
 ja:
+  pull_quote: 記述なき所に、歴史はない。
+  pull_quote_attr: ――張純如の精神に拠りて
+  featured_label: 精選
+  read_article: 続きを読む →
+  era_life: 純如の生涯
+  era_after: 純如逝去の後
+  era_studio: スタジオ
   month_names: ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"]
   tags_section:
     tags:
@@ -125,6 +139,13 @@ ja:
 
 # ===== Stefan Zweig voice =====
 de:
+  pull_quote: Wo nichts verzeichnet wird, gibt es keine Geschichte.
+  pull_quote_attr: — im Geiste Iris Changs
+  featured_label: Empfohlen
+  read_article: Beitrag lesen →
+  era_life: Das Leben Iris Changs
+  era_after: Nach Iris
+  era_studio: Das Studio
   month_names: ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"]
   tags_section:
     tags:
@@ -165,6 +186,13 @@ de:
 
 # ===== Marguerite Yourcenar voice =====
 fr:
+  pull_quote: Là où nul ne consigne, il n'y a point d'histoire.
+  pull_quote_attr: — dans l'esprit d'Iris Chang
+  featured_label: Sélection
+  read_article: Lire l'article →
+  era_life: La vie d'Iris Chang
+  era_after: Après Iris
+  era_studio: Le Studio
   month_names: ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
   tags_section:
     tags:

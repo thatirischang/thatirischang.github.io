@@ -700,6 +700,237 @@ html[lang="zh-Hant"] .post__content > p:first-of-type::first-letter { /* drop ca
   opacity: 0.6;
 }
 
+/* =================================================================
+   Final UI polish — pull-quote / Featured eyebrow / hero CTA button /
+   page-hero seal / timeline era / hero narrowing / chip count /
+   drop cap shadow / scroll progress bar / archive year / Read more CTA
+   ================================================================= */
+
+/* Pull-quote section */
+.section.pull-quote {
+  padding: 80px 16px;
+  text-align: center;
+  background: var(--paper);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  position: relative;
+  &::before, &::after {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 1px;
+    background: var(--seal);
+    margin: 0 auto;
+    opacity: 0.7;
+  }
+  &::before { margin-bottom: 24px; }
+  &::after  { margin-top: 24px; }
+}
+.pull-quote__text {
+  font-family: $heading-font-family;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--ink);
+  max-width: 26em;
+  margin: 0 auto;
+  letter-spacing: -0.005em;
+  border: 0;
+  padding: 0;
+}
+.pull-quote__open, .pull-quote__close {
+  font-family: $heading-font-family;
+  font-style: normal;
+  color: var(--seal);
+  font-size: 1.4em;
+  font-weight: 700;
+  vertical-align: -0.05em;
+  margin: 0 0.06em;
+}
+.pull-quote__attr {
+  margin-top: 18px;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-style: normal;
+}
+@media (max-width: 640px) {
+  .section.pull-quote { padding: 56px 12px; }
+  .pull-quote__text { font-size: 22px; }
+}
+html[lang="ja"] .pull-quote__text,
+html[lang="zh-Hant"] .pull-quote__text { font-size: 26px; line-height: 1.7; }
+
+/* Eyebrow-style section heading */
+.section__title--eyebrow {
+  font-family: $base-font-family;
+  font-size: 12px !important;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--seal);
+  margin-bottom: 16px;
+}
+.section__head--center { text-align: center; }
+.section__head--center .section__title--eyebrow::before,
+.section__head--center .section__title--eyebrow::after {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background: var(--seal);
+  vertical-align: middle;
+  opacity: 0.7;
+  margin: 0 12px;
+}
+.section.section-tags .section__title { font-size: 22px; letter-spacing: -0.005em; }
+
+/* Hero CTA filled button */
+.hero__cta-row { margin-top: 28px; }
+.hero__cta {
+  display: inline-block;
+  background: var(--seal);
+  color: #fff !important;
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-family: $base-font-family;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border-bottom: 0 !important;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+    background: #952f1d;
+    opacity: 1;
+  }
+}
+
+/* Page-hero seal */
+.page-hero { position: relative; overflow: hidden; }
+.page-hero__seal-svg {
+  position: absolute;
+  top: 24px;
+  right: 28px;
+  width: 80px;
+  height: 80px;
+  color: var(--seal);
+  opacity: 0.12;
+  pointer-events: none;
+}
+:root[dark] .page-hero__seal-svg { opacity: 0.22; }
+@media (max-width: 480px) { .page-hero__seal-svg { width: 56px; height: 56px; top: 16px; right: 16px; } }
+
+/* Timeline era headers */
+.timeline__era {
+  list-style: none;
+  margin: 28px 0 14px -28px;
+  padding: 0;
+  font-family: $base-font-family;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--seal);
+}
+.timeline__list .timeline__era:first-child { margin-top: 0; }
+
+/* Hero title narrowing */
+.hero__title { max-width: 18ch; }
+html[lang="ja"] .hero__title { max-width: 24ch; }
+html[lang="zh-Hant"] .hero__title { max-width: 14ch; }
+
+/* Article card "Read more" CTA */
+.article__cta {
+  display: inline-block;
+  margin-top: 14px;
+  font-family: $base-font-family;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--seal);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+  &:hover { border-bottom-color: var(--seal); color: var(--seal); opacity: 1; }
+}
+
+/* Tags-cloud chip count subscript-style */
+.tags-cloud__count {
+  background: transparent !important;
+  padding: 0 0 0 4px !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  opacity: 0.55;
+  &::before { content: '· '; }
+}
+
+/* Drop cap text-shadow for stronger visual weight */
+.post__content > p:first-of-type::first-letter {
+  text-shadow: 1px 1px 0 var(--paper-warm);
+  font-weight: 900 !important;
+}
+
+/* Reading progress bar (top of post pages) */
+.post-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 999;
+  background: transparent;
+  pointer-events: none;
+  &__bar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: var(--seal);
+    transform: scaleX(0);
+    transform-origin: 0 0;
+    transition: transform 0.08s linear;
+  }
+}
+
+/* Archive year grouping */
+.archive__year-marker {
+  list-style: none;
+  margin: 36px 0 8px;
+  padding: 0;
+  &:first-child { margin-top: 0; }
+  display: block;
+  width: 100%;
+}
+.archive__year {
+  display: inline-block;
+  font-family: $heading-font-family;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--seal);
+  letter-spacing: -0.01em;
+  border-bottom: 2px solid var(--seal);
+  padding-bottom: 4px;
+}
+
+/* Footer affiliates external arrow */
+.copyright__affiliates a::after {
+  content: ' ↗';
+  font-size: 0.85em;
+  opacity: 0.6;
+  margin-left: 2px;
+}
+
+/* Mobile fine-tuning */
+@media (max-width: 480px) {
+  .hero__seal-svg { width: 56px !important; height: 56px !important; top: 14px !important; right: 14px !important; }
+  .hero__cta { padding: 9px 18px; font-size: 13px; }
+  .featured-post, .section-tags { padding-top: 36px !important; padding-bottom: 36px !important; }
+  .section.pull-quote { padding: 40px 12px; }
+}
+
 /* Theme toggle button */
 .theme-toggle {
   background: transparent;

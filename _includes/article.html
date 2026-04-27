@@ -40,6 +40,10 @@
       <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 250 }}{% endif %}</p>
       {% endif %}
 
+      {%- assign card_t = site.data.i18n[art_lang] -%}
+      {%- assign card_t_zh = site.data.i18n.zh -%}
+      {%- assign card_read = card_t.read_article | default: card_t_zh.read_article | default: 'Read article →' -%}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="article__cta">{{ card_read }}</a>
 
     </div>
   </div>

@@ -27,8 +27,27 @@
       <div class="section__head">
         <h2 class="section__title">{{ tl_title }}</h2>
       </div>
+      {%- assign tl_era_life = tl_t.era_life | default: tl_t_zh.era_life | default: 'Iris Chang''s Life' -%}
+      {%- assign tl_era_after = tl_t.era_after | default: tl_t_zh.era_after | default: 'After Iris' -%}
+      {%- assign tl_era_studio = tl_t.era_studio | default: tl_t_zh.era_studio | default: 'The Studio' -%}
+
       <ol class="timeline__list">
-        {% for ev in tl_events %}
+        <li class="timeline__era">{{ tl_era_life }}</li>
+        {% for ev in tl_events offset:0 limit:6 %}
+        <li class="timeline__item">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <span class="timeline__text">{{ ev | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        </li>
+        {% endfor %}
+        <li class="timeline__era">{{ tl_era_after }}</li>
+        {% for ev in tl_events offset:6 limit:2 %}
+        <li class="timeline__item">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <span class="timeline__text">{{ ev | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        </li>
+        {% endfor %}
+        <li class="timeline__era">{{ tl_era_studio }}</li>
+        {% for ev in tl_events offset:8 %}
         <li class="timeline__item">
           <span class="timeline__dot" aria-hidden="true"></span>
           <span class="timeline__text">{{ ev | markdownify | remove: '<p>' | remove: '</p>' }}</span>

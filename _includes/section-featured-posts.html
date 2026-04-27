@@ -10,8 +10,13 @@
   <div class="container">
     <div class="section__inner">
 
-      <h2 class="screen-reader-text">Featured</h2>
-      {%- comment -%} 等大网格 — 4 张统一卡片 (col-3) 取代旧 1+4 编辑布局 {%- endcomment -%}
+      {%- assign fp_t = site.data.i18n[sfp_lang] -%}
+      {%- assign fp_t_zh = site.data.i18n.zh -%}
+      {%- assign fp_label = fp_t.featured_label | default: fp_t_zh.featured_label | default: 'Featured' -%}
+      <div class="section__head section__head--center">
+        <h2 class="section__title section__title--eyebrow">{{ fp_label }}</h2>
+      </div>
+      {%- comment -%} 等大网格 — 4 张统一卡片 (col-3) {%- endcomment -%}
       <div class="row">
         {% for post in featured_posts limit:4 %}
         <div class="col col-3 col-d-6 col-t-12">
