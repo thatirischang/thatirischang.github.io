@@ -145,16 +145,16 @@
 .hero {
   background-color: var(--paper-warm);
   /* Fixed min-height across 5 langs so video size is consistent regardless of text length */
-  min-height: 480px;
+  min-height: 380px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 @media (max-width: 768px) {
-  .hero { min-height: 380px; }
+  .hero { min-height: 300px; }
 }
 @media (max-width: 480px) {
-  .hero { min-height: 340px; }
+  .hero { min-height: 260px; }
 }
 .hero__bg {
   position: absolute;
