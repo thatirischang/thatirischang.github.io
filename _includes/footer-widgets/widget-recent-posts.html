@@ -2,9 +2,9 @@
 {%- if wrp_lang == 'zh' -%}
   {%- assign wrp_posts = site.posts -%}
 {%- else -%}
-  {%- comment -%} site[lang] 是 collection,需要先 sort 再过滤,否则 Liquid 链可能不稳定 {%- endcomment -%}
+  {%- comment -%} where_exp + URL guard 同时过滤,然后按 date 字符串(ISO)倒序——绕过 Liquid where chain bug {%- endcomment -%}
   {%- assign wrp_pool = site[wrp_lang] -%}
-  {%- assign wrp_filtered = wrp_pool | where: 'layout', 'post' -%}
+  {%- assign wrp_filtered = wrp_pool | where_exp: "p", "p.layout == 'post'" | where_exp: "p", "p.url contains '/posts/'" -%}
   {%- assign wrp_sorted = wrp_filtered | sort: 'date' -%}
   {%- assign wrp_posts = wrp_sorted | reverse -%}
 {%- endif -%}
