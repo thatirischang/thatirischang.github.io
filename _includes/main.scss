@@ -1478,8 +1478,15 @@ html[lang="ja"] .hero__description { line-height: 1.85; letter-spacing: 0.02em; 
   img {
     width: 100%; height: 100%;
     object-fit: cover; display: block;
+    object-position: center;
     transition: transform 0.4s ease;
   }
+}
+/* Off-aspect photos (portrait or wide-landscape): contain so subject stays centered */
+.dim-gallery__item--contain {
+  background: #0a0807;
+  img { object-fit: contain !important; }
+  &:hover img { transform: scale(1.02); }
 }
 
 .dim-outbound {
