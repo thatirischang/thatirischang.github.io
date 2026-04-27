@@ -1,8 +1,7 @@
 ---
 layout: null
-permalink: /de/search.json
 ---
-{%- assign sj_posts = site.de | where: 'layout', 'post' | sort: 'date' | reverse -%}
+{%- assign sj_posts = site.en | where: 'layout', 'post' | sort: 'date' | reverse -%}
 [
   {% for post in sj_posts %}
     {
