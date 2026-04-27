@@ -40,14 +40,6 @@ layout: default
         <source src="{{ '/images/deep-in-memory/dim-trailer-720p.mp4' | relative_url }}" type="video/mp4">
       </video>
     </div>
-    <div class="dim-video__frame dim-video__frame--second">
-      <video
-        controls
-        preload="metadata"
-        playsinline>
-        <source src="{{ '/images/deep-in-memory/dim-bg-720p.mp4' | relative_url }}" type="video/mp4">
-      </video>
-    </div>
   </div>
 </section>
 
@@ -60,6 +52,19 @@ layout: default
 </section>
 
 {% include dim-gallery.html %}
+
+<section class="dim-video dim-video--secondary" id="dim-video-2">
+  <div class="container">
+    <div class="dim-video__frame">
+      <video
+        controls
+        preload="metadata"
+        playsinline>
+        <source src="{{ '/images/deep-in-memory/dim-bg-720p.mp4' | relative_url }}" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
 
 <section class="dim-outbound">
   <div class="container">
