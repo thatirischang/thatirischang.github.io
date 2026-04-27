@@ -17,8 +17,6 @@ menu_settings:
     - title: "視音"
       url: "/videos/"
       key: videos
-      # videos 还没有按语言分版本,所有语言都指向 zh 主页面,故不加 lang 前缀
-      cross_lang: true
     - title: "張純如工作室"
       url: "/about/"
       key: about

@@ -1,0 +1,32 @@
+---
+layout: default
+lang: ja
+title: 声と映像
+description: 張純如および彼女が守った歴史にまつわる、講演・インタビュー・記録映像・音声記録の集成。
+permalink: /ja/videos/
+---
+
+<!-- begin hero -->
+<section class="hero hero--left">
+  <div class="container">
+    {% if page.title %}
+    <h1 class="hero__title">{{ page.title }}</h1>
+    {% endif %}
+  </div>
+</section>
+<!-- end hero -->
+
+<section class="section videos-page animate">
+  {% assign sorted = site.ja | where_exp: 'post', "post.video_embed != nil" %}
+  <div class="container">
+    <div class="row">
+      {% for post in sorted %}
+      {% if post.video_embed %}
+      <div class="col col-4 col-d-6 col-t-12">
+        {% include article.html %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
