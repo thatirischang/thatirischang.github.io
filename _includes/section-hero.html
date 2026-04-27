@@ -9,7 +9,10 @@
 {% if site.data.settings.hero.enable == true %}
 <!-- begin hero -->
 <section class="hero">
-  <video class="hero__bg" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+  <video class="hero__bg hero__bg--blur" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+    <source src="{{ '/images/hero-bg.mp4' | relative_url }}" type="video/mp4">
+  </video>
+  <video class="hero__bg hero__bg--sharp" autoplay muted loop playsinline preload="auto" aria-hidden="true">
     <source src="{{ '/images/hero-bg.mp4' | relative_url }}" type="video/mp4">
   </video>
   <div class="hero__veil" aria-hidden="true"></div>
