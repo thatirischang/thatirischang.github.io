@@ -49,10 +49,10 @@ Olivia Cheng résolut de faire que le souvenir d'Iris Chang fût vivant, par un 
 
 En février 2007, Olivia Cheng eut connaissance de l'avis de casting pour le documentaire *Iris Chang*. Elle écrivit aussitôt et, finalement, fut retenue. Pour mieux jouer celle qui habitait son cœur, elle continua de suivre les pas d'Iris Chang, jusqu'à parvenir à Nankin.
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=505296904&bvid=BV1qg411V7Rx&cid=404675409&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe loading="lazy" src="//player.bilibili.com/player.html?isOutside=true&aid=505296904&bvid=BV1qg411V7Rx&cid=404675409&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <br>
 <br>
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=847883896&bvid=BV1DL4y1h782&cid=404758235&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe loading="lazy" src="//player.bilibili.com/player.html?isOutside=true&aid=847883896&bvid=BV1DL4y1h782&cid=404758235&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <br>
 <br>
 ### Héritage et continuité de l'histoire

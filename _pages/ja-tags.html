@@ -1,0 +1,64 @@
+---
+layout: default
+lang: ja
+title: タグ
+permalink: /ja/tags/
+---
+{%- assign lang_posts = site.ja -%}
+{%- assign all_tags = "" | split: "," -%}
+{%- for post in lang_posts -%}
+  {%- if post.layout == 'post' and post.tags -%}
+    {%- for t in post.tags -%}
+      {%- unless all_tags contains t -%}
+        {%- assign all_tags = all_tags | push: t -%}
+      {%- endunless -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign tag_words = all_tags | sort -%}
+
+<!-- begin tags -->
+<section class="section tags">
+
+  {% for this_word in tag_words %}
+  {%- assign posts_for_tag = lang_posts | where_exp: "p", "p.tags contains this_word" | where_exp: "p", "p.layout == 'post'" -%}
+  <div class="tags__inner is-hidden" tag="{{ this_word | cgi_escape }}">
+
+      <div class="container">
+        <div class="row">
+          <div class="col col-12">
+            <div class="tag__info">
+              <h1 class="tag__title">{{ this_word }} <span class="tag__counter">{{ posts_for_tag.size }}</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container animate">
+        <div class="row">
+          {% for post in posts_for_tag %}
+            {% if post.title != null %}
+              <div class="col col-4 col-d-6 col-t-12">
+                {% include article.html %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  {% endfor %}
+
+</section>
+<!-- end tags -->
+
+<script>
+  var tag_name = window.location.search.replace("?tag=", "");
+  tag_name = decodeURIComponent(tag_name);
+  document.querySelectorAll('.tags__inner').forEach(function(el) {
+    var tag = decodeURIComponent(el.getAttribute('tag') || '');
+    if (tag.toLowerCase() === tag_name.toLowerCase()) {
+      el.classList.remove("is-hidden");
+    }
+  });
+</script>

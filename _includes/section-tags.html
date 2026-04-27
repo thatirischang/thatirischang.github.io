@@ -1,7 +1,21 @@
-{%- comment -%} 该 section 仍以 zh 标签为准;非 zh 子站留空,等 Phase 2B 翻译完后,
-                建立每语标签映射再启用 {%- endcomment -%}
+{%- comment -%} 5 语 tags section: zh 用 site.tags + settings.yml; 4 翻译语用 site.<lang> + i18n.yml {%- endcomment -%}
 {%- assign st_lang = page.lang | default: 'zh' -%}
-{% if st_lang == 'zh' and site.data.settings.tags_section.enable == true and site.data.settings.tags_section.tags != null %}
+{%- assign st_t = site.data.i18n[st_lang] -%}
+
+{%- if st_lang == 'zh' -%}
+  {%- assign st_tags_list = site.data.settings.tags_section.tags -%}
+  {%- assign st_tag_url_prefix = "" -%}
+{%- else -%}
+  {%- assign st_tags_list = st_t.tags_section.tags -%}
+  {%- assign st_tag_url_prefix = "/" | append: st_lang -%}
+  {%- if st_lang == 'en' -%}{%- assign st_lang_posts = site.en -%}
+  {%- elsif st_lang == 'ja' -%}{%- assign st_lang_posts = site.ja -%}
+  {%- elsif st_lang == 'de' -%}{%- assign st_lang_posts = site.de -%}
+  {%- elsif st_lang == 'fr' -%}{%- assign st_lang_posts = site.fr -%}
+  {%- endif -%}
+{%- endif -%}
+
+{% if site.data.settings.tags_section.enable == true and st_tags_list != nil %}
 
 {% if site.data.settings.tags_section.number_columns == 1 %}
   {% assign number_columns = 12 %}
@@ -19,7 +33,15 @@
   {% assign number_posts = 3 %}
 {% endif %}
 
-{% for tag_word in site.data.settings.tags_section.tags %}
+{% for tag_word in st_tags_list %}
+
+  {%- if st_lang == 'zh' -%}
+    {%- assign posts_for_tag = site.tags[tag_word.tag] -%}
+  {%- else -%}
+    {%- assign posts_for_tag = st_lang_posts | where_exp: "p", "p.tags contains tag_word.tag" -%}
+  {%- endif -%}
+
+  {% if posts_for_tag.size > 0 %}
 <!-- begin section-tag -->
 <section class="section section-tags animate">
   <div class="container">
@@ -29,19 +51,15 @@
 
           <div class="section__info">
             <div class="section__head">
-              <h2 class="section__title"><a href="{{ site.baseurl }}/tags/?tag={{ tag_word.tag | downcase }}" class="section__link">{{ tag_word.tag | capitalize }}</a></h2>
-              {% if site.data.settings.tags_section.number_posts < site.tags.[tag_word.tag].size %}
-              <a href="{{ site.baseurl }}/tags/?tag={{ tag_word.tag | downcase }}" class="button">View all <i class="ion ion-ios-arrow-forward"></i></a>
-              {% elsif {{number_posts}} < site.tags.[tag_word.tag].size %}
-              <a href="{{ site.baseurl }}/tags/?tag={{ tag_word.tag | downcase }}" class="button">View all <i class="ion ion-ios-arrow-forward"></i></a>
+              <h2 class="section__title"><a href="{{ site.baseurl }}{{ st_tag_url_prefix }}/tags/?tag={{ tag_word.tag | downcase | url_encode }}" class="section__link">{{ tag_word.tag | capitalize }}</a></h2>
+              {% if number_posts < posts_for_tag.size %}
+              <a href="{{ site.baseurl }}{{ st_tag_url_prefix }}/tags/?tag={{ tag_word.tag | downcase | url_encode }}" class="button">{{ st_t.view_all | default: 'View all' }} <i class="ion ion-ios-arrow-forward"></i></a>
               {% endif %}
             </div>
           </div>
 
           <div class="row">
-            {% assign count = 0 %}
-            {% for post in site.tags.[tag_word.tag] limit:{{number_posts}} %}
-            {% assign count = count | plus: 1 %}
+            {% for post in posts_for_tag limit:number_posts %}
             <div class="col {% if site.data.settings.tags_section.number_columns > 0 and site.data.settings.tags_section.number_columns <= 4 %}col-{{number_columns}} col-d-6 col-t-12{% else %}col-4 col-d-6 col-t-12{% endif %}">
               {% include article.html %}
             </div>
@@ -53,6 +71,7 @@
   </div>
 </section>
 <!-- end section-tag -->
+  {% endif %}
 {% endfor %}
 
 {% endif %}

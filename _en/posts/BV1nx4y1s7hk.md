@@ -9,4 +9,4 @@ author: admin
 image: '/images/146.jpg'
 tags: [Audio]
 ---
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1006438318&bvid=BV1nx4y1s7hk&cid=1619274954&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe loading="lazy" src="//player.bilibili.com/player.html?isOutside=true&aid=1006438318&bvid=BV1nx4y1s7hk&cid=1619274954&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>

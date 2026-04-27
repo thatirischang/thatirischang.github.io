@@ -49,10 +49,10 @@ Olivia Cheng faßte den Entschluß, durch ein Buch und einen Film die Erinnerung
 
 Im Februar 2007 erfuhr Olivia Cheng von der Suche nach einer Darstellerin für den Dokumentarfilm *Iris Chang*. Sie schrieb sogleich um die Rolle und wurde gewählt. Um die Heldin ihres Herzens würdig darzustellen, folgte sie weiterhin Iris Changs Spuren, bis sie nach Nanking kam.
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=505296904&bvid=BV1qg411V7Rx&cid=404675409&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe loading="lazy" src="//player.bilibili.com/player.html?isOutside=true&aid=505296904&bvid=BV1qg411V7Rx&cid=404675409&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <br>
 <br>
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=847883896&bvid=BV1DL4y1h782&cid=404758235&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe loading="lazy" src="//player.bilibili.com/player.html?isOutside=true&aid=847883896&bvid=BV1DL4y1h782&cid=404758235&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <br>
 <br>
 ### Erbe und Fortdauer der Geschichte

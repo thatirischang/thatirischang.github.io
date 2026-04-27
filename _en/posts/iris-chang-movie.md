@@ -49,10 +49,10 @@ Olivia Cheng resolved to make people remember Iris Chang — through writing and
 
 In February 2007, when Olivia Cheng learned of the casting call for the documentary *Iris Chang*, she wrote at once and was selected. To play her own idol well, she went on, following Iris Chang's footsteps, all the way to Nanjing.
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=505296904&bvid=BV1qg411V7Rx&cid=404675409&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe loading="lazy" src="//player.bilibili.com/player.html?isOutside=true&aid=505296904&bvid=BV1qg411V7Rx&cid=404675409&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <br>
 <br>
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=847883896&bvid=BV1DL4y1h782&cid=404758235&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe loading="lazy" src="//player.bilibili.com/player.html?isOutside=true&aid=847883896&bvid=BV1DL4y1h782&cid=404758235&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <br>
 <br>
 ### The Inheritance and Continuance of History

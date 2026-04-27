@@ -49,10 +49,10 @@ featured: true
 
 二〇〇七年二月、鄭啟蕙は、記録映画『アイリス・チャン』の俳優公募の知らせに接した。彼女はただちに応募の手紙を書きあげ、最終的に、その役を獲得した。心のうちに住みついた偶像をよりよく演じるべく、彼女はさらにアイリス・チャンの足跡を追って、南京の地に至った。
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=505296904&bvid=BV1qg411V7Rx&cid=404675409&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe loading="lazy" src="//player.bilibili.com/player.html?isOutside=true&aid=505296904&bvid=BV1qg411V7Rx&cid=404675409&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <br>
 <br>
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=847883896&bvid=BV1DL4y1h782&cid=404758235&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe loading="lazy" src="//player.bilibili.com/player.html?isOutside=true&aid=847883896&bvid=BV1DL4y1h782&cid=404758235&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <br>
 <br>
 ### 歴史の継承と継続
