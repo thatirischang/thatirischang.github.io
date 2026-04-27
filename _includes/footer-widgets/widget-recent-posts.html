@@ -1,5 +1,10 @@
 {%- assign wrp_lang = page.lang | default: 'zh' -%}
-{%- if wrp_lang == 'zh' -%}{%- assign wrp_posts = site.posts -%}{%- else -%}{%- assign wrp_posts = site[wrp_lang] -%}{%- endif -%}
+{%- if wrp_lang == 'zh' -%}
+  {%- assign wrp_posts = site.posts -%}
+{%- else -%}
+  {%- comment -%} 只取 layout=post 的文档,排除 lang collection 里的 index/about(它们是 default/page layout){%- endcomment -%}
+  {%- assign wrp_posts = site[wrp_lang] | where: 'layout', 'post' -%}
+{%- endif -%}
 {%- assign wrp_t = site.data.i18n[wrp_lang] -%}
 {%- assign wrp_t_zh = site.data.i18n.zh -%}
 {%- assign wrp_recent_label = wrp_t.recent_posts | default: wrp_t_zh.recent_posts | default: '新帖' -%}
