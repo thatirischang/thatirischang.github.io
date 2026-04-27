@@ -3,13 +3,6 @@ layout: default
 title: 標籤
 permalink: /tags/
 ---
-<section class="hero hero--left tags-page__hero">
-  <div class="container">
-    <h1 class="hero__title">標籤</h1>
-    <p class="hero__description">文章按主題歸類。從首頁挑一張卡片進來，或直接以 <code>?tag=紀念</code> 等網址篩選。</p>
-  </div>
-</section>
-
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
 
