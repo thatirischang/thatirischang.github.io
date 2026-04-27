@@ -1,11 +1,11 @@
 {%- comment -%}
-  Deep In Memory · Paris gallery — 17 stills (img-01 used as hero,
-  img-02..18 in the gallery grid; img-14 + img-17 are .png).
+  Deep In Memory · Paris gallery — 15 stills (img-01 hero,
+  img-02..06, 08..17 in grid; img-07 + img-18 removed by user; img-14/17 are .png).
 {%- endcomment -%}
 <section class="dim-gallery">
   <div class="container">
     <div class="dim-gallery__grid">
-      {%- assign gal_files = "img-02.jpg,img-03.jpg,img-04.jpg,img-05.jpg,img-06.jpg,img-07.jpg,img-08.jpg,img-09.jpg,img-10.jpg,img-11.jpg,img-12.jpg,img-13.jpg,img-14.png,img-15.jpg,img-16.jpg,img-17.png,img-18.jpg" | split: "," -%}
+      {%- assign gal_files = "img-02.jpg,img-03.jpg,img-04.jpg,img-05.jpg,img-06.jpg,img-08.jpg,img-09.jpg,img-10.jpg,img-11.jpg,img-12.jpg,img-13.jpg,img-14.png,img-15.jpg,img-16.jpg,img-17.png" | split: "," -%}
       {% for f in gal_files %}
         <a class="dim-gallery__item" href="{{ '/images/deep-in-memory/' | append: f | relative_url }}" target="_blank" rel="noopener">
           <img src="{{ '/images/deep-in-memory/' | append: f | relative_url }}" alt="Deep In Memory — Paris staging" loading="lazy">
