@@ -2,12 +2,14 @@
 {%- if wrp_lang == 'zh' -%}
   {%- assign wrp_posts = site.posts -%}
 {%- else -%}
-  {%- comment -%} where_exp + URL guard 同时过滤,然后按 date 字符串(ISO)倒序——绕过 Liquid where chain bug {%- endcomment -%}
   {%- assign wrp_pool = site[wrp_lang] -%}
   {%- assign wrp_filtered = wrp_pool | where_exp: "p", "p.layout == 'post'" | where_exp: "p", "p.url contains '/posts/'" -%}
   {%- assign wrp_sorted = wrp_filtered | sort: 'date' -%}
   {%- assign wrp_posts = wrp_sorted | reverse -%}
 {%- endif -%}
+<!-- WRP_DEBUG: lang={{ wrp_lang }} pool_size={{ wrp_pool.size }} filtered_size={{ wrp_filtered.size }} sorted_size={{ wrp_sorted.size }} posts_size={{ wrp_posts.size }} -->
+<!-- WRP_DEBUG_DATES: {% for p in wrp_posts limit:8 %}{{ p.date | date: '%Y-%m-%d' }}|{{ p.url | split: '/' | last }} ; {% endfor %} -->
+<!-- WRP_DEBUG_RAW_POOL: {% for p in wrp_pool limit:30 %}{{ p.url | split: '/' | last }}={{ p.layout }}={{ p.date | date: '%Y-%m-%d' }} ; {% endfor %} -->
 {%- assign wrp_t = site.data.i18n[wrp_lang] -%}
 {%- assign wrp_t_zh = site.data.i18n.zh -%}
 {%- assign wrp_recent_label = wrp_t.recent_posts | default: wrp_t_zh.recent_posts | default: '新帖' -%}
