@@ -6,7 +6,7 @@ title: Über das Iris-Chang-Studio
 image: '/images/121.png'
 ---
 
-Das Iris-Chang-Studio wurde am 26. Oktober 2018 gegründet, durch Liu Yu, mit der ausdrücklichen Zustimmung der Eltern Iris Changs und ihres Gemahls. Das Studio bekennt sich zu keiner politischen Richtung. Sein einziges Anliegen ist, das Werk Iris Changs — und das sittliche Gewicht dieses Werkes — vor jenem Vergessen zu bewahren, das in unseren Tagen so unaufhaltsam um sich greift.
+In jenen Tagen, da die Welt sich kaum noch zu erinnern wagte, ward — am 26. Oktober 2018 — das Iris-Chang-Studio gegründet: durch Liu Yu, mit der ausdrücklichen Zustimmung der Eltern Iris Changs und ihres Gemahls. Das Studio bekennt sich zu keiner politischen Richtung. Sein einziges Anliegen ist, das Werk Iris Changs — und das sittliche Gewicht dieses Werkes — vor jenem Vergessen zu bewahren, das in unseren Tagen so unaufhaltsam um sich greift.
 
 Liu Yu, von der ehrfürchtigsten Empfindung erfüllt, erlebte zum ersten Mal die Gestalt Iris Changs in jenem Film, in dem Olivia Cheng sie verkörperte: *Iris Chang — Die Vergewaltigung von Nanjing*. Iris Chang hatte — durch die schmerzliche Wahrhaftigkeit ihrer historischen Darstellung und durch das innere Feuer ihrer Reden — das Gewissen der Welt geweckt; sie hatte die Menschen genötigt, jene blutigen, in unser Jahrhundert eingebrannten Stunden noch einmal anzuschauen. Liu Yu war zunächst der Überzeugung, daß für eine Aufgabe von solchem Rang bereits ganze Stäbe von Gelehrten am Werk seien. Erst als er entdeckte, daß dieses Werk bisher nicht getan worden war, faßte er den Entschluß, das Studio zu gründen — in der Hoffnung, daß der Geist Iris Changs unter uns weitergetragen und in das Bewußtsein vieler eingelassen werde.
 

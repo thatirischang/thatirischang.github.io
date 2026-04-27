@@ -8,7 +8,7 @@ image: '/images/121.png'
 
 The Iris Chang Studio was founded on October 26, 2018, by Liu Yu, with the consent of Iris Chang's parents and her husband. The studio takes no political position. Its only purpose is to keep Iris Chang's work — and the moral demand carried inside that work — from being lost.
 
-Liu Yu first encountered Iris Chang through the 2007 film *Iris Chang: The Rape of Nanking*, in which Olivia Cheng played her. The film, like the book before it, made one thing visible to him: that an entire history can be carried by a single voice, and that when the voice falls silent, the work of carrying it has to be picked up by someone else. Liu Yu assumed at the time that there were already professional teams doing this work — researchers, archivists, translators, the kind of institutional infrastructure a subject of this scale demands. When he discovered there were not, he founded the studio.
+Liu Yu first encountered Iris Chang through the 2007 film *Iris Chang: The Rape of Nanking*, in which Olivia Cheng played her. The film, like the book before it, made one thing visible to him: that an entire history can be carried by a single voice, and that when the voice falls silent, the work of carrying it has to be picked up by someone else. Liu Yu assumed at the time that the work was already being done — that there were researchers, archivists, translators somewhere, the kind of careful, slow labor that this scale of horror calls for. When he discovered there were not, he founded the studio.
 
 > On September 22, 2022, the studio was formally registered in the United Kingdom.
 

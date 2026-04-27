@@ -28,7 +28,7 @@ zh:
 
 # ===== Iris Chang voice =====
 en:
-  hero_title: One Voice Can Change What History Remembers
+  hero_title: History is not what happened — it is what one voice insists on remembering.
   hero_description: Words are the only place where the essence of a soul survives. What moves me most about a speech is this — that the speaker may have been gone for years, may already lie underground, and yet the voice goes on. To me, that is the only kind of religion I know, and the truest form of life after death.
   nav:
     home: Home
@@ -49,18 +49,18 @@ ja:
   nav:
     home: ホーム
     videos: 声と映像
-    about: 工作室について
+    about: スタジオについて
   cta_ai: アイリス・チャンAI
   search: 検索
   footer_description: 人は二度死ぬ。一度は肉体において、もう一度は、生き残った者たちの記憶のなかから、その存在の輪郭が消えていくときに。
   read_more: 続きを読む
   back_to_top: ページの先頭へ
-  about_title: アイリス・チャン工作室について
+  about_title: アイリス・チャン・スタジオについて
   language_label: 日本語
 
 # ===== Stefan Zweig voice =====
 de:
-  hero_title: Eine einzige Stimme kann verändern, woran die Geschichte sich erinnert
+  hero_title: Was ein einziger Mensch zu wirken vermag — und wie selten wir es wagen, daran zu glauben.
   hero_description: Allein das Wort vermag die Essenz einer Seele zu retten. Was mich an einer Rede zutiefst bewegt, ist eben dies — daß der Sprechende, längst hinabgestiegen in das Schweigen des Grabes, dennoch, durch die ihm geliehene Sprache, fortdauert. Darin sehe ich die einzige Religion, zu der ich mich zu bekennen vermag, und die ehrlichste Form jener Unsterblichkeit, die uns Sterblichen zugänglich ist.
   nav:
     home: Startseite
