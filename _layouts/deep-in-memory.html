@@ -23,9 +23,23 @@ layout: default
       <span>{{ page.venue }}</span>
     </p>
     <p class="dim-hero__cta-row">
-      <a class="dim-hero__cta" href="https://www.deepinmemory.fr/" target="_blank" rel="noopener">{{ page.official_cta }}</a>
-      <a class="dim-hero__cta dim-hero__cta--ghost" href="https://www.deepinmemory.fr/#video" target="_blank" rel="noopener">{{ page.video_cta }} ▶</a>
+      <a class="dim-hero__cta" href="#dim-video">{{ page.video_cta }} ▶</a>
+      <a class="dim-hero__cta dim-hero__cta--ghost" href="https://www.deepinmemory.fr/" target="_blank" rel="noopener">{{ page.official_cta }}</a>
     </p>
+  </div>
+</section>
+
+<section class="dim-video" id="dim-video">
+  <div class="container">
+    <div class="dim-video__frame">
+      <video
+        controls
+        preload="metadata"
+        poster="{{ '/images/deep-in-memory/img-01.jpg' | relative_url }}"
+        playsinline>
+        <source src="{{ '/images/deep-in-memory/dim-trailer-720p.mp4' | relative_url }}" type="video/mp4">
+      </video>
+    </div>
   </div>
 </section>
 

@@ -1,15 +1,14 @@
 {%- comment -%}
-  Deep In Memory · Paris gallery — shared across 5 lang pages.
-  15 images in /images/deep-in-memory/img-01..15.jpg(.png).
+  Deep In Memory · Paris gallery — 17 stills (img-01 used as hero,
+  img-02..18 in the gallery grid; img-14 + img-17 are .png).
 {%- endcomment -%}
 <section class="dim-gallery">
   <div class="container">
     <div class="dim-gallery__grid">
-      {% for n in (2..15) %}
-        {%- assign idx = n | prepend: '0' | slice: -2, 2 -%}
-        {%- if n == 14 -%}{%- assign ext = 'png' -%}{%- else -%}{%- assign ext = 'jpg' -%}{%- endif -%}
-        <a class="dim-gallery__item" href="{{ '/images/deep-in-memory/img-' | append: idx | append: '.' | append: ext | relative_url }}" target="_blank" rel="noopener">
-          <img src="{{ '/images/deep-in-memory/img-' | append: idx | append: '.' | append: ext | relative_url }}" alt="Deep In Memory — Paris staging" loading="lazy">
+      {%- assign gal_files = "img-02.jpg,img-03.jpg,img-04.jpg,img-05.jpg,img-06.jpg,img-07.jpg,img-08.jpg,img-09.jpg,img-10.jpg,img-11.jpg,img-12.jpg,img-13.jpg,img-14.png,img-15.jpg,img-16.jpg,img-17.png,img-18.jpg" | split: "," -%}
+      {% for f in gal_files %}
+        <a class="dim-gallery__item" href="{{ '/images/deep-in-memory/' | append: f | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/images/deep-in-memory/' | append: f | relative_url }}" alt="Deep In Memory — Paris staging" loading="lazy">
         </a>
       {% endfor %}
     </div>
