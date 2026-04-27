@@ -40,14 +40,14 @@
         </li>
         {% endfor %}
         <li class="timeline__era">{{ tl_era_after }}</li>
-        {% for ev in tl_events offset:6 limit:2 %}
+        {% for ev in tl_events offset:6 limit:4 %}
         <li class="timeline__item">
           <span class="timeline__dot" aria-hidden="true"></span>
           <span class="timeline__text">{{ ev | markdownify | remove: '<p>' | remove: '</p>' }}</span>
         </li>
         {% endfor %}
         <li class="timeline__era">{{ tl_era_studio }}</li>
-        {% for ev in tl_events offset:8 %}
+        {% for ev in tl_events offset:10 %}
         <li class="timeline__item">
           <span class="timeline__dot" aria-hidden="true"></span>
           <span class="timeline__text">{{ ev | markdownify | remove: '<p>' | remove: '</p>' }}</span>

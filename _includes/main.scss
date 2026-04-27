@@ -187,7 +187,6 @@ html[lang="fr"] .hero__title {
   overflow-wrap: break-word;
   max-width: 22em;
 }
-html[lang="ja"] .hero__title { line-height: 1.5; max-width: 28em; }
 html[lang="ja"] .hero__description { line-height: 1.95; letter-spacing: 0.02em; max-width: 42em; }
 
 /* Mobile spot-fix for very long DE / FR titles */
@@ -842,8 +841,42 @@ html[lang="zh-Hant"] .pull-quote__text { font-size: 26px; line-height: 1.7; }
 /* Hero title narrowing — only narrow long Latin sentences;
    CJK headlines are short by nature (8-12 chars) and shouldn't wrap. */
 .hero__title { max-width: 18ch; }
-html[lang="ja"] .hero__title { max-width: none; word-break: keep-all; overflow-wrap: normal; }
-html[lang="zh-Hant"] .hero__title { max-width: none; word-break: keep-all; overflow-wrap: normal; }
+
+/* ===== Global CJK rule: prevent character-level wrap on all titles/headings =====
+   Applies to zh-Hant + ja: all heading/title/quote elements get word-break: keep-all
+   so an isolated character (like 量, 純, etc.) won't drop alone to next line. */
+html[lang="zh-Hant"] .hero__title,
+html[lang="zh-Hant"] .hero__description,
+html[lang="zh-Hant"] .post__title,
+html[lang="zh-Hant"] .post__description,
+html[lang="zh-Hant"] .page-hero__title,
+html[lang="zh-Hant"] .page-hero__subtitle,
+html[lang="zh-Hant"] .pull-quote__text,
+html[lang="zh-Hant"] .archive-hero__title,
+html[lang="zh-Hant"] .archive-hero__subtitle,
+html[lang="zh-Hant"] .section__title,
+html[lang="zh-Hant"] .article__title,
+html[lang="zh-Hant"] .recent-posts__title,
+html[lang="zh-Hant"] .timeline__text,
+html[lang="ja"] .hero__title,
+html[lang="ja"] .hero__description,
+html[lang="ja"] .post__title,
+html[lang="ja"] .post__description,
+html[lang="ja"] .page-hero__title,
+html[lang="ja"] .page-hero__subtitle,
+html[lang="ja"] .pull-quote__text,
+html[lang="ja"] .archive-hero__title,
+html[lang="ja"] .archive-hero__subtitle,
+html[lang="ja"] .section__title,
+html[lang="ja"] .article__title,
+html[lang="ja"] .recent-posts__title,
+html[lang="ja"] .timeline__text {
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+/* Hero title in CJK: lift max-width entirely (8-char headlines don't need narrowing) */
+html[lang="ja"] .hero__title { max-width: none; }
+html[lang="zh-Hant"] .hero__title { max-width: none; }
 
 /* Article card "Read more" CTA */
 .article__cta {
