@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{%- assign dim_lang = page.lang | default: 'zh' -%}
+{%- assign dim_t = site.data.i18n[dim_lang] -%}
+{%- assign dim_t_zh = site.data.i18n.zh -%}
+{%- if dim_lang == 'zh' -%}{%- assign dim_home = '/' -%}{%- else -%}{%- assign dim_home = '/' | append: dim_lang | append: '/' -%}{%- endif -%}
+{%- assign dim_home_label = dim_t.nav.home | default: dim_t_zh.nav.home | default: 'Home' -%}
+
+<section class="dim-hero" style="background-image: url('{{ '/images/deep-in-memory/img-01.jpg' | relative_url }}');">
+  <div class="dim-hero__veil"></div>
+  <div class="container">
+    <nav class="breadcrumbs breadcrumbs--light" aria-label="Breadcrumb">
+      <a href="{{ dim_home | relative_url }}" class="breadcrumbs__link">{{ dim_home_label }}</a>
+      <span class="breadcrumbs__sep" aria-hidden="true">›</span>
+      <span class="breadcrumbs__current" aria-current="page">{{ page.title }}</span>
+    </nav>
+    <p class="dim-hero__eyebrow">{{ page.eyebrow }}</p>
+    <h1 class="dim-hero__title">記憶深處</h1>
+    <p class="dim-hero__meta">
+      <span>{{ page.dates }}</span>
+      <span class="dim-hero__sep" aria-hidden="true">·</span>
+      <span>{{ page.venue }}</span>
+    </p>
+    <p class="dim-hero__cta-row">
+      <a class="dim-hero__cta" href="https://www.deepinmemory.fr/" target="_blank" rel="noopener">{{ page.official_cta }}</a>
+      <a class="dim-hero__cta dim-hero__cta--ghost" href="https://www.deepinmemory.fr/#video" target="_blank" rel="noopener">{{ page.video_cta }} ▶</a>
+    </p>
+  </div>
+</section>
+
+<section class="dim-intro">
+  <div class="container">
+    <article class="dim-intro__article">
+      {{ content }}
+    </article>
+  </div>
+</section>
+
+{% include dim-gallery.html %}
+
+<section class="dim-outbound">
+  <div class="container">
+    <p class="dim-outbound__text">{{ page.outbound_text }}</p>
+    <p>
+      <a class="dim-outbound__cta" href="https://www.deepinmemory.fr/" target="_blank" rel="noopener">{{ page.outbound_cta }}</a>
+    </p>
+  </div>
+</section>

@@ -27,8 +27,9 @@
 <section class="section spotlight spotlight--{{ sp_mode }}" aria-label="{{ sp_title }}">
   <div class="container">
     <div class="spotlight__inner">
-      <a class="spotlight__media" href="https://www.deepinmemory.fr/" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
-        <img src="{{ '/images/deep-in-memory-paris.jpg' | relative_url }}" alt="{{ sp_title }} — {{ sp_venue }}" loading="lazy">
+      {%- if sp_lang == 'zh' -%}{%- assign sp_internal = '/deep-in-memory/' -%}{%- else -%}{%- assign sp_internal = '/' | append: sp_lang | append: '/deep-in-memory/' -%}{%- endif -%}
+      <a class="spotlight__media" href="{{ sp_internal | relative_url }}" aria-hidden="true" tabindex="-1">
+        <img src="{{ '/images/deep-in-memory/img-01.jpg' | relative_url }}" alt="{{ sp_title }} — {{ sp_venue }}" loading="lazy">
       </a>
       <div class="spotlight__body">
         <p class="spotlight__eyebrow">{{ sp_eyebrow }}</p>
@@ -40,7 +41,7 @@
         </p>
         {% if sp_intro %}<p class="spotlight__intro">{{ sp_intro }}</p>{% endif %}
         <p class="spotlight__cta-row">
-          <a class="spotlight__cta" href="https://www.deepinmemory.fr/" target="_blank" rel="noopener">{{ sp_cta }}</a>
+          <a class="spotlight__cta" href="{{ sp_internal | relative_url }}">{{ sp_cta }}</a>
         </p>
       </div>
     </div>

@@ -1,0 +1,17 @@
+{%- comment -%}
+  Deep In Memory · Paris gallery — shared across 5 lang pages.
+  15 images in /images/deep-in-memory/img-01..15.jpg(.png).
+{%- endcomment -%}
+<section class="dim-gallery">
+  <div class="container">
+    <div class="dim-gallery__grid">
+      {% for n in (2..15) %}
+        {%- assign idx = n | prepend: '0' | slice: -2, 2 -%}
+        {%- if n == 14 -%}{%- assign ext = 'png' -%}{%- else -%}{%- assign ext = 'jpg' -%}{%- endif -%}
+        <a class="dim-gallery__item" href="{{ '/images/deep-in-memory/img-' | append: idx | append: '.' | append: ext | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/images/deep-in-memory/img-' | append: idx | append: '.' | append: ext | relative_url }}" alt="Deep In Memory — Paris staging" loading="lazy">
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
