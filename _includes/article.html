@@ -20,10 +20,7 @@
     <div class="article__content">
 
       {%- assign art_lang = page.lang | default: post.lang | default: 'zh' -%}
-      {%- assign art_t = site.data.i18n[art_lang] -%}
-      {%- assign art_t_zh = site.data.i18n.zh -%}
       {%- if art_lang == 'zh' -%}{%- assign art_tag_url_prefix = "" -%}{%- else -%}{%- assign art_tag_url_prefix = "/" | append: art_lang -%}{%- endif -%}
-      {%- assign art_date_format = art_t.date_format | default: art_t_zh.date_format | default: "%d %-b, %Y" -%}
       <div class="article__meta">
         {% if post.tags.size >= 1 %}
         <div class="article__tags">
@@ -32,7 +29,7 @@
         {% endfor %}
         </div>
         {% endif %}
-        <span class="article__date">•<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: art_date_format }}</time></span>
+        <span class="article__date">•<time datetime="{{ post.date | date_to_xmlschema }}">{% include format-lang-date.html date=post.date lang=art_lang %}</time></span>
       </div>
 
       <h2 class="article__title">

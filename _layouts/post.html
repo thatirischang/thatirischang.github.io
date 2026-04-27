@@ -33,7 +33,18 @@ layout: default
           {% endfor %}
           </div>
           {% endif %}
-          <span class="article__date">•<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: pl_date_format }}</time></span>
+          <span class="article__date">•<time datetime="{{ page.date | date_to_xmlschema }}">{% include format-lang-date.html date=page.date lang=pl_lang %}</time></span>
+          {%- assign pl_words = page.content | strip_html | number_of_words -%}
+          {%- if pl_words > 80 -%}
+            {%- assign pl_minutes = pl_words | divided_by: 220 | plus: 1 -%}
+            {%- case pl_lang -%}
+              {%- when 'en' -%}<span class="article__readtime">· {{ pl_minutes }} min read</span>
+              {%- when 'ja' -%}<span class="article__readtime">· {{ pl_minutes }} 分の読みもの</span>
+              {%- when 'de' -%}<span class="article__readtime">· {{ pl_minutes }} Min. Lesezeit</span>
+              {%- when 'fr' -%}<span class="article__readtime">· {{ pl_minutes }} min de lecture</span>
+              {%- else -%}<span class="article__readtime">· {{ pl_minutes }} 分鐘閱讀</span>
+            {%- endcase -%}
+          {%- endif -%}
         </div>
   
         {% if page.title %}

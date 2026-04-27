@@ -25,7 +25,7 @@ permalink: /ja/archive/
     <ol class="archive__list">
       {% for post in archive_posts %}
       <li class="archive__item">
-        <time class="archive__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
+        <time class="archive__date" datetime="{{ post.date | date_to_xmlschema }}">{% include format-lang-date.html date=post.date lang=page.lang %}</time>
         <a class="archive__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
         {% if post.tags.size >= 1 %}
         <span class="archive__tag">{{ post.tags | first }}</span>

@@ -58,9 +58,15 @@
             </div>
           </div>
 
+          {%- comment -%} adaptive col widths: 1 article = full width, 2 = half each, 3+ = thirds {%- endcomment -%}
+          {%- assign st_render_count = posts_for_tag.size | at_most: number_posts -%}
+          {%- if st_render_count == 1 -%}{%- assign st_col_class = "col-12 col-d-12 col-t-12" -%}
+          {%- elsif st_render_count == 2 -%}{%- assign st_col_class = "col-6 col-d-12 col-t-12" -%}
+          {%- else -%}{%- assign st_col_class = "col-4 col-d-6 col-t-12" -%}
+          {%- endif -%}
           <div class="row">
             {% for post in posts_for_tag limit:number_posts %}
-            <div class="col {% if site.data.settings.tags_section.number_columns > 0 and site.data.settings.tags_section.number_columns <= 4 %}col-{{number_columns}} col-d-6 col-t-12{% else %}col-4 col-d-6 col-t-12{% endif %}">
+            <div class="col {{ st_col_class }}">
               {% include article.html %}
             </div>
             {% endfor %}

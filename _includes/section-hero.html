@@ -9,12 +9,14 @@
 {% if site.data.settings.hero.enable == true %}
 <!-- begin hero -->
 <section class="hero">
-  <div class="hero__seal" aria-hidden="true"></div>
+  <svg class="hero__seal-svg" aria-hidden="true" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <rect x="10" y="10" width="180" height="180" fill="none" stroke="currentColor" stroke-width="6"/>
+    <text x="100" y="142" text-anchor="middle" font-family="'Noto Serif JP', 'Noto Serif', serif" font-weight="700" font-size="150" fill="currentColor">純</text>
+  </svg>
   <div class="container">
     <div class="row">
       <div class="col col-12">
         <div class="hero__inner">
-          <span class="hero__mark" aria-hidden="true">「&nbsp;」</span>
           {% if hero_title %}
           <h1 class="hero__title">{{ hero_title }}</h1>
           {% endif %}

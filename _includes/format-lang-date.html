@@ -1,0 +1,19 @@
+{%- comment -%}
+  Lang-aware date formatter. Usage:
+    {% include format-lang-date.html date=post.date lang=page.lang %}
+  Replaces Jekyll's English %B month with localized month name from i18n.yml.
+{%- endcomment -%}
+{%- assign fld_lang = include.lang | default: 'zh' -%}
+{%- assign fld_t = site.data.i18n[fld_lang] -%}
+{%- assign fld_t_zh = site.data.i18n.zh -%}
+{%- assign fld_format = fld_t.date_format | default: fld_t_zh.date_format | default: "%d %-b, %Y" -%}
+{%- assign fld_d = include.date -%}
+{%- assign fld_out = fld_d | date: fld_format -%}
+{%- if fld_t.month_names -%}
+  {%- assign fld_month_idx = fld_d | date: '%-m' | minus: 1 -%}
+  {%- assign fld_month_name = fld_t.month_names[fld_month_idx] -%}
+  {%- assign fld_default_month_full = fld_d | date: '%B' -%}
+  {%- assign fld_default_month_short = fld_d | date: '%b' -%}
+  {%- assign fld_out = fld_out | replace: fld_default_month_full, fld_month_name -%}
+  {%- assign fld_out = fld_out | replace: fld_default_month_short, fld_month_name -%}
+{%- endif -%}{{ fld_out }}

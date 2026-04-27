@@ -12,6 +12,7 @@
 # --------------------------------------------------------------------------
 
 zh:
+  month_names: ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"]
   view_all: 查看全部
   recent_posts: 新帖
   related: 相關閱讀
@@ -44,6 +45,7 @@ zh:
 
 # ===== Iris Chang voice =====
 en:
+  month_names: ["January","February","March","April","May","June","July","August","September","October","November","December"]
   tags_section:
     tags:
       - tag: "Interviews"
@@ -83,6 +85,7 @@ en:
 
 # ===== 大江健三郎 voice =====
 ja:
+  month_names: ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"]
   tags_section:
     tags:
       - tag: "インタビュー"
@@ -122,6 +125,7 @@ ja:
 
 # ===== Stefan Zweig voice =====
 de:
+  month_names: ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"]
   tags_section:
     tags:
       - tag: "Interviews"
@@ -161,6 +165,7 @@ de:
 
 # ===== Marguerite Yourcenar voice =====
 fr:
+  month_names: ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
   tags_section:
     tags:
       - tag: "Entretiens"
