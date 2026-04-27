@@ -6,12 +6,25 @@ layout: default
   <div class="row">
     <div class="col col-10 col-w-12">
       <div class="post__head">
-  
+
         {%- assign pl_lang = page.lang | default: 'zh' -%}
         {%- assign pl_t = site.data.i18n[pl_lang] -%}
         {%- assign pl_t_zh = site.data.i18n.zh -%}
-        {%- if pl_lang == 'zh' -%}{%- assign pl_tag_url_prefix = "" -%}{%- else -%}{%- assign pl_tag_url_prefix = "/" | append: pl_lang -%}{%- endif -%}
+        {%- if pl_lang == 'zh' -%}{%- assign pl_tag_url_prefix = "" -%}{%- assign pl_home = '/' -%}{%- else -%}{%- assign pl_tag_url_prefix = "/" | append: pl_lang -%}{%- assign pl_home = '/' | append: pl_lang | append: '/' -%}{%- endif -%}
         {%- assign pl_date_format = pl_t.date_format | default: pl_t_zh.date_format | default: "%d %-b, %Y" -%}
+        {%- assign pl_home_label = pl_t.nav.home | default: pl_t_zh.nav.home | default: 'Home' -%}
+
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="{{ pl_home | relative_url }}" class="breadcrumbs__link">{{ pl_home_label }}</a>
+          {% if page.tags.size >= 1 %}
+            {% assign first_tag = page.tags | first %}
+            <span class="breadcrumbs__sep" aria-hidden="true">›</span>
+            <a href="{{ site.baseurl }}{{ pl_tag_url_prefix }}/tags/?tag={{ first_tag | downcase | url_encode }}" class="breadcrumbs__link">{{ first_tag }}</a>
+          {% endif %}
+          <span class="breadcrumbs__sep" aria-hidden="true">›</span>
+          <span class="breadcrumbs__current" aria-current="page">{{ page.title | truncate: 60 }}</span>
+        </nav>
+
         <div class="post__meta">
           {% if page.tags.size >= 1 %}
           <div class="post__tags">

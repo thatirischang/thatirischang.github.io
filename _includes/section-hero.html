@@ -3,19 +3,28 @@
 {%- assign t_zh = site.data.i18n.zh -%}
 {%- assign hero_title = t.hero_title | default: t_zh.hero_title -%}
 {%- assign hero_description = t.hero_description | default: t_zh.hero_description -%}
+{%- assign hero_about_cta = t.about_cta | default: t_zh.about_cta -%}
+{%- if lang == 'zh' -%}{%- assign hero_about_url = '/about/' -%}{%- else -%}{%- assign hero_about_url = '/' | append: lang | append: '/about/' -%}{%- endif -%}
 
 {% if site.data.settings.hero.enable == true %}
 <!-- begin hero -->
 <section class="hero">
+  <div class="hero__seal" aria-hidden="true"></div>
   <div class="container">
     <div class="row">
       <div class="col col-12">
         <div class="hero__inner">
+          <span class="hero__mark" aria-hidden="true">「&nbsp;」</span>
           {% if hero_title %}
           <h1 class="hero__title">{{ hero_title }}</h1>
           {% endif %}
           {% if hero_description %}
           <p class="hero__description">{{ hero_description }}</p>
+          {% endif %}
+          {% if hero_about_cta %}
+          <p class="hero__cta-row">
+            <a class="hero__cta" href="{{ hero_about_url | relative_url }}">{{ hero_about_cta }}</a>
+          </p>
           {% endif %}
         </div>
       </div>

@@ -6,6 +6,27 @@ permalink: /tags/
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
 
+<!-- begin tag chip cloud -->
+<section class="section tags-cloud" id="js-tags-cloud">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <ul class="tags-cloud__list list-reset">
+          {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+            {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+            <li class="tags-cloud__item">
+              <a href="?tag={{ this_word | downcase | url_encode }}" class="tags-cloud__chip" data-tag="{{ this_word | url_encode }}">
+                {{ this_word }} <span class="tags-cloud__count">{{ site.tags[this_word].size }}</span>
+              </a>
+            </li>
+          {% endunless %}{% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end tag chip cloud -->
+
 <!-- begin tags -->
 <section class="section tags">
 
@@ -48,10 +69,27 @@ permalink: /tags/
   function normTag(s) {
     return decodeURIComponent((s || '').replace(/\+/g, '%20')).trim().toLowerCase();
   }
-  var tag_name = normTag(window.location.search.replace("?tag=", ""));
-  document.querySelectorAll('.tags__inner').forEach(function(el) {
-    if (normTag(el.getAttribute('tag') || '') === tag_name) {
-      el.classList.remove("is-hidden");
-    }
-  })
+  function applyTag(tag_name) {
+    document.querySelectorAll('.tags__inner').forEach(function(el) {
+      if (normTag(el.getAttribute('tag') || '') === tag_name) {
+        el.classList.remove('is-hidden');
+      } else {
+        el.classList.add('is-hidden');
+      }
+    });
+    document.querySelectorAll('.tags-cloud__chip').forEach(function(c) {
+      c.classList.toggle('is-active', normTag(c.getAttribute('data-tag') || '') === tag_name);
+    });
+  }
+  applyTag(normTag(window.location.search.replace('?tag=', '')));
+  document.querySelectorAll('.tags-cloud__chip').forEach(function(c) {
+    c.addEventListener('click', function (e) {
+      e.preventDefault();
+      var t = normTag(c.getAttribute('data-tag') || '');
+      var url = window.location.pathname + '?tag=' + encodeURIComponent(t);
+      history.pushState(null, '', url);
+      applyTag(t);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
 </script>

@@ -1,10 +1,28 @@
+{%- comment -%}
+  Lang-aware related-posts: iterates site.<lang> for translated collections,
+  shows up to 4 posts sharing at least 1 tag with current page.
+{%- endcomment -%}
+{%- assign rp_lang = page.lang | default: 'zh' -%}
+{%- assign rp_t = site.data.i18n[rp_lang] -%}
+{%- assign rp_t_zh = site.data.i18n.zh -%}
+{%- if rp_lang == 'zh' -%}
+  {%- assign rp_pool = site.posts -%}
+  {%- assign rp_tag_prefix = "" -%}
+{%- else -%}
+  {%- assign rp_pool_raw = site[rp_lang] -%}
+  {%- assign rp_pool = rp_pool_raw | where: 'layout', 'post' -%}
+  {%- assign rp_tag_prefix = "/" | append: rp_lang -%}
+{%- endif -%}
+{%- assign rp_label = rp_t.related | default: rp_t_zh.related | default: 'Related' -%}
+{%- assign rp_view_all = rp_t.view_all | default: rp_t_zh.view_all | default: 'View all' -%}
+
 {% assign maxRelated = 4 %}
 {% assign minCommonTags = 1 %}
 {% assign maxRelatedCounter = 0 %}
 
-{% for post in site.posts %}
+{% assign hasRelated = false %}
+{% for post in rp_pool %}
   {% assign sameTagCount = 0 %}
-  {% assign commonTags = '' %}
   {% for tag in post.tags %}
     {% if post.url != page.url %}
       {% if page.tags contains tag %}
@@ -13,56 +31,48 @@
     {% endif %}
   {% endfor %}
   {% if sameTagCount >= minCommonTags %}
-    {% assign related = 'is-related' %}
+    {% assign hasRelated = true %}
   {% endif %}
 {% endfor %}
 
+{% if hasRelated %}
 <!-- begin related posts -->
 <div class="container">
-  <section class="related-posts {{related}}">
+  <section class="related-posts is-related">
     <div class="row">
       <div class="col col-12">
         <div class="container__inner">
           <div class="section__info">
             <div class="section__head">
-              <h2 class="section__title">Related</h2>
+              <h2 class="section__title">{{ rp_label }}</h2>
               {% if page.tags.size >= 1 %}
-                {% for tag in page.tags %}
-                  {% if forloop.index == 1 %}
-                    <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="button">View all <i class="ion ion-ios-arrow-forward"></i></a>
-                  {% endif %}
-                {% endfor %}
+                {% assign first_tag = page.tags | first %}
+                <a href="{{ site.baseurl }}{{ rp_tag_prefix }}/tags/?tag={{ first_tag | downcase | url_encode }}" class="button">{{ rp_view_all }} <i class="ion ion-ios-arrow-forward"></i></a>
               {% endif %}
             </div>
           </div>
 
           <div class="row">
-          {% for post in site.posts %}
+          {% for post in rp_pool %}
             {% assign sameTagCount = 0 %}
-            {% assign commonTags = '' %}
-      
             {% for tag in post.tags %}
               {% if post.url != page.url %}
                 {% if page.tags contains tag %}
                   {% assign sameTagCount = sameTagCount | plus: 1 %}
-                  {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-                  {% assign commonTags = commonTags | append: tagmarkup %}
                 {% endif %}
               {% endif %}
             {% endfor %}
-      
-            {% if sameTagCount >= minCommonTags %}
 
+            {% if sameTagCount >= minCommonTags %}
             <div class="col col-3 col-d-6 col-m-12">
               {% include article.html %}
             </div>
-
             {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-              {% if maxRelatedCounter >= maxRelated %}
-                  {% break %}
-                {% endif %}
-              {% endif %}
-            {% endfor %}
+            {% if maxRelatedCounter >= maxRelated %}
+              {% break %}
+            {% endif %}
+            {% endif %}
+          {% endfor %}
           </div>
         </div>
       </div>
@@ -70,3 +80,4 @@
   </section>
 </div>
 <!-- end related posts -->
+{% endif %}

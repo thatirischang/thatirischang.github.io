@@ -51,7 +51,7 @@
 
           <div class="section__info">
             <div class="section__head">
-              <h2 class="section__title"><a href="{{ site.baseurl }}{{ st_tag_url_prefix }}/tags/?tag={{ tag_word.tag | downcase | url_encode }}" class="section__link">{{ tag_word.tag | capitalize }}</a></h2>
+              <h2 class="section__title"><a href="{{ site.baseurl }}{{ st_tag_url_prefix }}/tags/?tag={{ tag_word.tag | downcase | url_encode }}" class="section__link">{{ tag_word.tag }}</a></h2>
               {% if number_posts < posts_for_tag.size %}
               <a href="{{ site.baseurl }}{{ st_tag_url_prefix }}/tags/?tag={{ tag_word.tag | downcase | url_encode }}" class="button">{{ st_t.view_all | default: 'View all' }} <i class="ion ion-ios-arrow-forward"></i></a>
               {% endif %}

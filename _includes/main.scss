@@ -111,7 +111,431 @@
 /* >>>>>>>>>>>>>> :: 4.3-Tags Page <<<<<<<<<<<<<<< */
 @import '4-layouts/tags-page';
 
-/* >>>>>>>>>>>>>> :: 5.1-Iris Studio extras (theme toggle, timeline, essential reads, hero polish) <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 5.1-Iris Studio extras + UI polish <<<<<<<<<<<<<<< */
+
+/* ---------- Tokens (extend the existing palette without breaking it) ---------- */
+:root {
+  --ink: #1a1716;
+  --ink-soft: #2a2522;
+  --paper: #faf7f1;
+  --paper-warm: #f3ece0;
+  --rule: #e6dfd2;
+  --seal: #b3402b;
+  --shadow-sm: 0 1px 2px rgba(20,15,10,0.04), 0 2px 8px rgba(20,15,10,0.04);
+  --shadow-md: 0 2px 6px rgba(20,15,10,0.06), 0 8px 24px rgba(20,15,10,0.08);
+  --shadow-lg: 0 4px 12px rgba(20,15,10,0.08), 0 24px 48px rgba(20,15,10,0.10);
+}
+:root[dark] {
+  --ink: #ece6db;
+  --ink-soft: #c8c1b4;
+  --paper: #1a1716;
+  --paper-warm: #221d1a;
+  --rule: #2f2722;
+  --seal: #d65a44;
+}
+
+/* ---------- Hero polish ---------- */
+.hero {
+  position: relative;
+  padding-top: 64px;
+  padding-bottom: 56px;
+  overflow: hidden;
+}
+.hero__seal {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  width: 96px;
+  height: 96px;
+  background-image: url('/images/favicon.ico');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.10;
+  pointer-events: none;
+  filter: saturate(0.7);
+  display: block;
+}
+:root[dark] .hero__seal { opacity: 0.18; }
+@media (max-width: 768px) { .hero__seal { width: 64px; height: 64px; top: 16px; right: 16px; } }
+
+.hero__inner { position: relative; }
+.hero__mark {
+  display: inline-block;
+  font-family: $heading-font-family;
+  font-size: 28px;
+  color: var(--seal);
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+  opacity: 0.85;
+}
+.hero__title {
+  letter-spacing: -0.005em;
+}
+.hero__description {
+  max-width: 56ch;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.hero__cta-row {
+  margin-top: 24px;
+}
+.hero__cta {
+  display: inline-block;
+  border-bottom: 1px solid var(--seal);
+  color: var(--seal);
+  font-weight: 500;
+  padding-bottom: 2px;
+  transition: opacity 0.15s ease;
+  &:hover { opacity: 0.7; }
+}
+
+/* DE / FR hero polish — long compounds & passé composé titles need tighter leading */
+html[lang="de"] .hero__title,
+html[lang="fr"] .hero__title {
+  line-height: 1.18;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  max-width: 22em;
+}
+html[lang="ja"] .hero__title { line-height: 1.5; max-width: 28em; }
+html[lang="ja"] .hero__description { line-height: 1.95; letter-spacing: 0.02em; max-width: 42em; }
+
+/* Mobile spot-fix for very long DE / FR titles */
+@media (max-width: 480px) {
+  .hero { padding-top: 40px; padding-bottom: 32px; }
+  .hero__title { font-size: 28px; line-height: 1.22; }
+  html[lang="de"] .hero__title,
+  html[lang="fr"] .hero__title { font-size: 24px; }
+  .hero__description { font-size: 16px; }
+}
+
+/* ---------- Breadcrumbs ---------- */
+.breadcrumbs {
+  font-family: $base-font-family;
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+.breadcrumbs__link {
+  color: var(--ink-soft);
+  border-bottom: 1px dotted transparent;
+  &:hover { color: var(--seal); border-bottom-color: var(--seal); }
+}
+.breadcrumbs__sep { margin: 0 8px; opacity: 0.5; }
+.breadcrumbs__current { color: var(--ink); font-weight: 500; }
+
+/* ---------- Tag chip cloud (top of /<lang>/tags/) ---------- */
+.section.tags-cloud {
+  padding-top: 48px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--rule);
+}
+.tags-cloud__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tags-cloud__item { margin: 0; }
+.tags-cloud__chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--background-alt-color);
+  color: var(--ink);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  &:hover, &.is-active {
+    background: var(--seal);
+    color: #fff;
+    border-color: var(--seal);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+  }
+}
+.tags-cloud__count {
+  font-size: 11px;
+  font-weight: 600;
+  opacity: 0.55;
+}
+.tags-cloud__chip:hover .tags-cloud__count,
+.tags-cloud__chip.is-active .tags-cloud__count { opacity: 0.85; }
+
+/* ---------- Card / article hover lift ---------- */
+.article {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  &:hover {
+    transform: translateY(-2px);
+    .article__image img { transform: scale(1.03); }
+  }
+}
+.article__inner {
+  background: var(--background-color);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.18s ease;
+}
+.article:hover .article__inner { box-shadow: var(--shadow-md); }
+.article__image img { transition: transform 0.4s ease; }
+
+/* No-image card variant (small text-only post cards) */
+.article:not(:has(.article__image)) .article__inner,
+.article.is-textual .article__inner {
+  padding: 24px 20px;
+  border: 1px solid var(--rule);
+  background: var(--paper-warm);
+  box-shadow: none;
+}
+
+/* ---------- Section spacing rhythm ---------- */
+.section {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.featured-post + .section,
+.section + .section { border-top: 1px solid var(--rule); }
+.section__title { letter-spacing: -0.01em; }
+.section__head .button {
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink);
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  &:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+}
+
+/* ---------- Theme toggle button ---------- */
+.theme-toggle {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 6px 8px;
+  margin-right: 4px;
+  color: var(--text-color);
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1;
+  border-radius: 999px;
+  transition: background 0.15s ease;
+  &:hover { background: var(--background-alt-color); }
+  &__icon { display: inline-block; }
+}
+
+/* ---------- Timeline section ---------- */
+.timeline {
+  background: var(--paper-warm);
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-left: 2px solid var(--seal);
+    padding-left: 28px;
+    max-width: 720px;
+  }
+  &__item {
+    position: relative;
+    padding: 10px 0;
+    margin-left: 0;
+    font-family: $heading-font-family;
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--ink);
+  }
+  &__dot {
+    position: absolute;
+    left: -36px;
+    top: 18px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--seal);
+    box-shadow: 0 0 0 4px var(--paper-warm);
+  }
+  &__text { display: inline-block; }
+}
+
+/* ---------- Archive page ---------- */
+.archive-hero {
+  padding: 80px 0 48px;
+  border-bottom: 1px solid var(--rule);
+  text-align: center;
+  &__title {
+    font-family: $heading-font-family;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-bottom: 12px;
+  }
+  &__subtitle {
+    color: var(--ink-soft);
+    font-style: italic;
+    font-size: 18px;
+    max-width: 32em;
+    margin: 0 auto 16px;
+  }
+  &__count {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    border-top: 1px solid var(--rule);
+    padding-top: 12px;
+  }
+}
+.archive-list { padding-top: 32px; }
+.archive__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.archive__item {
+  display: grid;
+  grid-template-columns: 140px 1fr auto;
+  gap: 24px;
+  align-items: baseline;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: $heading-font-family;
+  &:last-child { border-bottom: none; }
+}
+.archive__date {
+  font-size: 13px;
+  color: var(--ink-soft);
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+  font-family: $base-font-family;
+}
+.archive__link {
+  font-size: 18px;
+  color: var(--ink);
+  border-bottom: 1px solid transparent;
+  &:hover { border-bottom-color: var(--seal); color: var(--seal); }
+}
+.archive__tag {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-warm);
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+@media (max-width: 640px) {
+  .archive__item { grid-template-columns: 1fr; gap: 4px; padding: 14px 0; }
+  .archive__tag { justify-self: start; }
+}
+
+/* ---------- Featured post visual upgrade (1 large + 4 small) ---------- */
+.featured-post {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.featured-post .article__title { line-height: 1.25; }
+.featured-post .article__excerpt {
+  font-family: $heading-font-family;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+/* ---------- Post page polish ---------- */
+.post__title {
+  font-size: 44px;
+  line-height: 1.18;
+  letter-spacing: -0.012em;
+  max-width: 22em;
+  margin-bottom: 16px;
+}
+@media (max-width: 480px) { .post__title { font-size: 30px; } }
+.post__description {
+  font-family: $heading-font-family;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  max-width: 36em;
+  margin-bottom: 32px;
+}
+.post__content {
+  font-size: 17px;
+  line-height: 1.78;
+  color: var(--ink);
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post__content > p:first-of-type::first-letter {
+  font-family: $heading-font-family;
+  font-size: 4em;
+  font-weight: 700;
+  float: left;
+  line-height: 0.9;
+  padding-right: 12px;
+  padding-top: 6px;
+  color: var(--seal);
+}
+html[lang="ja"] .post__content > p:first-of-type::first-letter,
+html[lang="zh-Hant"] .post__content > p:first-of-type::first-letter { /* drop cap looks ugly on CJK */
+  font-size: inherit; float: none; padding: 0; color: inherit;
+}
+.post__content blockquote {
+  border-left: 3px solid var(--seal);
+  padding: 4px 0 4px 20px;
+  margin: 32px 0;
+  font-family: $heading-font-family;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+}
+.post__content h2, .post__content h3 {
+  margin-top: 48px;
+  margin-bottom: 16px;
+  letter-spacing: -0.005em;
+}
+
+/* ---------- Footer polish ---------- */
+.footer {
+  border-top: 1px solid var(--rule);
+}
+.widget-title {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+}
+.recent-posts__title { font-family: $heading-font-family; font-size: 15px; line-height: 1.45; }
+
+/* ---------- Tag pages — keep result blocks clean ---------- */
+.tags__inner .tag__title { letter-spacing: -0.005em; text-transform: none; }
+
+/* ---------- Section-tags clean grid ---------- */
+.section.section-tags { padding-top: 48px; padding-bottom: 48px; }
+.section.section-tags .section__title a { color: var(--ink); }
+.section.section-tags .section__title a:hover { color: var(--seal); }
 
 /* Theme toggle button */
 .theme-toggle {

@@ -14,6 +14,10 @@
 zh:
   view_all: 查看全部
   recent_posts: 新帖
+  related: 相關閱讀
+  archive_title: 全部文章
+  archive_subtitle: 五語多聲，一個記憶。
+  about_cta: 認識工作室 →
   search_placeholder: 輸入文字以搜尋……
   no_results: 沒有相關結果……
   date_format: "%Y年%-m月%-d日"
@@ -49,6 +53,10 @@ en:
       - tag: "Super Iris"
   view_all: View all
   recent_posts: Latest
+  related: Related
+  archive_title: All articles
+  archive_subtitle: Five voices, one memory.
+  about_cta: About the Studio →
   search_placeholder: Type to search…
   no_results: No results found…
   date_format: "%B %-d, %Y"
@@ -84,6 +92,10 @@ ja:
       - tag: "スーパー純如"
   view_all: すべて見る
   recent_posts: 最新の記事
+  related: 関連する記事
+  archive_title: 全記事
+  archive_subtitle: 五つの言葉、ひとつの記憶。
+  about_cta: スタジオについて →
   search_placeholder: 検索ワードを入力してください……
   no_results: 該当する結果はございません……
   date_format: "%Y年%-m月%-d日"
@@ -119,6 +131,10 @@ de:
       - tag: "Super Iris"
   view_all: Alle anzeigen
   recent_posts: Neueste Beiträge
+  related: Verwandte Beiträge
+  archive_title: Alle Beiträge
+  archive_subtitle: Fünf Stimmen — ein Gedächtnis.
+  about_cta: Über das Studio →
   search_placeholder: Suchbegriff eingeben…
   no_results: Keine Ergebnisse gefunden…
   date_format: "%-d. %B %Y"
@@ -154,6 +170,10 @@ fr:
       - tag: "Super Iris"
   view_all: Tout voir
   recent_posts: Articles récents
+  related: Articles liés
+  archive_title: Tous les articles
+  archive_subtitle: Cinq voix — une mémoire.
+  about_cta: Le Studio →
   search_placeholder: Saisir une recherche…
   no_results: Aucun résultat trouvé…
   date_format: "%-d %B %Y"

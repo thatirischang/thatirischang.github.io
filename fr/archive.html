@@ -1,0 +1,37 @@
+---
+layout: default
+lang: fr
+title: Archive
+permalink: /fr/archive/
+---
+{%- assign t = site.data.i18n.fr -%}
+{%- assign t_zh = site.data.i18n.zh -%}
+{%- assign archive_title = t.archive_title | default: t_zh.archive_title -%}
+{%- assign archive_subtitle = t.archive_subtitle | default: t_zh.archive_subtitle -%}
+{%- assign date_format = t.date_format | default: t_zh.date_format -%}
+{%- assign pool_raw = site.fr | where: 'layout', 'post' -%}
+{%- assign archive_posts = pool_raw | sort: 'date' | reverse -%}
+
+<section class="archive-hero">
+  <div class="container">
+    <h1 class="archive-hero__title">{{ archive_title }}</h1>
+    {% if archive_subtitle %}<p class="archive-hero__subtitle">{{ archive_subtitle }}</p>{% endif %}
+    <p class="archive-hero__count">{{ archive_posts.size }}</p>
+  </div>
+</section>
+
+<section class="section archive-list">
+  <div class="container">
+    <ol class="archive__list">
+      {% for post in archive_posts %}
+      <li class="archive__item">
+        <time class="archive__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
+        <a class="archive__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.tags.size >= 1 %}
+        <span class="archive__tag">{{ post.tags | first }}</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>

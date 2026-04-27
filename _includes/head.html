@@ -102,10 +102,5 @@
     {% endif %}
   </script>
 
-  <style>
-  {% capture include_to_scssify %}
-    {% include main.scss %}
-  {% endcapture %}
-  {{ include_to_scssify | scssify }}
-  </style>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 </head>
