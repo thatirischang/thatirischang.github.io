@@ -1051,3 +1051,162 @@ html[lang="fr"] .hero__title {
 /* JA hero — Noto Serif JP renders denser; tighten line-height */
 html[lang="ja"] .hero__title { line-height: 1.4; }
 html[lang="ja"] .hero__description { line-height: 1.85; letter-spacing: 0.02em; }
+
+
+/* =================================================================
+   Mobile / responsive fix-up — last in cascade so it wins
+   ================================================================= */
+@media (max-width: 768px) {
+  /* Container gutters: never let content touch viewport edge */
+  .container, .container-big {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  /* Hero: shrink + give breathing room */
+  .hero { padding-top: 36px !important; padding-bottom: 36px !important; }
+  .hero .hero__inner {
+    padding: 0 !important;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+  .hero .hero__title {
+    font-size: 28px !important;
+    line-height: 1.22 !important;
+    max-width: 100% !important;
+    margin: 0 auto 14px !important;
+    overflow-wrap: break-word;
+  }
+  html[lang="de"] .hero .hero__title,
+  html[lang="fr"] .hero .hero__title { font-size: 24px !important; }
+  .hero .hero__description {
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+  /* Hero seal: hide on mobile so title gets full width */
+  .hero__seal-svg { display: none !important; }
+
+  /* Page-hero */
+  .page-hero { padding: 36px 0 24px !important; }
+  .page-hero__title { font-size: 28px !important; line-height: 1.2 !important; }
+  .page-hero__subtitle { font-size: 15px !important; }
+  .page-hero__seal-svg { display: none !important; }
+
+  /* Section spacing */
+  .section { padding-top: 36px !important; padding-bottom: 36px !important; }
+  .featured-post, .section-tags { padding-top: 36px !important; padding-bottom: 36px !important; }
+
+  /* Pull-quote — was 80px padding, now compact */
+  .section.pull-quote { padding: 36px 16px !important; }
+  .pull-quote__text { font-size: 20px !important; line-height: 1.5 !important; max-width: 100% !important; }
+  html[lang="ja"] .pull-quote__text,
+  html[lang="zh-Hant"] .pull-quote__text { font-size: 19px !important; line-height: 1.7 !important; }
+  .pull-quote__attr { font-size: 11px !important; }
+
+  /* Archive */
+  .archive-hero { padding: 40px 0 24px !important; }
+  .archive-hero__title { font-size: 28px !important; }
+  .archive-hero__subtitle { font-size: 14px !important; max-width: 100% !important; }
+  .archive__year { font-size: 22px !important; }
+  .archive__item {
+    grid-template-columns: 1fr !important;
+    gap: 4px !important;
+    padding: 12px 0 !important;
+  }
+  .archive__date { font-size: 12px !important; }
+  .archive__link { font-size: 16px !important; }
+
+  /* Tags cloud — tighter chips */
+  .section.tags-cloud { padding-top: 32px !important; padding-bottom: 24px !important; }
+  .tags-cloud__list { gap: 8px 8px !important; }
+  .tags-cloud__chip { font-size: 12px !important; padding: 6px 12px !important; }
+
+  /* Card titles */
+  .featured-post .article__title,
+  .section-tags .article__title { font-size: 16px !important; line-height: 1.4 !important; }
+  .article__cta { font-size: 11px !important; }
+
+  /* Featured + section-tags eyebrow */
+  .section__title--eyebrow { font-size: 11px !important; letter-spacing: 0.18em !important; }
+
+  /* Post page typography */
+  .post__title { font-size: 26px !important; line-height: 1.22 !important; max-width: 100% !important; }
+  .post__description { font-size: 15px !important; max-width: 100% !important; }
+  .post__content {
+    font-size: 16px !important;
+    line-height: 1.72 !important;
+    max-width: 100% !important;
+  }
+  .post__content > p:first-of-type::first-letter {
+    font-size: 3em !important;
+    padding-right: 8px !important;
+    padding-top: 4px !important;
+  }
+  .post__content blockquote {
+    font-size: 16px !important;
+    padding-left: 14px !important;
+    margin: 24px 0 !important;
+  }
+
+  /* Breadcrumbs: wrap properly + smaller */
+  .breadcrumbs {
+    font-size: 12px !important;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .breadcrumbs__current { display: inline; }
+
+  /* Reading time */
+  .article__readtime { font-size: 12px !important; }
+
+  /* Post navigation: stack already done */
+  .post__navigation { padding: 32px 0 !important; gap: 16px !important; }
+  .post__nav__title { font-size: 15px !important; }
+  .prev__image, .next__image { width: 64px !important; height: 64px !important; }
+
+  /* Header / nav */
+  .logo__image { max-width: 140px; }
+
+  /* Footer */
+  .footer { padding: 32px 0 16px !important; }
+  .copyright { font-size: 11px !important; }
+  .copyright__affiliates {
+    gap: 2px 10px !important;
+    font-size: 11px !important;
+    flex-direction: column;
+  }
+  .copyright__affiliates a::after { margin-left: 1px; }
+
+  /* Timeline */
+  .timeline__list { padding-left: 20px !important; }
+  .timeline__dot { left: -28px !important; }
+  .timeline__item { font-size: 15px !important; }
+  .timeline__era { margin-left: -20px !important; font-size: 10px !important; }
+
+  /* Anything that could overflow */
+  img, iframe, video, table { max-width: 100%; height: auto; }
+  .post__content img { width: 100%; height: auto; }
+  .gallery-box, .gallery { max-width: 100%; }
+  .gallery img { max-width: 100%; height: auto; }
+}
+
+/* Extra tight viewport (≤380px / iPhone SE 1st gen) */
+@media (max-width: 380px) {
+  .container, .container-big { padding-left: 14px !important; padding-right: 14px !important; }
+  .hero .hero__title { font-size: 24px !important; }
+  html[lang="de"] .hero .hero__title,
+  html[lang="fr"] .hero .hero__title { font-size: 22px !important; }
+  .hero .hero__description { font-size: 14px !important; }
+  .hero__cta { padding: 8px 16px !important; font-size: 12px !important; }
+  .pull-quote__text { font-size: 18px !important; }
+  .archive-hero__title { font-size: 24px !important; }
+  .post__title { font-size: 22px !important; }
+  .post__content { font-size: 15px !important; }
+  .featured-post .article__title,
+  .section-tags .article__title { font-size: 15px !important; }
+}
