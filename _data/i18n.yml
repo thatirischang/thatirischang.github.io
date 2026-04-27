@@ -13,6 +13,13 @@
 
 zh:
   month_names: ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"]
+  pull_quote: 若無人記述,則無歷史。
+  pull_quote_attr: ——以張純如的精神
+  featured_label: 精選文章
+  read_article: 閱讀全文 →
+  era_life: 純如生平
+  era_after: 純如逝後
+  era_studio: 工作室
   view_all: 查看全部
   recent_posts: 新帖
   related: 相關閱讀
