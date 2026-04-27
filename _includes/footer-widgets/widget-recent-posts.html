@@ -2,8 +2,11 @@
 {%- if wrp_lang == 'zh' -%}
   {%- assign wrp_posts = site.posts -%}
 {%- else -%}
-  {%- comment -%} 只取 layout=post 的文档,然后按日期倒序——newest first {%- endcomment -%}
-  {%- assign wrp_posts = site[wrp_lang] | where: 'layout', 'post' | sort: 'date' | reverse -%}
+  {%- comment -%} site[lang] 是 collection,需要先 sort 再过滤,否则 Liquid 链可能不稳定 {%- endcomment -%}
+  {%- assign wrp_pool = site[wrp_lang] -%}
+  {%- assign wrp_filtered = wrp_pool | where: 'layout', 'post' -%}
+  {%- assign wrp_sorted = wrp_filtered | sort: 'date' -%}
+  {%- assign wrp_posts = wrp_sorted | reverse -%}
 {%- endif -%}
 {%- assign wrp_t = site.data.i18n[wrp_lang] -%}
 {%- assign wrp_t_zh = site.data.i18n.zh -%}
