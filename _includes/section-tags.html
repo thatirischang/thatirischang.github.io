@@ -1,4 +1,7 @@
-{% if site.data.settings.tags_section.enable == true and site.data.settings.tags_section.tags != null %}
+{%- comment -%} 该 section 仍以 zh 标签为准;非 zh 子站留空,等 Phase 2B 翻译完后,
+                建立每语标签映射再启用 {%- endcomment -%}
+{%- assign st_lang = page.lang | default: 'zh' -%}
+{% if st_lang == 'zh' and site.data.settings.tags_section.enable == true and site.data.settings.tags_section.tags != null %}
 
 {% if site.data.settings.tags_section.number_columns == 1 %}
   {% assign number_columns = 12 %}

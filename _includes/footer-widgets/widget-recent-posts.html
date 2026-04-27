@@ -1,7 +1,14 @@
+{%- assign wrp_lang = page.lang | default: 'zh' -%}
+{%- if wrp_lang == 'zh' -%}{%- assign wrp_posts = site.posts -%}{%- else -%}{%- assign wrp_posts = site[wrp_lang] -%}{%- endif -%}
+{%- assign wrp_t = site.data.i18n[wrp_lang] -%}
+{%- assign wrp_t_zh = site.data.i18n.zh -%}
+{%- assign wrp_recent_label = wrp_t.recent_posts | default: wrp_t_zh.recent_posts | default: '新帖' -%}
+{%- comment -%} 该 lang 没有文章时,整个 widget 不渲染(避免英文页里冒出中文 post){%- endcomment -%}
+{% if wrp_posts.size > 0 %}
 <div class="col col-4 col-d-12">
   <div class="widget-footer widget-recent-posts">
-    <h3 class="widget-title">新帖</h3>
-    {% for post in site.posts limit:2 %}
+    <h3 class="widget-title">{{ wrp_recent_label }}</h3>
+    {% for post in wrp_posts limit:2 %}
     <div class="recent-posts">
 
       {% if post.image %}
@@ -46,3 +53,4 @@
     {% endfor %}
   </div>
 </div>
+{% endif %}

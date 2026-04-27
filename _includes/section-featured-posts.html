@@ -1,4 +1,8 @@
-{% for post in site.posts %}
+{%- comment -%} lang-resolve: zh 用 site.posts,其他语言用各自 collection,该 lang 没文章则整段不渲染 {%- endcomment -%}
+{%- assign sfp_lang = page.lang | default: 'zh' -%}
+{%- if sfp_lang == 'zh' -%}{%- assign posts_for_lang = site.posts -%}{%- else -%}{%- assign posts_for_lang = site[sfp_lang] -%}{%- endif -%}
+
+{% for post in posts_for_lang %}
   {% if post.featured == true %}
     {% assign is-featured = true %}
   {% endif %}
@@ -16,7 +20,7 @@
         <div class="col col-3 col-d-12">
           <div class="row">
             {% assign count = 0 %}
-            {% for post in site.posts %}
+            {% for post in posts_for_lang %}
             {% if post.featured == true %}
             {% assign count = count | plus: 1 %}
             {% if count <= 2 %}
@@ -32,7 +36,7 @@
         <div class="col col-6 col-d-12">
           <div class="row">
             {% assign count = 0 %}
-            {% for post in site.posts %}
+            {% for post in posts_for_lang %}
             {% if post.featured == true %}
             {% assign count = count | plus: 1 %}
             {% if count == 3 %}
@@ -48,7 +52,7 @@
         <div class="col col-3 col-d-12">
           <div class="row">
             {% assign count = 0 %}
-            {% for post in site.posts %}
+            {% for post in posts_for_lang %}
             {% if post.featured == true %}
             {% assign count = count | plus: 1 %}
             {% if count >= 4 and count <=5 %}
