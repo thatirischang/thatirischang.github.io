@@ -52,11 +52,12 @@ permalink: /tags/
 <!-- end tags -->
 
 <script>
-  var tag_name = window.location.search.replace("?tag=", "");
-  tag_name = decodeURIComponent(tag_name)
+  function normTag(s) {
+    return decodeURIComponent((s || '').replace(/\+/g, '%20')).trim().toLowerCase();
+  }
+  var tag_name = normTag(window.location.search.replace("?tag=", ""));
   document.querySelectorAll('.tags__inner').forEach(function(el) {
-    var tag = decodeURIComponent(el.getAttribute('tag') || '')
-    if (tag === tag_name) {
+    if (normTag(el.getAttribute('tag') || '') === tag_name) {
       el.classList.remove("is-hidden");
     }
   })
