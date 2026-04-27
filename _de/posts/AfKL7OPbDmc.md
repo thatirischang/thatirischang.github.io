@@ -2,7 +2,7 @@
 layout: post
 lang: de
 permalink: /de/posts/AfKL7OPbDmc/
-title: "Dr. Ying-Ying Chang: „Auch die Kraft eines Einzelnen vermag die Welt zu verändern" — Zum sechzehnten Todestag von Iris Chang und zum ersten Jahrestag des Iris-Chang-Gedenkparks"
+title: "Dr. Ying-Ying Chang: „Auch die Kraft eines Einzelnen vermag die Welt zu verändern\" — Zum sechzehnten Todestag von Iris Chang und zum ersten Jahrestag des Iris-Chang-Gedenkparks"
 description: "Eine Veranstaltung, die das ungewöhnliche Verdienst von Iris Chang in das Gedächtnis hebt, die ihre furchtlose Suche nach geschichtlicher Wahrheit ehrt und zugleich den ersten Jahrestag des Iris-Chang-Gedenkparks begeht."
 date: 2020-11-12 15:01:35 +0300
 author: admin

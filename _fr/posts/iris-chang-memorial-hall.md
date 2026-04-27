@@ -3,7 +3,7 @@ layout: post
 lang: fr
 permalink: /fr/posts/iris-chang-memorial-hall/
 title: Le Mémorial Iris Chang
-description: Le Mémorial Iris Chang est le premier édifice voué à présenter, dans toute leur étendue, la vie et l'œuvre d'Iris Chang : femme de lettres sino-américaine, fille de Huai'an, historienne, et défenseuse des droits de l'homme.
+description: "Le Mémorial Iris Chang est le premier édifice voué à présenter, dans toute leur étendue, la vie et l'œuvre d'Iris Chang : femme de lettres sino-américaine, fille de Huai'an, historienne, et défenseuse des droits de l'homme."
 date: 2024-01-02 15:01:35 +0300
 author: admin
 image: '/images/24.jpg'

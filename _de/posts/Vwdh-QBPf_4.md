@@ -3,7 +3,7 @@ layout: post
 lang: de
 permalink: /de/posts/Vwdh-QBPf_4/
 title: "Der Iris-Chang-Gedenkpark"
-description: "Am 9. November 2019 wurde in San Jose der Iris Chang Park eröffnet, zur Erinnerung an den fünfzehnten Todestag der Verfasserin von *Die Vergewaltigung von Nanjing* — ein Ort, an dem die Überzeugung „die Kraft eines Einzelnen" allen, die kommen, in Grün und in Stille dargebracht wird."
+description: "Am 9. November 2019 wurde in San Jose der Iris Chang Park eröffnet, zur Erinnerung an den fünfzehnten Todestag der Verfasserin von *Die Vergewaltigung von Nanjing* — ein Ort, an dem die Überzeugung „die Kraft eines Einzelnen\" allen, die kommen, in Grün und in Stille dargebracht wird."
 date: 2023-01-05 15:01:35 +0300
 author: admin
 image: '/images/137.jpg'

@@ -2,8 +2,8 @@
 layout: post
 lang: de
 permalink: /de/posts/super-iris-1-/
-title: "Das erste „Super Iris"-NFT des Iris Chang Studios steht vor der Ausgabe"
-description: "Als auf Dauer gemeinnützige Einrichtung verteilt das Iris Chang Studio die NFT-Reihe „Super Iris" zu bestimmten Gedenktagen im Airdrop-Verfahren."
+title: "Das erste „Super Iris\"-NFT des Iris Chang Studios steht vor der Ausgabe"
+description: "Als auf Dauer gemeinnützige Einrichtung verteilt das Iris Chang Studio die NFT-Reihe „Super Iris\" zu bestimmten Gedenktagen im Airdrop-Verfahren."
 date: 2024-06-20 15:01:35 +0300
 author: livia
 image: '/images/160.png'

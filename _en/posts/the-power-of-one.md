@@ -3,7 +3,7 @@ layout: post
 lang: en
 permalink: /en/posts/the-power-of-one/
 title: "The Power of One Can Change the World — The Iris Chang Studio Visits the *Hawaii Chinese Daily*"
-description: Through her writing and her unwavering spirit, Iris Chang made the world remember the truth of the Nanjing Massacre. Her book *The Rape of Nanking: The Forgotten Holocaust of World War II* is the living proof of the conviction that "the power of one can change the world."
+description: "Through her writing and her unwavering spirit, Iris Chang made the world remember the truth of the Nanjing Massacre. Her book *The Rape of Nanking: The Forgotten Holocaust of World War II* is the living proof of the conviction that \"the power of one can change the world.\""
 date: 2020-12-18 15:01:35 +0300
 author: admin
 image: '/images/128.jpg'
