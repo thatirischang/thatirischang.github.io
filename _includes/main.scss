@@ -144,35 +144,15 @@
 }
 .hero {
   background-color: var(--paper-warm);
-  /* Fixed height across 5 langs — video size consistent regardless of text length.
-     Long descriptions get line-clamped instead of expanding the hero. */
-  height: 380px !important;
-  min-height: 0 !important;
-  max-height: 380px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+  /* Hero auto-sizes to text content per lang. min-height keeps zh's short content
+     from looking tiny; long descriptions (de/fr) naturally make hero taller. */
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-@media (max-width: 768px) {
-  .hero { height: 300px !important; max-height: 300px !important; }
-}
-@media (max-width: 480px) {
-  .hero { height: 260px !important; max-height: 260px !important; }
-}
-/* Long descriptions (ja Ōe paragraph etc.) get clamped so they don't push hero taller */
-.hero .hero__description {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  line-clamp: 4;
-  overflow: hidden;
-}
-@media (max-width: 768px) {
-  .hero .hero__description { -webkit-line-clamp: 3; line-clamp: 3; }
-}
-@media (max-width: 480px) {
-  .hero .hero__description { -webkit-line-clamp: 2; line-clamp: 2; }
-}
+@media (max-width: 768px) { .hero { min-height: 260px; } }
+@media (max-width: 480px) { .hero { min-height: 220px; } }
 .hero__bg {
   position: absolute;
   inset: 0;
