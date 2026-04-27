@@ -62,19 +62,11 @@ layout: default
   </div>
 </div>
 
-<!-- begin post -->
-<div class="container">
+<!-- begin post — long-form reader: no sidebar, content centered via .post max-width -->
+<div class="container post-container">
 
   <div class="row">
-    <div class="sidebar-left col col-3 col-w-4 col-d-12">
-      <aside class="sidebar">
-        {% include sidebar-widgets/widget-post-author.html %}
-        {% include sidebar-widgets/widget-featured-posts.html %}
-        {% include sidebar-widgets/widget-tags.html %}
-      </aside>
-    </div>
-
-    <div class="col col-9 col-w-8 col-d-12">
+    <div class="col col-12">
       <article class="post">
     
         {% if page.video_embed %}

@@ -148,11 +148,20 @@
   width: 110px;
   height: 110px;
   color: var(--seal);
-  opacity: 0.14;
+  opacity: 0.07;
   pointer-events: none;
   display: block;
 }
-:root[dark] .hero__seal-svg { opacity: 0.24; }
+:root[dark] .hero__seal-svg { opacity: 0.16; }
+
+/* Sparse section-tags row (1-2 cards) — center the cards rather than left-align with empty cols */
+.section-tags .row { justify-content: center; }
+
+/* Long-form post: center article in container, no sidebar */
+.post-container { max-width: 760px; margin-left: auto; margin-right: auto; }
+.post { max-width: 100%; }
+.post-image, .post-video { max-width: 100%; margin-bottom: 32px; }
+@media (max-width: 768px) { .post-container { padding-left: 20px; padding-right: 20px; } }
 @media (max-width: 768px) { .hero__seal-svg { width: 72px; height: 72px; top: 18px; right: 18px; } }
 
 /* Bumped specificity (.hero .hero__inner) to defeat theme's left-align rule */

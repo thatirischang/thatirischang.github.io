@@ -1,0 +1,22 @@
+{
+  "name": "Iris Chang Studio",
+  "short_name": "Iris Chang",
+  "description": "Five voices, one memory. The Iris Chang Studio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf7f1",
+  "theme_color": "#b3402b",
+  "icons": [
+    {
+      "src": "/images/og-portrait.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

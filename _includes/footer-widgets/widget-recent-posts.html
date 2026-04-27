@@ -37,14 +37,8 @@
       <div class="recent-posts__content">
 
         <div class="article__meta">
-          {% if post.tags.size >= 1 %}
-          <div class="article__tags">
-          {% for tag in post.tags %}
-            <a href="{{ site.baseurl }}{{ wrp_tag_url_prefix }}/tags/?tag={{ tag | downcase | url_encode }}" class="article__tag">{{ tag }}</a>
-          {% endfor %}
-          </div>
-          {% endif %}
-          <span class="article__date">•<time datetime="{{ post.date | date_to_xmlschema }}">{% include format-lang-date.html date=post.date lang=wrp_lang %}</time></span>
+          {%- comment -%} Footer Recent: tag chip hidden (top 6 by date often same tag = visual monotony) {%- endcomment -%}
+          <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% include format-lang-date.html date=post.date lang=wrp_lang %}</time></span>
         </div>
 
         <h4 class="recent-posts__title"><a href="{{ post.url }}">{{ post.title }}</a></h4>

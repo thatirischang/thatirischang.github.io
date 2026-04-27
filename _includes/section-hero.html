@@ -3,8 +3,8 @@
 {%- assign t_zh = site.data.i18n.zh -%}
 {%- assign hero_title = t.hero_title | default: t_zh.hero_title -%}
 {%- assign hero_description = t.hero_description | default: t_zh.hero_description -%}
-{%- assign hero_about_cta = t.about_cta | default: t_zh.about_cta -%}
-{%- if lang == 'zh' -%}{%- assign hero_about_url = '/about/' -%}{%- else -%}{%- assign hero_about_url = '/' | append: lang | append: '/about/' -%}{%- endif -%}
+{%- assign hero_cta_label = t.read_all | default: t_zh.read_all | default: 'Read all articles →' -%}
+{%- assign hero_cta_url = t.read_all_url | default: t_zh.read_all_url | default: '/archive/' -%}
 
 {% if site.data.settings.hero.enable == true %}
 <!-- begin hero -->
@@ -23,9 +23,9 @@
           {% if hero_description %}
           <p class="hero__description">{{ hero_description }}</p>
           {% endif %}
-          {% if hero_about_cta %}
+          {% if hero_cta_label %}
           <p class="hero__cta-row">
-            <a class="hero__cta" href="{{ hero_about_url | relative_url }}">{{ hero_about_cta }}</a>
+            <a class="hero__cta" href="{{ hero_cta_url | relative_url }}">{{ hero_cta_label }}</a>
           </p>
           {% endif %}
         </div>

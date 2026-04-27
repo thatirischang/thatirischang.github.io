@@ -15,8 +15,10 @@ zh:
   month_names: ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"]
   pull_quote: 若無人記述,則無歷史。
   pull_quote_attr: ——以張純如的精神
-  featured_label: 精選文章
+  featured_label: 編輯部精選
   read_article: 閱讀全文 →
+  read_all: 讀完整館藏 →
+  read_all_url: /archive/
   era_life: 純如生平
   era_after: 純如逝後
   era_studio: 工作室
@@ -54,8 +56,10 @@ zh:
 en:
   pull_quote: Where there is no record, there is no history.
   pull_quote_attr: — in the spirit of Iris Chang
-  featured_label: Featured
+  featured_label: From the Archive
   read_article: Read article →
+  read_all: Read all 31 articles →
+  read_all_url: /en/archive/
   era_life: Iris Chang's Life
   era_after: After Iris
   era_studio: The Studio
@@ -101,8 +105,10 @@ en:
 ja:
   pull_quote: 記述なき所に、歴史はない。
   pull_quote_attr: ――張純如の精神に拠りて
-  featured_label: 精選
+  featured_label: 編集部より
   read_article: 続きを読む →
+  read_all: 全 31 篇を読む →
+  read_all_url: /ja/archive/
   era_life: 純如の生涯
   era_after: 純如逝去の後
   era_studio: スタジオ
@@ -148,8 +154,10 @@ ja:
 de:
   pull_quote: Wo nichts verzeichnet wird, gibt es keine Geschichte.
   pull_quote_attr: — im Geiste Iris Changs
-  featured_label: Empfohlen
+  featured_label: Aus dem Archiv
   read_article: Beitrag lesen →
+  read_all: Alle 31 Beiträge lesen →
+  read_all_url: /de/archive/
   era_life: Das Leben Iris Changs
   era_after: Nach Iris
   era_studio: Das Studio
@@ -195,8 +203,10 @@ de:
 fr:
   pull_quote: Là où nul ne consigne, il n'y a point d'histoire.
   pull_quote_attr: — dans l'esprit d'Iris Chang
-  featured_label: Sélection
+  featured_label: Du fonds
   read_article: Lire l'article →
+  read_all: Lire les 31 articles →
+  read_all_url: /fr/archive/
   era_life: La vie d'Iris Chang
   era_after: Après Iris
   era_studio: Le Studio

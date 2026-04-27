@@ -41,7 +41,8 @@
     {%- assign posts_for_tag = st_lang_posts | where_exp: "p", "p.tags contains tag_word.tag" -%}
   {%- endif -%}
 
-  {% if posts_for_tag.size > 0 %}
+  {%- comment -%} Skip clusters with < 2 articles (visual sparsity) {%- endcomment -%}
+  {% if posts_for_tag.size >= 2 %}
 <!-- begin section-tag -->
 <section class="section section-tags animate">
   <div class="container">
