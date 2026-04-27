@@ -534,17 +534,33 @@ html[lang="zh-Hant"] .post__content > p:first-of-type::first-letter { /* drop ca
 .featured-post .article__title a,
 .section-tags .article__title,
 .section-tags .article__title a { font-size: 17px; line-height: 1.35; }
-.featured-post .article__image,
-.section-tags .article__image {
-  aspect-ratio: 4 / 3;
+
+/* Image container: enforce 4:3 aspect ratio + remove old padding-bottom hack + drop grey bg */
+.article__image {
+  aspect-ratio: 4 / 3 !important;
+  padding-bottom: 0 !important;       /* override theme's 75% padding hack */
+  background: var(--ink) !important;  /* dark fill instead of pale grey, blends if image short */
   overflow: hidden;
-  display: block;
 }
-.featured-post .article__image img,
-.section-tags .article__image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.article__image img {
+  position: absolute !important;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center;
+}
+:root[dark] .article__image { background: #000 !important; }
+
+/* Sidebar/widget thumbnails: also trim white edges by removing pale bg */
+.recent-posts__image,
+.prev__image, .next__image {
+  background: var(--ink) !important;
+  overflow: hidden;
+}
+.recent-posts__image img,
+.prev__image img, .next__image img {
+  width: 100%; height: 100%; object-fit: cover;
 }
 
 /* ---------- Reading time pill ---------- */
