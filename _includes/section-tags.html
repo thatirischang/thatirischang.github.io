@@ -58,10 +58,10 @@
             </div>
           </div>
 
-          {%- comment -%} 等大网格: 不论文章数都用 col-4 (3 列布局) — 视觉一致性 {%- endcomment -%}
+          {%- comment -%} 全站等大网格: col-3 = ¼ 容器宽 (与 Featured 一致) — 卡片视觉统一 {%- endcomment -%}
           <div class="row">
             {% for post in posts_for_tag limit:number_posts %}
-            <div class="col col-4 col-d-6 col-t-12">
+            <div class="col col-3 col-d-6 col-t-12">
               {% include article.html %}
             </div>
             {% endfor %}
