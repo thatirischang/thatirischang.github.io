@@ -144,17 +144,34 @@
 }
 .hero {
   background-color: var(--paper-warm);
-  /* Fixed min-height across 5 langs so video size is consistent regardless of text length */
-  min-height: 380px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* Fixed height across 5 langs — video size consistent regardless of text length.
+     Long descriptions get line-clamped instead of expanding the hero. */
+  height: 380px !important;
+  min-height: 0 !important;
+  max-height: 380px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 @media (max-width: 768px) {
-  .hero { min-height: 300px; }
+  .hero { height: 300px !important; max-height: 300px !important; }
 }
 @media (max-width: 480px) {
-  .hero { min-height: 260px; }
+  .hero { height: 260px !important; max-height: 260px !important; }
+}
+/* Long descriptions (ja Ōe paragraph etc.) get clamped so they don't push hero taller */
+.hero .hero__description {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  line-clamp: 4;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .hero .hero__description { -webkit-line-clamp: 3; line-clamp: 3; }
+}
+@media (max-width: 480px) {
+  .hero .hero__description { -webkit-line-clamp: 2; line-clamp: 2; }
 }
 .hero__bg {
   position: absolute;
