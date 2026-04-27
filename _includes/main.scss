@@ -839,10 +839,11 @@ html[lang="zh-Hant"] .pull-quote__text { font-size: 26px; line-height: 1.7; }
 }
 .timeline__list .timeline__era:first-child { margin-top: 0; }
 
-/* Hero title narrowing */
+/* Hero title narrowing — only narrow long Latin sentences;
+   CJK headlines are short by nature (8-12 chars) and shouldn't wrap. */
 .hero__title { max-width: 18ch; }
-html[lang="ja"] .hero__title { max-width: 24ch; }
-html[lang="zh-Hant"] .hero__title { max-width: 14ch; }
+html[lang="ja"] .hero__title { max-width: none; word-break: keep-all; overflow-wrap: normal; }
+html[lang="zh-Hant"] .hero__title { max-width: none; word-break: keep-all; overflow-wrap: normal; }
 
 /* Article card "Read more" CTA */
 .article__cta {
