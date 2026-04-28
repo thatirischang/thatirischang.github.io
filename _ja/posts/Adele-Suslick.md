@@ -7,7 +7,7 @@ description: 大学附属実験高校での教育に育まれて、アイリス�
 author: admin
 image: '/images/2_Adele Suslick.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [追悼]
+tags: [忘れてはならぬこと]
 ---
 ## 二〇〇四年十二月二日午後四時
 

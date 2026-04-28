@@ -7,7 +7,7 @@ description: アイリス・チャンの死は、戦争の浩劫を、その目�
 author: admin
 image: '/images/111025015937-nicolaus-mills.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [追悼]
+tags: [忘れてはならぬこと]
 ---
 ## ニコラス・ミルズ (Nicolaus Mills)
 

@@ -8,7 +8,7 @@ date: 2020-11-12 15:01:35 +0300
 author: admin
 image: '/images/17.jpg'
 video_embed: https://www.youtube.com/embed/AfKL7OPbDmc
-tags: [Ying-Ying-Chang-Kolumne]
+tags: [Ying-Ying Chang erinnert sich]
 ---
 
 Vortrag: Auch die Kraft eines Einzelnen vermag die Welt zu verändern

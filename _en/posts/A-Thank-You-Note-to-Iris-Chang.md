@@ -7,7 +7,7 @@ description: I have come to believe deeply that anyone who reads Iris Chang's bo
 date: 2024-08-02 15:01:35 +0300
 author: admin
 image: '/images/36412-81002.png'
-tags: [Memorial]
+tags: [What Must Not Be Forgotten]
 ---
 ## My Memory of the Last Time I Saw Iris Chang
 

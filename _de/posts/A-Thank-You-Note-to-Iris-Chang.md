@@ -7,7 +7,7 @@ description: Ich bin zu der tiefen Überzeugung gelangt, daß jeder, der Iris Ch
 date: 2024-08-02 15:01:35 +0300
 author: admin
 image: '/images/36412-81002.png'
-tags: [Gedenken]
+tags: [Was nicht vergessen werden darf]
 ---
 ## Erinnerung an mein letztes Wiedersehen mit Iris Chang
 

@@ -7,7 +7,7 @@ description: "Au cours de la cérémonie tenue au Mémorial Iris Chang, Liu Yu a
 date: 2023-01-12 15:01:35 +0300
 author: admin
 image: '/images/151.jpg'
-tags: [Actualité]
+tags: [Témoignage et écho]
 ---
 
 À 14 h 30, dans la salle de conférences du Mémorial Iris Chang de Huai'an, eut lieu la cérémonie de don de l'édition dédicacée du *Viol de Nankin : l'holocauste oublié de la Seconde Guerre mondiale* d'Iris Chang. Liu Yu, fondateur du Studio Iris Chang et donateur de l'ouvrage, le personnel du Mémorial Iris Chang de Huai'an et des représentants de la presse prirent part ensemble à cet événement.

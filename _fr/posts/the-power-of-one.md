@@ -7,7 +7,7 @@ description: "Par sa plume et par une fermeté qui ne céda jamais, Iris Chang f
 date: 2020-12-18 15:01:35 +0300
 author: admin
 image: '/images/128.jpg'
-tags: [Entretiens]
+tags: [Voix qui demeurent]
 ---
 
 > Iris Chang, née à Princeton, dans l'État du New Jersey, fit ses études au département de journalisme de l'Université de l'Illinois à Urbana-Champaign. Son livre *Le Viol de Nankin : l'holocauste oublié de la Seconde Guerre mondiale*, paru en 1997, fut la première étude approfondie du massacre de Nankin en langue anglaise — un livre qui mit fin, d'un seul trait, au long silence du monde anglophone sur la trace écrite de cet événement. À peine publié aux États-Unis, il s'imposa comme l'un des grands ouvrages de non-fiction du pays et figura trois mois durant sur la liste des meilleures ventes du *New York Times*. Pour honorer sa contribution, le *Hawaii Chinese Daily*, pour la première fois de son histoire, a inscrit parmi ses « Personnalités de la Grande Chine » une personne qui se trouve déjà au ciel — Iris Chang. Le chroniqueur du *Washington Post*, George Will, a écrit : « Grâce au livre d'Iris Chang, le second « viol de Nankin » est terminé. »

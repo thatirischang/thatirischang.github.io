@@ -7,7 +7,7 @@ description: La mort d'Iris Chang met à nu le poids insoutenable que charge sur
 author: admin
 image: '/images/111025015937-nicolaus-mills.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [Mémoire]
+tags: [Ce qu'il ne faut pas oublier]
 ---
 ## Par Nicolaus Mills
 

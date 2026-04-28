@@ -7,7 +7,7 @@ description: Wir werden das Wirken Iris Changs und ihren außerordentlichen Beit
 author: admin
 image: '/images/Michael Makoto Honda.jpg'
 date: 2024-08-01 15:01:35 +0300
-tags: [Gedenken]
+tags: [Was nicht vergessen werden darf]
 ---
 ## Aus dem Congressional Record
 

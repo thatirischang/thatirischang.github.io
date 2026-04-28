@@ -7,7 +7,7 @@ description: "アイリス・チャン・スタジオが、教師の誤った言
 date: 2021-12-16 15:01:35 +0300
 author: admin
 image: '/images/159.jpg'
-tags: [熱点]
+tags: [証言と反響]
 ---
 *封面新聞 記者 荀超 呉徳玉*
 

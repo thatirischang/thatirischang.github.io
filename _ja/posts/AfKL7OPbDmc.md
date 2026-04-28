@@ -8,7 +8,7 @@ date: 2020-11-12 15:01:35 +0300
 author: admin
 image: '/images/17.jpg'
 video_embed: https://www.youtube.com/embed/AfKL7OPbDmc
-tags: [張盈盈コラム]
+tags: [張盈盈の記述]
 ---
 
 講題:一個人の力もまた世界を変えうる

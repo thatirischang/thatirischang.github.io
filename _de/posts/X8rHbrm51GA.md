@@ -8,7 +8,7 @@ date: 2020-10-17 15:01:35 +0300
 author: admin
 image: '/images/16.jpg'
 video_embed: https://www.youtube.com/embed/X8rHbrm51GA
-tags: [Ying-Ying-Chang-Kolumne]
+tags: [Ying-Ying Chang erinnert sich]
 ---
 
 Die chinesisch-amerikanische Schriftstellerin Iris Chang verfaßte *Die Vergewaltigung von Nanjing — der vergessene Holocaust des Zweiten Weltkriegs*. Die Nachricht ihres Todes 2004 stürzte die ganze chinesische Gemeinschaft Nordamerikas in tiefe Trauer.

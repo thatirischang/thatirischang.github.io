@@ -5,7 +5,7 @@ description: 我也深深地相信，任何人讀了張純如這本書，無論�
 date: 2024-08-02 15:01:35 +0300
 author: admin
 image: '/images/36412-81002.png'
-tags: [紀念]
+tags: [不該被遺忘]
 ---
 ## 我與張純如 Iris Chang 最後一面的回憶
 

@@ -8,7 +8,7 @@ date: 2020-11-12 15:01:35 +0300
 author: admin
 image: '/images/17.jpg'
 video_embed: https://www.youtube.com/embed/AfKL7OPbDmc
-tags: [Ying-Ying Chang Column]
+tags: [Ying-Ying Chang's Account]
 ---
 
 Talk: The Power of One Can Change the World

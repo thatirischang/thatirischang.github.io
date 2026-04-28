@@ -7,7 +7,7 @@ description: Iris Chang's death lays bare the unbearable weight of bearing witne
 author: admin
 image: '/images/111025015937-nicolaus-mills.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [Memorial]
+tags: [What Must Not Be Forgotten]
 ---
 ## By Nicolaus Mills
 

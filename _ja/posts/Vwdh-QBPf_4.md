@@ -8,7 +8,7 @@ date: 2023-01-05 15:01:35 +0300
 author: admin
 image: '/images/137.jpg'
 video_embed: https://www.youtube.com/embed/Vwdh-QBPf_4
-tags: [追悼]
+tags: [忘れてはならぬこと]
 ---
 
 二〇一九年十一月九日、サンノゼに位置する張純如記念公園(Iris Chang Park)が、正式に開園した ―― 歴史家であり、『南京大虐殺』(*The Rape of Nanking*)の著者である張純如の没後十五年を記念するためであった。当日、地域の住民、華僑団体の代表、そして複数の選出官員が一堂に会し、この稀有なる歴史家に向け、深き敬意を捧げたのである。

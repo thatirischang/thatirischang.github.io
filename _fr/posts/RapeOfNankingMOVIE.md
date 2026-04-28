@@ -7,7 +7,7 @@ description: "De ma rencontre avec le milliardaire américain Ted Leonsis et ave
 date: 2023-11-05 15:01:35 +0300
 author: admin
 image: '/images/162.png'
-tags: [Chronique de Ying-Ying Chang]
+tags: [Récit de Ying-Ying Chang]
 ---
 Par Ying-Ying Chang
 

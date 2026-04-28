@@ -7,7 +7,7 @@ description: J'en suis venu à croire profondément que quiconque lit ce livre d
 date: 2024-08-02 15:01:35 +0300
 author: admin
 image: '/images/36412-81002.png'
-tags: [Mémoire]
+tags: [Ce qu'il ne faut pas oublier]
 ---
 ## Souvenir de ma dernière rencontre avec Iris Chang
 

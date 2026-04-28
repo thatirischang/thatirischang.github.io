@@ -8,7 +8,7 @@ date: 2020-10-17 15:01:35 +0300
 author: admin
 image: '/images/16.jpg'
 video_embed: https://www.youtube.com/embed/X8rHbrm51GA
-tags: [Chronique de Ying-Ying Chang]
+tags: [Récit de Ying-Ying Chang]
 ---
 
 L'écrivaine sino-américaine Iris Chang est l'auteur du *Viol de Nankin : l'holocauste oublié de la Seconde Guerre mondiale*. La nouvelle de sa mort, en 2004, plongea toute la communauté chinoise d'Amérique du Nord dans une profonde douleur.

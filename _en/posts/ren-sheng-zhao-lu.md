@@ -8,7 +8,7 @@ date: 2024-07-24 15:01:35 +0300
 author: admin
 image: '/images/WechatIMG96.jpg'
 video_embed: https://www.youtube.com/embed/GM-e2qiustk
-tags: [Interviews]
+tags: [Voices That Continue]
 ---
 
 This recorded interview is part of the work *Life is Brief as the Morning Dew*, directed by Zong Tian'ai. All of its content (including, but not limited to, video, audio, text, and images) belongs in copyright to the director Zong Tian'ai and to the providers of that content. The subject of this interview is Mr. Liu Yu of the Iris Chang Studio. Without written authorization, no organization or individual may, in any form, repost, excerpt, copy or use the material for commercial purposes. Material used under prior authorization shall be used only within the scope of that authorization, and the source shall be clearly named.

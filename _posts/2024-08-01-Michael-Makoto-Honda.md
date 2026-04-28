@@ -5,7 +5,7 @@ description: 我們將銘記張純如的事蹟以及她對亞裔社區做出的�
 date: 2024-08-01 15:01:35 +0300
 author: admin
 image: '/images/Michael Makoto Honda.jpg'
-tags: [紀念]
+tags: [不該被遺忘]
 ---
 ## 美國國會記錄
 

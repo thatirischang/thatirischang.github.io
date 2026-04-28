@@ -7,7 +7,7 @@ description: アイリス・チャンは怖れを知らぬ勇気をもって南�
 author: admin
 image: '/images/irischang._Unbearable_sadness_of_others_pain.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [追悼]
+tags: [忘れてはならぬこと]
 ---
 ## ローリー・バーキン
 

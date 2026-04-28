@@ -6,7 +6,7 @@ date: 2020-11-12 15:01:35 +0300
 author: admin
 image: '/images/17.jpg'
 video_embed: https://www.youtube.com/embed/AfKL7OPbDmc
-tags: [張盈盈專欄]
+tags: [張盈盈記述]
 ---
 講題：一個人的力量也能改變世界
 ——紀念張純如逝世十六周年暨張純如紀念公園一周年

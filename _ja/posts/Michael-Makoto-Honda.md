@@ -7,7 +7,7 @@ description: 私たちは、アイリス・チャンの事蹟、そしてアジ�
 author: admin
 image: '/images/Michael Makoto Honda.jpg'
 date: 2024-08-01 15:01:35 +0300
-tags: [追悼]
+tags: [忘れてはならぬこと]
 ---
 ## 米国国会議事録
 

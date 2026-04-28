@@ -8,7 +8,7 @@ date: 2024-01-02 15:01:35 +0300
 author: admin
 image: '/images/24.jpg'
 video_embed: https://www.youtube.com/embed/QuB4PYaRNBw
-tags: [Memorial]
+tags: [What Must Not Be Forgotten]
 ---
 > The Iris Chang Memorial Hall is the first museum dedicated to the life and work of Iris Chang — Chinese-American writer, daughter of Huai'an, historian, and human rights advocate. The hall stands in Huaiyin District of Huai'an City, on the north bank of the ancient Huai River, on a site of 36,000 square meters with about 1,000 square meters of exhibition space.
 

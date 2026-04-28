@@ -7,7 +7,7 @@ description: "Il fut de ces esprits supérieurs dont parlait Einstein — de ceu
 author: admin
 image: '/images/Shau-Jin.jpg'
 date: 2025-01-26 15:01:35 +0300
-tags: [Mémoire]
+tags: [Ce qu'il ne faut pas oublier]
 ---
 ## Par Ying-Ying Chang
 

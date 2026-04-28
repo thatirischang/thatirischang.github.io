@@ -8,7 +8,7 @@ date: 2024-07-24 15:01:35 +0300
 author: admin
 image: '/images/WechatIMG96.jpg'
 video_embed: https://www.youtube.com/embed/GM-e2qiustk
-tags: [Entretiens]
+tags: [Voix qui demeurent]
 ---
 
 Cet enregistrement d'entretien fait partie de l'œuvre *Vie brève comme la rosée du matin*, dont la réalisation est de Zong Tian'ai. L'ensemble du contenu (y compris, sans s'y limiter, l'image, le son, le texte et les photographies) appartient, en droit d'auteur, au réalisateur Zong Tian'ai et aux fournisseurs du contenu. Le sujet du présent entretien est M. Liu Yu, du Studio Iris Chang. Sans autorisation écrite, aucune institution ni aucun particulier ne peut, sous quelque forme que ce soit, reprendre, citer en extrait, reproduire ou utiliser ce matériel à des fins commerciales. Quiconque l'utilise au titre d'une autorisation préalable ne devra le faire que dans les limites de celle-ci et indiquera clairement la source.

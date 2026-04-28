@@ -7,7 +7,7 @@ description: We will remember Iris Chang's record and her remarkable contributio
 author: admin
 image: '/images/Michael Makoto Honda.jpg'
 date: 2024-08-01 15:01:35 +0300
-tags: [Memorial]
+tags: [What Must Not Be Forgotten]
 ---
 ## Congressional Record
 

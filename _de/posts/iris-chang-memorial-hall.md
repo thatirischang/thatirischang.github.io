@@ -8,7 +8,7 @@ date: 2024-01-02 15:01:35 +0300
 author: admin
 image: '/images/24.jpg'
 video_embed: https://www.youtube.com/embed/QuB4PYaRNBw
-tags: [Gedenken]
+tags: [Was nicht vergessen werden darf]
 ---
 > Die Iris-Chang-Gedenkhalle ist die erste Stätte, die Leben und Werk Iris Changs – der chinesisch-amerikanischen Schriftstellerin, Tochter Huai'ans, Historikerin und Verfechterin der Menschenrechte – in ihrer ganzen Spannweite zur Ansicht bringt. Sie steht im Stadtteil Huaiyin von Huai'an, am nördlichen Ufer des alten Huai-Flusses, auf einem Gelände von 36 000 Quadratmetern, mit einer Ausstellungsfläche von rund 1 000 Quadratmetern.
 

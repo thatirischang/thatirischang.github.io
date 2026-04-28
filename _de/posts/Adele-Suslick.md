@@ -7,7 +7,7 @@ description: Dank ihrer Erziehung an der University Lab High ist Iris Chang im v
 author: admin
 image: '/images/2_Adele Suslick.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [Gedenken]
+tags: [Was nicht vergessen werden darf]
 ---
 ## Den 2. Dezember 2004, vier Uhr nachmittags
 

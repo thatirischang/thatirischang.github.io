@@ -7,7 +7,7 @@ description: あなたは、世界と南京とのあいだに、長きにわた�
 author: admin
 image: '/images/Hann-Shuin Yew.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [追悼]
+tags: [忘れてはならぬこと]
 ---
 ## ハン・シュイン・ユー
 

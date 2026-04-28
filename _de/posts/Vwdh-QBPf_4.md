@@ -8,7 +8,7 @@ date: 2023-01-05 15:01:35 +0300
 author: admin
 image: '/images/137.jpg'
 video_embed: https://www.youtube.com/embed/Vwdh-QBPf_4
-tags: [Gedenken]
+tags: [Was nicht vergessen werden darf]
 ---
 
 Am 9. November 2019 wurde in San Jose, Kalifornien, der Iris-Chang-Gedenkpark (*Iris Chang Park*) eröffnet, um den fünfzehnten Todestag der Historikerin Iris Chang zu begehen — der Verfasserin von *Die Vergewaltigung von Nanjing*. An jenem Tag versammelten sich Anwohner der Nachbarschaft, Vertreter der chinesischen Gemeinde und mehrere gewählte Mandatsträger, um einer ungewöhnlichen Historikerin ihre Achtung zu erweisen.

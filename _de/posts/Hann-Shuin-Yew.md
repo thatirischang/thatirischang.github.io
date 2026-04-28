@@ -7,7 +7,7 @@ description: Sie haben jenen Bambusvorhang beiseite gezogen, der so lange zwisch
 author: admin
 image: '/images/Hann-Shuin Yew.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [Gedenken]
+tags: [Was nicht vergessen werden darf]
 ---
 ## Von Hann-Shuin Yew
 

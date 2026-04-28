@@ -6,7 +6,7 @@ date: 2024-01-02 15:01:35 +0300
 author: admin
 image: '/images/24.jpg'
 video_embed: https://www.youtube.com/embed/QuB4PYaRNBw
-tags: [紀念]
+tags: [不該被遺忘]
 ---
 > 張純如紀念館是首個全面展示美籍華人、淮安之子、著名歷史學家及人權鬥士張純如生平事跡的專題館。紀念館位於淮安市淮陰區，坐落於古淮河北岸，佔地面積3.6萬平方米，展覽面積約1000平方米。
 

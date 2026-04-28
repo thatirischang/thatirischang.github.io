@@ -4,7 +4,7 @@ title: 他人之痛——無法承受的悲傷
 description: 张纯如以无畏的勇气揭示南京大屠杀真相，她的逝世令人悲痛和敬佩，彰显了她对历史和正义的不懈追求。
 author: admin
 image: '/images/irischang._Unbearable_sadness_of_others_pain.png'
-tags: [紀念]
+tags: [不該被遺忘]
 ---
 ## 勞瑞．芭金
 

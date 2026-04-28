@@ -8,7 +8,7 @@ date: 2023-01-05 15:01:35 +0300
 author: admin
 image: '/images/137.jpg'
 video_embed: https://www.youtube.com/embed/Vwdh-QBPf_4
-tags: [Mémoire]
+tags: [Ce qu'il ne faut pas oublier]
 ---
 
 Le 9 novembre 2019, à San José, en Californie, fut inauguré le Parc commémoratif Iris Chang (*Iris Chang Park*), pour marquer le quinzième anniversaire de la mort de l'historienne Iris Chang, auteur du *Viol de Nankin*. Ce jour-là, les habitants du quartier, des représentants des associations chinoises et plusieurs élus se rassemblèrent pour rendre hommage à une historienne hors du commun.

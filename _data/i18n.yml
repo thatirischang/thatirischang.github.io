@@ -15,7 +15,7 @@ zh:
   month_names: ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"]
   pull_quote: 若無人記述,則無歷史。
   pull_quote_attr: ——以張純如的精神
-  featured_label: 編輯部精選
+  featured_label: 從這裡讀起
   read_article: 閱讀全文 →
   read_all: 讀完整館藏 →
   read_all_url: /archive/
@@ -64,7 +64,7 @@ zh:
 en:
   pull_quote: Where there is no record, there is no history.
   pull_quote_attr: — in the spirit of Iris Chang
-  featured_label: From the Archive
+  featured_label: Begin Here
   read_article: Read article →
   read_all: Read all 31 articles →
   read_all_url: /en/archive/
@@ -82,10 +82,10 @@ en:
   month_names: ["January","February","March","April","May","June","July","August","September","October","November","December"]
   tags_section:
     tags:
-      - tag: "Interviews"
-      - tag: "Ying-Ying Chang Column"
-      - tag: "Hot Topic"
-      - tag: "Memorial"
+      - tag: "Voices That Continue"
+      - tag: "Ying-Ying Chang's Account"
+      - tag: "Witness and Echo"
+      - tag: "What Must Not Be Forgotten"
       - tag: "Super Iris"
   view_all: View all
   recent_posts: Latest
@@ -121,7 +121,7 @@ en:
 ja:
   pull_quote: 記述なき所に、歴史はない。
   pull_quote_attr: ――張純如の精神に拠りて
-  featured_label: 編集部より
+  featured_label: ここから読む
   read_article: 続きを読む →
   read_all: 全 31 篇を読む →
   read_all_url: /ja/archive/
@@ -139,10 +139,10 @@ ja:
   month_names: ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"]
   tags_section:
     tags:
-      - tag: "インタビュー"
-      - tag: "張盈盈コラム"
-      - tag: "熱点"
-      - tag: "追悼"
+      - tag: "続いてゆく声"
+      - tag: "張盈盈の記述"
+      - tag: "証言と反響"
+      - tag: "忘れてはならぬこと"
       - tag: "スーパー純如"
   view_all: すべて見る
   recent_posts: 最新の記事
@@ -178,7 +178,7 @@ ja:
 de:
   pull_quote: Wo nichts verzeichnet wird, gibt es keine Geschichte.
   pull_quote_attr: — im Geiste Iris Changs
-  featured_label: Aus dem Archiv
+  featured_label: Hier beginnen
   read_article: Beitrag lesen →
   read_all: Alle 31 Beiträge lesen →
   read_all_url: /de/archive/
@@ -196,10 +196,10 @@ de:
   month_names: ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"]
   tags_section:
     tags:
-      - tag: "Interviews"
-      - tag: "Ying-Ying-Chang-Kolumne"
-      - tag: "Aktuell"
-      - tag: "Gedenken"
+      - tag: "Stimmen, die fortdauern"
+      - tag: "Ying-Ying Chang erinnert sich"
+      - tag: "Zeugnis und Widerhall"
+      - tag: "Was nicht vergessen werden darf"
       - tag: "Super Iris"
   view_all: Alle anzeigen
   recent_posts: Neueste Beiträge
@@ -235,7 +235,7 @@ de:
 fr:
   pull_quote: Là où nul ne consigne, il n'y a point d'histoire.
   pull_quote_attr: — dans l'esprit d'Iris Chang
-  featured_label: Du fonds
+  featured_label: Commencer ici
   read_article: Lire l'article →
   read_all: Lire les 31 articles →
   read_all_url: /fr/archive/
@@ -253,10 +253,10 @@ fr:
   month_names: ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
   tags_section:
     tags:
-      - tag: "Entretiens"
-      - tag: "Chronique de Ying-Ying Chang"
-      - tag: "Actualité"
-      - tag: "Mémoire"
+      - tag: "Voix qui demeurent"
+      - tag: "Récit de Ying-Ying Chang"
+      - tag: "Témoignage et écho"
+      - tag: "Ce qu'il ne faut pas oublier"
       - tag: "Super Iris"
   view_all: Tout voir
   recent_posts: Articles récents

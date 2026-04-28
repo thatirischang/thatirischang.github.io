@@ -7,7 +7,7 @@ description: You drew aside the bamboo curtain that had stood for so long betwee
 author: admin
 image: '/images/Hann-Shuin Yew.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [Memorial]
+tags: [What Must Not Be Forgotten]
 ---
 ## By Hann-Shuin Yew
 

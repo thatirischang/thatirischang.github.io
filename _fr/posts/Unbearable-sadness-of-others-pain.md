@@ -7,7 +7,7 @@ description: Le témoignage sans peur d'Iris Chang sur le massacre de Nankin, et
 author: admin
 image: '/images/irischang._Unbearable_sadness_of_others_pain.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [Mémoire]
+tags: [Ce qu'il ne faut pas oublier]
 ---
 ## Par Laurie Barkin
 

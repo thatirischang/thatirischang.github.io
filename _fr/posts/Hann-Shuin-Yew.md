@@ -7,7 +7,7 @@ description: Vous avez écarté ce rideau de bambou qui, si longtemps, s'était 
 author: admin
 image: '/images/Hann-Shuin Yew.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [Mémoire]
+tags: [Ce qu'il ne faut pas oublier]
 ---
 ## Par Hann-Shuin Yew
 

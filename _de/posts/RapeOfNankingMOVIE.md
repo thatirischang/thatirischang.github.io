@@ -7,7 +7,7 @@ description: "Über die Begegnung mit dem amerikanischen Milliardär Ted Leonsis
 date: 2023-11-05 15:01:35 +0300
 author: admin
 image: '/images/162.png'
-tags: [Ying-Ying-Chang-Kolumne]
+tags: [Ying-Ying Chang erinnert sich]
 ---
 Von Ying-Ying Chang
 

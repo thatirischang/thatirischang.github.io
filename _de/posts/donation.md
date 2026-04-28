@@ -7,7 +7,7 @@ description: "Bei der Schenkungsfeier in der Iris-Chang-Gedenkhalle hat Liu Yu d
 date: 2023-01-12 15:01:35 +0300
 author: admin
 image: '/images/151.jpg'
-tags: [Aktuell]
+tags: [Zeugnis und Widerhall]
 ---
 
 Um halb drei nachmittags fand im Vortragssaal der Iris-Chang-Gedenkhalle in Huai'an die Schenkungsfeier der signierten Ausgabe von *Die Vergewaltigung von Nanjing — der vergessene Holocaust des Zweiten Weltkriegs* statt. An der Feier nahmen Liu Yu, Gründer des Iris Chang Studios und Spender des Buches, die Mitarbeiter der Iris-Chang-Gedenkhalle in Huai'an sowie Vertreter der Presse gemeinsam teil.

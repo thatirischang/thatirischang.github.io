@@ -8,7 +8,7 @@ date: 2020-10-17 15:01:35 +0300
 author: admin
 image: '/images/16.jpg'
 video_embed: https://www.youtube.com/embed/X8rHbrm51GA
-tags: [Ying-Ying Chang Column]
+tags: [Ying-Ying Chang's Account]
 ---
 
 The Chinese-American writer Iris Chang authored *The Rape of Nanking: The Forgotten Holocaust of World War II*. The news of her death in 2004 brought deep grief to the entire Chinese community in North America.

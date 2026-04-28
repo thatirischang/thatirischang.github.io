@@ -7,7 +7,7 @@ description: "At the donation ceremony held at the Iris Chang Memorial Hall, Liu
 date: 2023-01-12 15:01:35 +0300
 author: admin
 image: '/images/151.jpg'
-tags: [Hot Topic]
+tags: [Witness and Echo]
 ---
 
 At 2:30 in the afternoon, in the lecture hall of the Iris Chang Memorial Hall in Huai'an, a ceremony was held for the donation of *The Rape of Nanking: The Forgotten Holocaust of World War II* — Iris Chang's signed edition. Liu Yu, founder of the Iris Chang Studio and the donor on the day, the staff of the Iris Chang Memorial Hall in Huai'an, and members of the press took part together in the event.

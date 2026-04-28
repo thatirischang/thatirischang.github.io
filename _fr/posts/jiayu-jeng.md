@@ -8,7 +8,7 @@ date: 2019-11-14 15:01:35 +0300
 author: admin
 image: '/images/126.jpg'
 video_embed: https://www.youtube.com/embed/TZRulEKoZHY
-tags: [Chronique de Ying-Ying Chang]
+tags: [Récit de Ying-Ying Chang]
 ---
 
 Le 9 novembre 2004, l'écrivaine sino-américaine Iris Chang, atteinte de dépression, mit fin à ses jours chez elle ; elle avait trente-six ans. Sa renommée internationale tenait à *Le Viol de Nankin : l'holocauste oublié de la Seconde Guerre mondiale*, ce livre à grand succès paru en 1997, qui mit en lumière le cours cruel du massacre de Nankin et devint un document historique fort remarqué. Après des années de préparation et le labeur infatigable de nombreuses personnes du quartier, un parc portant son nom fut officiellement inauguré, le 9 novembre 2019, dans le nord de San José — à la mémoire de sa contribution exceptionnelle et de son héritage spirituel.

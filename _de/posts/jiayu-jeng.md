@@ -8,7 +8,7 @@ date: 2019-11-14 15:01:35 +0300
 author: admin
 image: '/images/126.jpg'
 video_embed: https://www.youtube.com/embed/TZRulEKoZHY
-tags: [Ying-Ying-Chang-Kolumne]
+tags: [Ying-Ying Chang erinnert sich]
 ---
 
 Am 9. November 2004 hat sich die chinesisch-amerikanische Schriftstellerin Iris Chang, an einer Depression erkrankt, im eigenen Hause das Leben genommen; sie war sechsunddreißig Jahre alt. In der Welt war ihr Ruf gegründet auf *Die Vergewaltigung von Nanjing — der vergessene Holocaust des Zweiten Weltkriegs*, jenem 1997 erschienenen Bestseller, der das grausame Geschehen des Massakers von Nanking ins Licht hob und zu einem viel beachteten geschichtlichen Dokument wurde. Nach Jahren der Vorbereitung und der unermüdlichen Arbeit vieler Menschen in der Gemeinde wurde ein Park, der ihren Namen trägt, am 9. November 2019 im Norden San Joses offiziell eröffnet — zur Erinnerung an ihren außerordentlichen Beitrag und an ihr geistiges Erbe.

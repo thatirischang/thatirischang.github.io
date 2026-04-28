@@ -7,7 +7,7 @@ description: Grâce à l'éducation reçue à la University Lab High, Iris Chang
 author: admin
 image: '/images/2_Adele Suslick.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [Mémoire]
+tags: [Ce qu'il ne faut pas oublier]
 ---
 ## Le 2 décembre 2004, à seize heures
 

@@ -4,7 +4,7 @@ title: 阿黛尔·蘇斯利克老師在張純如追思會上的講話
 description: 得益於她在實驗高中的教育，張純如在過去的十年里，成為華裔美國人最有力的聲音
 author: admin
 image: '/images/2_Adele Suslick.png'
-tags: [紀念]
+tags: [不該被遺忘]
 ---
 ## 2004年12月2日下午四點
 

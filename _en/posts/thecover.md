@@ -7,7 +7,7 @@ description: "The Iris Chang Studio responds to a teacher's false statements: to
 date: 2021-12-16 15:01:35 +0300
 author: admin
 image: '/images/159.jpg'
-tags: [Hot Topic]
+tags: [Witness and Echo]
 ---
 *Cover News reporters Xun Chao and Wu Deyu*
 

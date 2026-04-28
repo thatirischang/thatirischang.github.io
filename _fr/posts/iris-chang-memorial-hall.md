@@ -8,7 +8,7 @@ date: 2024-01-02 15:01:35 +0300
 author: admin
 image: '/images/24.jpg'
 video_embed: https://www.youtube.com/embed/QuB4PYaRNBw
-tags: [Mémoire]
+tags: [Ce qu'il ne faut pas oublier]
 ---
 > Le Mémorial Iris Chang est le premier édifice voué à présenter, dans toute leur étendue, la vie et l'œuvre d'Iris Chang : femme de lettres sino-américaine, fille de Huai'an, historienne, et défenseuse des droits de l'homme. Il s'élève dans le district de Huaiyin, à Huai'an, sur la rive nord de l'antique fleuve Huai, occupant un domaine de trente-six mille mètres carrés, dont environ mille sont consacrés à l'exposition.
 

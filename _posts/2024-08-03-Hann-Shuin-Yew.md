@@ -4,7 +4,7 @@ title: 致張純如信
 description: 您掀開了長期阻擋在世人與南京大屠殺之間的竹簾子
 author: admin
 image: '/images/Hann-Shuin Yew.png'
-tags: [紀念]
+tags: [不該被遺忘]
 ---
 ## 作者：Hann-Shuin Yew 
 

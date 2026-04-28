@@ -7,7 +7,7 @@ description: "Through her writing and her unwavering spirit, Iris Chang made the
 date: 2020-12-18 15:01:35 +0300
 author: admin
 image: '/images/128.jpg'
-tags: [Interviews]
+tags: [Voices That Continue]
 ---
 
 > Iris Chang was born in Princeton, New Jersey, and graduated from the University of Illinois at Urbana-Champaign in journalism. Her 1997 book *The Rape of Nanking: The Forgotten Holocaust of World War II* was the first thorough English-language study of the Nanjing Massacre — a book that ended the long English-speaking silence on the historical record of that event. Released in the United States, it became a leading work of nonfiction and remained on the *New York Times* bestseller list for three months. To honor her contribution, the *Hawaii Chinese Daily* has, for the first time in its history, named a person who is already in heaven — Iris Chang — to its list of Greater Chinese Personalities. The *Washington Post* columnist George Will has written: "Because of Iris Chang's book, the second 'rape of Nanjing' is over."

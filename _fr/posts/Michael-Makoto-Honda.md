@@ -7,7 +7,7 @@ description: Nous garderons mémoire de l'œuvre d'Iris Chang et de l'éminente 
 author: admin
 image: '/images/Michael Makoto Honda.jpg'
 date: 2024-08-01 15:01:35 +0300
-tags: [Mémoire]
+tags: [Ce qu'il ne faut pas oublier]
 ---
 ## Compte rendu officiel du Congrès des États-Unis
 

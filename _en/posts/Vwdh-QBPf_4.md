@@ -8,7 +8,7 @@ date: 2023-01-05 15:01:35 +0300
 author: admin
 image: '/images/137.jpg'
 video_embed: https://www.youtube.com/embed/Vwdh-QBPf_4
-tags: [Memorial]
+tags: [What Must Not Be Forgotten]
 ---
 
 On November 9, 2019, Iris Chang Park opened in San Jose, California, to mark the fifteenth anniversary of the death of the historian Iris Chang, author of *The Rape of Nanking*. On the day of the opening, residents of the neighborhood, representatives of community organizations, and a number of elected officials gathered to pay their respects to a remarkable historian.

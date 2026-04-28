@@ -7,7 +7,7 @@ description: Iris Changs furchtloses Zeugnis vom Massaker von Nanking — und ih
 author: admin
 image: '/images/irischang._Unbearable_sadness_of_others_pain.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [Gedenken]
+tags: [Was nicht vergessen werden darf]
 ---
 ## Von Laurie Barkin
 

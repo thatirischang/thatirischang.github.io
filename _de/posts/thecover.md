@@ -7,7 +7,7 @@ description: "Das Iris-Chang-Studio antwortet auf die Falschaussagen einer Lehre
 date: 2021-12-16 15:01:35 +0300
 author: admin
 image: '/images/159.jpg'
-tags: [Aktuell]
+tags: [Zeugnis und Widerhall]
 ---
 *Cover News, Reporter Xun Chao und Wu Deyu*
 

@@ -7,7 +7,7 @@ description: "Er war jener edle Geist, von dem Einstein einmal gesprochen hat â€
 author: admin
 image: '/images/Shau-Jin.jpg'
 date: 2025-01-26 15:01:35 +0300
-tags: [Gedenken]
+tags: [Was nicht vergessen werden darf]
 ---
 ## Von Ying-Ying Chang
 

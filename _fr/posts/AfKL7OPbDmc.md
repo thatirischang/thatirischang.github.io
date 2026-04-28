@@ -8,7 +8,7 @@ date: 2020-11-12 15:01:35 +0300
 author: admin
 image: '/images/17.jpg'
 video_embed: https://www.youtube.com/embed/AfKL7OPbDmc
-tags: [Chronique de Ying-Ying Chang]
+tags: [Récit de Ying-Ying Chang]
 ---
 
 Conférence : La force d'un seul peut, elle aussi, changer le monde

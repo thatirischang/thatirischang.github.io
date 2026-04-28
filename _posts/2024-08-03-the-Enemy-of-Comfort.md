@@ -4,7 +4,7 @@ title: 心安之敵(The Enemy of Comfort)
 description: 張純如棄世展現追憶戰爭浩劫的無法承受之重
 author: admin
 image: '/images/111025015937-nicolaus-mills.png'
-tags: [紀念]
+tags: [不該被遺忘]
 ---
 ## 作者：尼可拉斯·邁爾斯 (Nicolaus Mills)
 

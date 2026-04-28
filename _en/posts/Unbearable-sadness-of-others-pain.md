@@ -7,7 +7,7 @@ description: Iris Chang's fearless witness of the Nanjing Massacre, and her deat
 author: admin
 image: '/images/irischang._Unbearable_sadness_of_others_pain.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [Memorial]
+tags: [What Must Not Be Forgotten]
 ---
 ## By Laurie Barkin
 

@@ -7,7 +7,7 @@ description: Because of her education at University Lab High, Iris Chang has, ov
 author: admin
 image: '/images/2_Adele Suslick.png'
 date: 2024-08-03 00:00:00 +0300
-tags: [Memorial]
+tags: [What Must Not Be Forgotten]
 ---
 ## December 2, 2004, 4 PM
 

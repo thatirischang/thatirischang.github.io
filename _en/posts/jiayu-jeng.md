@@ -8,7 +8,7 @@ date: 2019-11-14 15:01:35 +0300
 author: admin
 image: '/images/126.jpg'
 video_embed: https://www.youtube.com/embed/TZRulEKoZHY
-tags: [Ying-Ying Chang Column]
+tags: [Ying-Ying Chang's Account]
 ---
 
 On November 9, 2004, the Chinese-American writer Iris Chang took her own life at home, after struggling with depression; she was thirty-six years old. Her standing in the world had been won by *The Rape of Nanking: The Forgotten Holocaust of World War II*, the bestselling book that appeared in 1997, which set out the cruel record of the Nanking Massacre and became a much-noted historical document. After many years of preparation and the unwearied work of many in the community, a park bearing her name was opened in northern San Jose on November 9, 2019, to mark her exceptional contribution and her spiritual inheritance.

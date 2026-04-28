@@ -8,7 +8,7 @@ date: 2024-07-24 15:01:35 +0300
 author: admin
 image: '/images/WechatIMG96.jpg'
 video_embed: https://www.youtube.com/embed/GM-e2qiustk
-tags: [Interviews]
+tags: [Stimmen, die fortdauern]
 ---
 
 Diese aufgezeichnete Befragung ist Teil des Werkes *Das Leben kurz wie Morgentau*, geleitet von Regisseur Zong Tian'ai. Sämtliche Inhalte (einschließlich, ohne darauf beschränkt zu sein, Bild, Ton, Text und Standbilder) stehen urheberrechtlich dem Regisseur Zong Tian'ai und den Anbietern der Inhalte zu. Befragter dieses Gesprächs ist Herr Liu Yu vom Iris Chang Studio. Ohne schriftliche Genehmigung darf weder eine Einrichtung noch ein einzelner das Material in irgendeiner Form weitergeben, auszugsweise wiedergeben, vervielfältigen oder zu gewerblichen Zwecken verwenden. Wer das Material mit Genehmigung nutzt, hat es nur innerhalb des Rahmens der Genehmigung zu verwenden und die Quelle klar zu nennen.

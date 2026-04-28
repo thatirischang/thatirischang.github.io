@@ -7,7 +7,7 @@ description: 彼は、アインシュタインがかつて描いたあの理想�
 author: admin
 image: '/images/Shau-Jin.jpg'
 date: 2025-01-26 15:01:35 +0300
-tags: [追悼]
+tags: [忘れてはならぬこと]
 ---
 ## 著者：張盈盈
 

@@ -7,7 +7,7 @@ description: "On meeting the American billionaire Ted Leonsis and the great dire
 date: 2023-11-05 15:01:35 +0300
 author: admin
 image: '/images/162.png'
-tags: [Ying-Ying Chang Column]
+tags: [Ying-Ying Chang's Account]
 ---
 By Ying-Ying Chang
 

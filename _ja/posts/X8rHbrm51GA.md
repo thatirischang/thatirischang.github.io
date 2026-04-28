@@ -8,7 +8,7 @@ date: 2020-10-17 15:01:35 +0300
 author: admin
 image: '/images/16.jpg'
 video_embed: https://www.youtube.com/embed/X8rHbrm51GA
-tags: [張盈盈コラム]
+tags: [張盈盈の記述]
 ---
 
 華裔の作家・張純如は『南京大虐殺 ―― 忘れさられた第二次世界大戦のホロコースト』を著した。彼女が二〇〇四年に逝去したという報は、北米の華人全体を、深き悲しみに沈めることとなった。

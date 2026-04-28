@@ -7,7 +7,7 @@ description: "Le Studio Iris Chang réagit aux propos erronés d'une enseignante
 date: 2021-12-16 15:01:35 +0300
 author: admin
 image: '/images/159.jpg'
-tags: [Actualité]
+tags: [Témoignage et écho]
 ---
 *Cover News, journalistes Xun Chao et Wu Deyu*
 
