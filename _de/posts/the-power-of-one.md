@@ -7,7 +7,7 @@ description: "Mit ihrer Feder und mit einem Willen, der nicht zu beugen war, lie
 date: 2020-12-18 15:01:35 +0300
 author: admin
 image: '/images/128.jpg'
-tags: [Stimmen, die fortdauern]
+tags: ["Stimmen, die fortdauern"]
 ---
 
 > Iris Chang, geboren in Princeton im Staate New Jersey, schloß ihr Studium am College für Journalismus der University of Illinois at Urbana-Champaign ab. Ihr 1997 erschienenes Buch *Die Vergewaltigung von Nanjing — der vergessene Holocaust des Zweiten Weltkriegs* war die erste umfassende Studie zum Massaker von Nanking in englischer Sprache; eine Arbeit, die die lange Stille der englischsprachigen Welt zu jener historischen Episode mit einem Schlage beendete. Kaum war das Buch in den Vereinigten Staaten erschienen, da wurde es zur meistverkauften Sachbucharbeit des Landes und stand drei Monate lang auf der Bestseller-Liste der *New York Times*. Um ihr Verdienst zu ehren, hat das *Hawaii Chinese Daily* zum ersten Mal in seiner Geschichte eine Person, die schon im Himmel weilt — Iris Chang —, in seine Liste der „Persönlichkeiten Großchinas" aufgenommen. Der Kolumnist der *Washington Post*, George Will, hat geschrieben: „Durch das Buch von Iris Chang ist die zweite ‚Vergewaltigung von Nanjing' beendet."

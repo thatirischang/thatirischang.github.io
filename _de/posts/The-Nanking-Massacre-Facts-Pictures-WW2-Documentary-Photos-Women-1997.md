@@ -8,7 +8,7 @@ date: 2024-04-06 15:01:35 +0300
 author: admin
 image: '/images/18.jpg'
 video_embed: https://www.youtube.com/embed/Z9lpicQgiYs
-tags: [Stimmen, die fortdauern]
+tags: ["Stimmen, die fortdauern"]
 featured: true
 ---
 
