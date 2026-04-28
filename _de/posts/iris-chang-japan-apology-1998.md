@@ -4,7 +4,7 @@ lang: de
 permalink: /de/posts/iris-chang-japan-apology-1998/
 title: "Wenn das Wort „Entschuldigung" sich nicht niederschreiben lässt — Iris Chang und die Frage nach historischer Verantwortung"
 description: "Am Vorabend des Staatsbesuchs Jiang Zemins in Japan im Jahr 1998 sprach Iris Chang in einem Fernsehinterview mit dem japanischen Botschafter in den Vereinigten Staaten, Kunihiko Saito, über das Gewicht eines einzigen Wortes — denn die Aufrichtigkeit eines Staates gegenüber der Geschichte beruht darauf, ob er das Wort „Entschuldigung" mit gebührender Würde niederzuschreiben vermag."
-date: 2026-04-28 15:01:35 +0300
+date: 2026-04-28 00:30:00 +0000
 author: admin
 image: '/images/iris-chang-saito-1998.jpg'
 video_embed: https://www.youtube.com/embed/yQzIrki67_s

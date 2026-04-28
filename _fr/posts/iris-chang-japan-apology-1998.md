@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/posts/iris-chang-japan-apology-1998/
 title: "Quand le mot « excuses » ne peut être écrit ―― Iris Chang et la question de la responsabilité historique"
 description: "À la veille de la visite d'État de Jiang Zemin au Japon, en 1998, Iris Chang s'entretient, à la télévision, avec l'ambassadeur du Japon aux États-Unis, Kunihiko Saito, sur le poids d'un seul mot ―― car la sincérité d'un État, devant son histoire, tient à ceci : peut-il, ou non, déposer en toutes lettres le mot « excuses »."
-date: 2026-04-28 15:01:35 +0300
+date: 2026-04-28 00:30:00 +0000
 author: admin
 image: '/images/iris-chang-saito-1998.jpg'
 video_embed: https://www.youtube.com/embed/yQzIrki67_s

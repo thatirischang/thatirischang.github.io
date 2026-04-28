@@ -2,7 +2,7 @@
 layout: post
 title: 當「道歉」二字難以寫下：張純如與歷史責任的追問
 description: 1998年江澤民訪日前夕的電視訪談中，張純如與日本駐美大使齋藤邦彥就「道歉」一詞的份量展開對話 ―― 一個國家面對歷史的誠意，就藏在它能否鄭重寫下這兩個字。
-date: 2026-04-28 15:01:35 +0300
+date: 2026-04-28 00:30:00 +0000
 author: admin
 image: '/images/iris-chang-saito-1998.jpg'
 video_embed: https://www.youtube.com/embed/yQzIrki67_s

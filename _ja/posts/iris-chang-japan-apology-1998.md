@@ -4,7 +4,7 @@ lang: ja
 permalink: /ja/posts/iris-chang-japan-apology-1998/
 title: "「謝罪」の二字、書きとどめがたきとき ―― 張純如、歴史的責任への問い"
 description: "一九九八年、江沢民訪日の前夜のテレビ対談において、張純如は駐米大使・齋藤邦彦と「謝罪」という一語の重みをめぐる対話に臨んだ ―― 歴史に向き合う一国の誠意は、その二字をきちんと書きとどめうるか否か、そこに宿る。"
-date: 2026-04-28 15:01:35 +0300
+date: 2026-04-28 00:30:00 +0000
 author: admin
 image: '/images/iris-chang-saito-1998.jpg'
 video_embed: https://www.youtube.com/embed/yQzIrki67_s

@@ -4,7 +4,7 @@ lang: en
 permalink: /en/posts/iris-chang-japan-apology-1998/
 title: "When the Word *Apology* Cannot Be Written: Iris Chang and the Question of Historical Responsibility"
 description: "On the eve of Jiang Zemin's 1998 state visit to Japan, Iris Chang speaks with Ambassador Kunihiko Saito about the weight of a single word — for a nation's sincerity toward history rests in whether it can set down, in plain writing, the word *apology*."
-date: 2026-04-28 15:01:35 +0300
+date: 2026-04-28 00:30:00 +0000
 author: admin
 image: '/images/iris-chang-saito-1998.jpg'
 video_embed: https://www.youtube.com/embed/yQzIrki67_s
