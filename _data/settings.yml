@@ -14,6 +14,9 @@ menu_settings:
     - title: "首頁"
       url: "/"
       key: home
+    - title: "張純如"
+      url: "/iris/"
+      key: iris
     - title: "視音"
       url: "/videos/"
       key: videos

@@ -50,6 +50,7 @@ zh:
   hero_description: 文字是保存靈魂精華的唯一方式。演講最令我激動之處在於，即使演講者已然作古，長眠地下，他們的精神依然永存。對我來說，這是真正的宗教——永生的最佳方式。
   nav:
     home: 首頁
+    iris: 張純如
     videos: 視音
     about: 張純如工作室
   cta_ai: 張純如AI
@@ -107,6 +108,7 @@ en:
   hero_description: Words are the only place where the essence of a soul survives. What moves me most about a speech is this — that the speaker may have been gone for years, may already lie underground, and yet the voice goes on. To me, that is the only kind of religion I know, and the truest form of life after death.
   nav:
     home: Home
+    iris: Iris Chang
     videos: Voices
     about: The Studio
   cta_ai: Iris Chang AI
@@ -164,6 +166,7 @@ ja:
   hero_description: 言葉のみが――すなわち書きとめられた言葉のみが――ひとつの魂のもっとも深い部分を、忘却という、われわれの世紀がもっとも残酷に行使するあの力から守りうる。私が講演というものに深く動かされるのは、まさにこの一点においてである。語る者がすでに地下に眠り、長い沈黙のなかにあっても、その精神はなお存続する――それが、私にとっての唯一の宗教であり、不死の最も誠実なかたちであるからだ。
   nav:
     home: ホーム
+    iris: アイリス・チャン
     videos: 声と映像
     about: スタジオについて
   cta_ai: アイリス・チャンAI
@@ -221,6 +224,7 @@ de:
   hero_description: Allein das Wort vermag die Essenz einer Seele zu retten. Was mich an einer Rede zutiefst bewegt, ist eben dies — daß der Sprechende, längst hinabgestiegen in das Schweigen des Grabes, dennoch, durch die ihm geliehene Sprache, fortdauert. Darin sehe ich die einzige Religion, zu der ich mich zu bekennen vermag, und die ehrlichste Form jener Unsterblichkeit, die uns Sterblichen zugänglich ist.
   nav:
     home: Startseite
+    iris: Iris Chang
     videos: Stimmen
     about: Über das Studio
   cta_ai: Iris-Chang-KI
@@ -278,6 +282,7 @@ fr:
   hero_description: Seule la parole écrite garde, après nous, la part essentielle de ce qui fut une âme. Ce qui me touche le plus profondément dans un discours, c'est qu'il puisse continuer à parler longtemps après que celui qui l'a prononcé soit descendu sous la terre — comme si la matière même des mots avait, en se détachant des lèvres, contracté quelque immortalité. Voilà la seule religion à laquelle je consente, et la forme la plus probe de toute survie.
   nav:
     home: Accueil
+    iris: Iris Chang
     videos: Voix
     about: À propos du Studio
   cta_ai: IA Iris Chang
