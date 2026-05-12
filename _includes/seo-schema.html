@@ -1,0 +1,140 @@
+{%- comment -%}
+  Schema.org JSON-LD structured data — 5-lang aware.
+  Outputs:
+    · WebSite          (every page)
+    · Organization     (every page) — Iris Chang Studio
+    · Person           (every page) — Iris Chang, anchored for knowledge panel
+    · Article          (post pages only) — linked to the Person via about
+  BCP 47 language codes: zh→zh-Hant, en/ja/de/fr unchanged.
+{%- endcomment -%}
+
+{%- assign s_lang = page.lang | default: 'zh' -%}
+{%- if s_lang == 'zh' -%}{%- assign s_lang_bcp = 'zh-Hant' -%}{%- else -%}{%- assign s_lang_bcp = s_lang -%}{%- endif -%}
+{%- assign s_t = site.data.i18n[s_lang] -%}
+{%- assign s_t_zh = site.data.i18n.zh -%}
+{%- assign s_site_title = s_t.site_title | default: s_t_zh.site_title | default: site.data.settings.title -%}
+{%- assign s_site_desc = s_t.hero_description | default: s_t_zh.hero_description | default: site.data.settings.description -%}
+
+{%- assign s_og_image = page.image | default: '/images/og-portrait.jpg' -%}
+{%- assign s_is_post = false -%}
+{%- if page.layout == 'post' or page.url contains '/posts/' -%}{%- assign s_is_post = true -%}{%- endif -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.irischanglabs.com/#website",
+      "url": "https://www.irischanglabs.com/",
+      "name": {{ s_site_title | jsonify }},
+      "description": {{ s_site_desc | strip_html | strip_newlines | jsonify }},
+      "inLanguage": {{ s_lang_bcp | jsonify }},
+      "publisher": { "@id": "https://www.irischanglabs.com/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.irischanglabs.com/#organization",
+      "name": {{ s_site_title | jsonify }},
+      "alternateName": ["張純如工作室", "Iris Chang Studio", "アイリス・チャン・スタジオ", "Iris-Chang-Studio", "Studio Iris Chang"],
+      "url": "https://www.irischanglabs.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.irischanglabs.com/images/logo1.png",
+        "width": 338,
+        "height": 442
+      },
+      "sameAs": [
+        "https://x.com/irischangstudio",
+        "https://www.facebook.com/irischangstudio/",
+        "https://www.instagram.com/irischangstudio/"
+      ],
+      "founder": { "@id": "https://www.irischanglabs.com/#iris-chang" },
+      "description": {{ s_site_desc | strip_html | strip_newlines | jsonify }}
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.irischanglabs.com/#iris-chang",
+      "name": "Iris Chang",
+      "alternateName": ["張純如", "Iris Shun-Ru Chang", "アイリス・チャン", "Iris Chang"],
+      "givenName": "Iris",
+      "familyName": "Chang",
+      "birthDate": "1968-03-28",
+      "deathDate": "2004-11-09",
+      "birthPlace": {
+        "@type": "Place",
+        "name": "Princeton, New Jersey, United States",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Princeton",
+          "addressRegion": "NJ",
+          "addressCountry": "US"
+        }
+      },
+      "deathPlace": {
+        "@type": "Place",
+        "name": "Los Gatos, California, United States",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Los Gatos",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        }
+      },
+      "nationality": "American",
+      "gender": "Female",
+      "jobTitle": ["Author", "Historian", "Journalist"],
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "University of Illinois Urbana-Champaign", "sameAs": "https://en.wikipedia.org/wiki/University_of_Illinois_Urbana-Champaign" },
+        { "@type": "CollegeOrUniversity", "name": "Johns Hopkins University", "sameAs": "https://en.wikipedia.org/wiki/Johns_Hopkins_University" }
+      ],
+      "knowsAbout": [
+        "Nanjing Massacre",
+        "Rape of Nanking",
+        "Chinese American History",
+        "World War II",
+        "Qian Xuesen",
+        "Bataan Death March",
+        "East Asian History"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Historian and Author"
+      },
+      "memberOf": { "@id": "https://www.irischanglabs.com/#organization" },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Iris_Chang",
+        "https://www.findagrave.com/memorial/9791739/iris-chang",
+        "https://www.britannica.com/biography/Iris-Chang",
+        "https://www.imdb.com/name/nm1872376/"
+      ],
+      "image": "https://www.irischanglabs.com/images/og-portrait.jpg",
+      "description": "Iris Chang (1968–2004) was an American historian and journalist, author of The Rape of Nanking: The Forgotten Holocaust of World War II (1997), Thread of the Silkworm (1995), and The Chinese in America (2003)."
+    }{%- if s_is_post -%},
+    {
+      "@type": "Article",
+      "@id": "{{ page.url | absolute_url }}#article",
+      "isPartOf": { "@id": "https://www.irischanglabs.com/#website" },
+      "headline": {{ page.title | strip_html | strip_newlines | jsonify }},
+      "description": {{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 200 | jsonify }},
+      "image": "{{ s_og_image | absolute_url }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.date | date_to_xmlschema }}",
+      "inLanguage": {{ s_lang_bcp | jsonify }},
+      "url": "{{ page.url | absolute_url }}",
+      "author": {
+        "@type": "Organization",
+        "name": {{ s_site_title | jsonify }},
+        "url": "https://www.irischanglabs.com/"
+      },
+      "publisher": { "@id": "https://www.irischanglabs.com/#organization" },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ page.url | absolute_url }}"
+      },
+      "about": { "@id": "https://www.irischanglabs.com/#iris-chang" },
+      "keywords": [{%- for t in page.tags -%}{{ t | jsonify }}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}]
+    }{%- endif -%}
+  ]
+}
+</script>
