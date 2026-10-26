@@ -18,6 +18,20 @@
 GitHub Pages 站源碼,基於 Jekyll(Danto 主題)構建,部署目標域名 `www.irischanglabs.com`。
 默認分支 `master`,推送即觸發 GitHub Pages 自動部署。
 
+## AI 知識庫直連
+
+每次網站發布自動生成 `/knowledge/manifest.json` 和 `/knowledge/content.json`。
+清單綁定 Git 提交與發布時間；全文輸出直接使用 Jekyll 已渲染的公開文檔正文，
+涵蓋各語言集合，沒有 RSS 的最近十篇限制，也不截取摘要。
+
+AI 以條件式請求檢查清單，版本變更才取回全文，按正文 SHA256 去重並保留每個
+原文網址和語言。撤下的文檔退出當前檢索，歷史證據保留。草稿、未公開文檔和
+尚未到發布時間的文檔不輸出。清單的完整範圍是公開文檔正文，並非導航、分頁、
+圖片 OCR、影片字幕或 PDF 全文；PDF 僅列出清單，需獨立提取。
+
+發布前可用與網站相同版本的 Jekyll 執行 `ruby _tests/knowledge_export.rb`，
+核對全文、語言、網址及公開範圍。測試只渲染到記憶體及臨時目錄，不修改網站文章。
+
 ## 站點結構
 
 ```

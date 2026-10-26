@@ -1,0 +1,22 @@
+{%- comment -%}
+Public, output-enabled documents only. This runs after Jekyll renders documents;
+doc.content is the complete rendered body, without theme navigation or excerpts.
+Private/draft/future documents never enter this export, even in preview builds.
+{%- endcomment -%}
+{%- assign knowledge_docs = '' | split: ',' -%}
+{%- for collection in site.collections -%}
+  {%- if collection.output -%}
+    {%- for doc in collection.docs -%}
+      {%- if doc.published != false -%}
+        {%- if doc.date == nil or doc.date <= site.time -%}
+          {%- unless doc.path contains '_drafts/' -%}
+            {%- assign knowledge_docs = knowledge_docs | push: doc -%}
+          {%- endunless -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign knowledge_docs = knowledge_docs | sort: 'url' -%}
+{%- assign knowledge_pdfs = site.static_files | where: 'extname', '.pdf' | sort: 'path' -%}
+{%- assign knowledge_revision = site.github.build_revision | default: site.knowledge_revision | default: 'UNVERSIONED' -%}

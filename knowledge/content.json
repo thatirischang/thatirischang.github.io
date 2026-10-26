@@ -1,0 +1,45 @@
+---
+layout: null
+permalink: /knowledge/content.json
+sitemap: false
+---
+{%- include knowledge-inventory.liquid -%}
+{
+  "schema": "IRIS_STUDIO_CONTENT/1",
+  "source": "https://www.irischanglabs.com",
+  "scope": "PUBLISHED_JEKYLL_DOCUMENT_BODIES",
+  "published_only": true,
+  "complete": true,
+  "build_revision": {{ knowledge_revision | jsonify }},
+  "exported_at": {{ site.time | date_to_xmlschema | jsonify }},
+  "counts": {"documents": {{ knowledge_docs.size }}, "attachments": {{ knowledge_pdfs.size }}},
+  "documents": [
+    {%- for doc in knowledge_docs -%}
+      {%- assign knowledge_lang = doc.lang | default: 'zh' -%}
+      {%- if knowledge_lang == 'zh' -%}{%- assign knowledge_lang = 'zh-Hant' -%}{%- endif -%}
+      {
+        "id": {{ doc.url | absolute_url | jsonify }},
+        "canonical_url": {{ doc.url | absolute_url | jsonify }},
+        "title": {{ doc.title | default: doc.name | default: doc.username | jsonify }},
+        "language": {{ knowledge_lang | jsonify }},
+        "collection": {{ doc.collection | jsonify }},
+        "source_path": {{ doc.path | jsonify }},
+        "content_html": {{ doc.content | jsonify }},
+        "published_at": {% if doc.layout == 'post' and doc.date %}{{ doc.date | date_to_xmlschema | jsonify }}{% else %}null{% endif %},
+        "updated_at": {% if doc.last_modified_at %}{{ doc.last_modified_at | date_to_xmlschema | jsonify }}{% else %}null{% endif %},
+        "author": {{ doc.author | jsonify }},
+        "video_url": {{ doc.video_embed | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ],
+  "attachments": [
+    {%- for file in knowledge_pdfs -%}
+      {"url": {{ file.path | absolute_url | jsonify }}, "name": {{ file.name | jsonify }}, "kind": "pdf", "text_extracted": false}{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ],
+  "coverage_notes": [
+    "Full published Jekyll document bodies, including all language collections; no excerpt truncation.",
+    "Navigation, pagination and theme chrome are not independent articles.",
+    "Linked PDFs, images, audio and video require separate extraction; listing them does not certify their full content."
+  ]
+}
