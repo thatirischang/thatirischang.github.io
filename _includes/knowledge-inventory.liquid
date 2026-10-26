@@ -2,6 +2,9 @@
 Public, output-enabled documents only. This runs after Jekyll renders documents;
 doc.content is the complete rendered body, without theme navigation or excerpts.
 Private/draft/future documents never enter this export, even in preview builds.
+Standalone editorial pages opt in with knowledge: true; generated/navigation
+pages have no such flag and are not additional export documents. Use html_pages
+because this site's _pages collection shadows site.pages in Jekyll's Liquid data.
 {%- endcomment -%}
 {%- assign knowledge_docs = '' | split: ',' -%}
 {%- for collection in site.collections -%}
@@ -15,6 +18,17 @@ Private/draft/future documents never enter this export, even in preview builds.
         {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign knowledge_now = site.time | date: '%s' | plus: 0 -%}
+{%- for doc in site.html_pages -%}
+  {%- if doc.knowledge == true and doc.published != false -%}
+    {%- assign knowledge_page_date = doc.date | date: '%s' | plus: 0 -%}
+    {%- if doc.date == nil or knowledge_page_date <= knowledge_now -%}
+      {%- unless doc.path contains '_drafts/' -%}
+        {%- assign knowledge_docs = knowledge_docs | push: doc -%}
+      {%- endunless -%}
+    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 {%- assign knowledge_docs = knowledge_docs | sort: 'url' -%}

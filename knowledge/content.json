@@ -17,14 +17,24 @@ sitemap: false
     {%- for doc in knowledge_docs -%}
       {%- assign knowledge_lang = doc.lang | default: 'zh' -%}
       {%- if knowledge_lang == 'zh' -%}{%- assign knowledge_lang = 'zh-Hant' -%}{%- endif -%}
+      {%- assign knowledge_body = doc.content -%}
+      {%- if doc.knowledge == true and doc.collection == nil -%}
+        {%- assign knowledge_body = knowledge_body | markdownify -%}
+        {%- capture knowledge_body -%}
+          {%- if doc.eyebrow -%}<p>{{ doc.eyebrow | escape }}</p>{%- endif -%}
+          {%- if doc.dates -%}<p>{{ doc.dates | escape }}</p>{%- endif -%}
+          {%- if doc.venue -%}<p>{{ doc.venue | escape }}</p>{%- endif -%}
+          {{- knowledge_body -}}
+        {%- endcapture -%}
+      {%- endif -%}
       {
         "id": {{ doc.url | absolute_url | jsonify }},
         "canonical_url": {{ doc.url | absolute_url | jsonify }},
         "title": {{ doc.title | default: doc.name | default: doc.username | jsonify }},
         "language": {{ knowledge_lang | jsonify }},
-        "collection": {{ doc.collection | jsonify }},
+        "collection": {{ doc.collection | default: 'pages' | jsonify }},
         "source_path": {{ doc.path | jsonify }},
-        "content_html": {{ doc.content | jsonify }},
+        "content_html": {{ knowledge_body | jsonify }},
         "published_at": {% if doc.layout == 'post' and doc.date %}{{ doc.date | date_to_xmlschema | jsonify }}{% else %}null{% endif %},
         "updated_at": {% if doc.last_modified_at %}{{ doc.last_modified_at | date_to_xmlschema | jsonify }}{% else %}null{% endif %},
         "author": {{ doc.author | jsonify }},
@@ -38,7 +48,7 @@ sitemap: false
     {%- endfor -%}
   ],
   "coverage_notes": [
-    "Full published Jekyll document bodies, including all language collections; no excerpt truncation.",
+    "Full published output-enabled collection document bodies in all languages, plus explicitly opted-in standalone editorial pages with their visible event headers; no excerpt truncation.",
     "Navigation, pagination and theme chrome are not independent articles.",
     "Linked PDFs, images, audio and video require separate extraction; listing them does not certify their full content."
   ]

@@ -1,5 +1,6 @@
 ---
 layout: deep-in-memory
+knowledge: true
 lang: ja
 title: 記憶深處
 permalink: /ja/deep-in-memory/

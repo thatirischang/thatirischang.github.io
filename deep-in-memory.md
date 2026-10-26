@@ -1,5 +1,6 @@
 ---
 layout: deep-in-memory
+knowledge: true
 title: 記憶深處
 permalink: /deep-in-memory/
 eyebrow: 巴黎特別公演 · 2025

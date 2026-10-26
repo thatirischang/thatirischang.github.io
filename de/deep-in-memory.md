@@ -1,5 +1,6 @@
 ---
 layout: deep-in-memory
+knowledge: true
 lang: de
 title: Deep In Memory
 permalink: /de/deep-in-memory/
